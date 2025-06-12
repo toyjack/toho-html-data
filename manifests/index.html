@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>東方學デジタル圖書館 - IIIF Demo</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 20px;
+            background-color: #f5f5f5;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            background: white;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }
+        h1 {
+            color: #2c3e50;
+            text-align: center;
+            border-bottom: 2px solid #3498db;
+            padding-bottom: 10px;
+        }
+        .manifest-list {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 20px;
+            margin-top: 30px;
+        }
+        .manifest-item {
+            border: 1px solid #ddd;
+            border-radius: 6px;
+            padding: 15px;
+            background: #fafafa;
+            transition: box-shadow 0.2s;
+        }
+        .manifest-item:hover {
+            box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+        }
+        .manifest-title {
+            font-weight: bold;
+            color: #2c3e50;
+            margin-bottom: 8px;
+        }
+        .manifest-meta {
+            font-size: 0.9em;
+            color: #666;
+            margin: 4px 0;
+        }
+        .manifest-link {
+            display: inline-block;
+            margin-top: 10px;
+            padding: 6px 12px;
+            background: #3498db;
+            color: white;
+            text-decoration: none;
+            border-radius: 4px;
+            font-size: 0.85em;
+        }
+        .manifest-link:hover {
+            background: #2980b9;
+        }
+        .stats {
+            background: #ecf0f1;
+            padding: 15px;
+            border-radius: 6px;
+            margin: 20px 0;
+            text-align: center;
+        }
+        .stats-item {
+            display: inline-block;
+            margin: 0 15px;
+            color: #2c3e50;
+        }
+        .collection-link {
+            text-align: center;
+            margin: 30px 0;
+        }
+        .collection-link a {
+            display: inline-block;
+            padding: 12px 24px;
+            background: #27ae60;
+            color: white;
+            text-decoration: none;
+            border-radius: 6px;
+            font-weight: bold;
+        }
+        .collection-link a:hover {
+            background: #229954;
+        }
+        .note {
+            background: #fff3cd;
+            border: 1px solid #ffeaa7;
+            border-radius: 4px;
+            padding: 15px;
+            margin: 20px 0;
+            color: #856404;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>東方學デジタル圖書館 - IIIF Manifests</h1>
+        <p style="text-align: center; color: #666;">
+            Oriental Studies Digital Library - IIIF Presentation API 3.0 Manifests
+        </p>
+        
+        <div class="stats">
+            <div class="stats-item"><strong>10</strong> Manifests</div>
+            <div class="stats-item"><strong>2,039</strong> Canvases</div>
+            <div class="stats-item"><strong>45</strong> Volumes</div>
+            <div class="stats-item"><strong>~2.9MB</strong> Total Size</div>
+        </div>
+
+        <div class="collection-link">
+            <a href="./collection.json" target="_blank">📚 View IIIF Collection</a>
+        </div>
+
+        <div class="manifest-list">
+            <div class="manifest-item">
+                <div class="manifest-title">尚書正義　二十卷</div>
+                <div class="manifest-meta">📖 ID: A027 | 🏛️ 漢 Dynasty | 📄 777 pages</div>
+                <div class="manifest-meta">💾 1.07 MB | 📚 20 volumes</div>
+                <div class="manifest-meta">漢孔安國傳　唐孔穎達等疏</div>
+                <a href="./A027.json" class="manifest-link" target="_blank">View Manifest</a>
+            </div>
+
+            <div class="manifest-item">
+                <div class="manifest-title">周易筮述　八卷</div>
+                <div class="manifest-meta">📖 ID: A029 | 🏛️ 淸 Dynasty | 📄 341 pages</div>
+                <div class="manifest-meta">💾 472 KB | 📚 4 volumes</div>
+                <div class="manifest-meta">淸王弘撰撰</div>
+                <a href="./A029.json" class="manifest-link" target="_blank">View Manifest</a>
+            </div>
+
+            <div class="manifest-item">
+                <div class="manifest-title">新鐫鄒臣虎先生詩經翼註講意　不分卷</div>
+                <div class="manifest-meta">📖 ID: A042 | 🏛️ No dynasty | 📄 314 pages</div>
+                <div class="manifest-meta">💾 434 KB | 📚 7 volumes</div>
+                <div class="manifest-meta">詩經註解講義</div>
+                <a href="./A042.json" class="manifest-link" target="_blank">View Manifest</a>
+            </div>
+
+            <div class="manifest-item">
+                <div class="manifest-title">毛詩 二十卷</div>
+                <div class="manifest-meta">📖 ID: A044 | 🏛️ No dynasty | 📄 196 pages</div>
+                <div class="manifest-meta">💾 272 KB | 📚 2 volumes</div>
+                <div class="manifest-meta">毛氏詩經傳本</div>
+                <a href="./A044.json" class="manifest-link" target="_blank">View Manifest</a>
+            </div>
+
+            <div class="manifest-item">
+                <div class="manifest-title">尚書譜　五卷</div>
+                <div class="manifest-meta">📖 ID: A046 | 🏛️ 清 Dynasty | 📄 141 pages</div>
+                <div class="manifest-meta">💾 196 KB | 📚 6 volumes</div>
+                <div class="manifest-meta">清梅鴛撰</div>
+                <a href="./A046.json" class="manifest-link" target="_blank">View Manifest</a>
+            </div>
+
+            <div class="manifest-item">
+                <div class="manifest-title">古文尚書冤詞補正 不分卷</div>
+                <div class="manifest-meta">📖 ID: A048 | 🏛️ No dynasty | 📄 39 pages</div>
+                <div class="manifest-meta">💾 57 KB | 📚 1 volume</div>
+                <div class="manifest-meta">古文尚書辨偽著作</div>
+                <a href="./A048.json" class="manifest-link" target="_blank">View Manifest</a>
+            </div>
+
+            <div class="manifest-item">
+                <div class="manifest-title">書序答問  一卷</div>
+                <div class="manifest-meta">📖 ID: A049 | 🏛️ 淸 Dynasty | 📄 17 pages</div>
+                <div class="manifest-meta">💾 26 KB | 📚 1 volume</div>
+                <div class="manifest-meta">淸王詠霓撰</div>
+                <a href="./A049.json" class="manifest-link" target="_blank">View Manifest</a>
+            </div>
+
+            <div class="manifest-item">
+                <div class="manifest-title">古文尚書條辨  五卷</div>
+                <div class="manifest-meta">📖 ID: A050 | 🏛️ No dynasty | 📄 154 pages</div>
+                <div class="manifest-meta">💾 215 KB | 📚 2 volumes</div>
+                <div class="manifest-meta">古文尚書條理辨析</div>
+                <a href="./A050.json" class="manifest-link" target="_blank">View Manifest</a>
+            </div>
+
+            <div class="manifest-item">
+                <div class="manifest-title">律呂新書淺釋</div>
+                <div class="manifest-meta">📖 ID: A053 | 🏛️ No dynasty | 📄 39 pages</div>
+                <div class="manifest-meta">💾 56 KB | 📚 1 volume</div>
+                <div class="manifest-meta">音律理論著作</div>
+                <a href="./A053.json" class="manifest-link" target="_blank">View Manifest</a>
+            </div>
+
+            <div class="manifest-item">
+                <div class="manifest-title">周禮正義殘</div>
+                <div class="manifest-meta">📖 ID: A064 | 🏛️ No dynasty | 📄 21 pages</div>
+                <div class="manifest-meta">💾 31 KB | 📚 1 volume</div>
+                <div class="manifest-meta">周禮注疏殘本</div>
+                <a href="./A064.json" class="manifest-link" target="_blank">View Manifest</a>
+            </div>
+        </div>
+
+        <div class="note">
+            <strong>📝 Note:</strong> These are IIIF Presentation API 3.0 compliant manifests. 
+            To view the actual digital books, you'll need a IIIF viewer like 
+            <a href="https://projectmirador.org/" target="_blank">Mirador</a> or 
+            <a href="https://universalviewer.io/" target="_blank">Universal Viewer</a>, 
+            and the actual image resources need to be available via a IIIF Image Server.
+        </div>
+
+        <div style="text-align: center; margin-top: 30px; color: #666; font-size: 0.9em;">
+            Generated on June 12, 2025 | IIIF Presentation API 3.0 | 東方學デジタル圖書館
+        </div>
+    </div>
+</body>
+</html>
