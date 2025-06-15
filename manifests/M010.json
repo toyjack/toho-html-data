@@ -1,0 +1,1340 @@
+{
+  "@context": [
+    "http://www.w3.org/ns/anno.jsonld",
+    "http://iiif.io/api/presentation/3/context.json"
+  ],
+  "id": "https://toho-digital-library.zinbun.kyoto-u.ac.jp/manifests/M010.json",
+  "type": "Manifest",
+  "label": {
+    "zh": [
+      "金剛般若波羅蜜經　一卷"
+    ],
+    "en": [
+      "金剛般若波羅蜜經　一卷"
+    ]
+  },
+  "metadata": [
+    {
+      "label": {
+        "en": [
+          "Title"
+        ],
+        "zh": [
+          "書名"
+        ]
+      },
+      "value": {
+        "zh": [
+          "金剛般若波羅蜜經　一卷"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "Category"
+        ],
+        "zh": [
+          "類別"
+        ]
+      },
+      "value": {
+        "zh": [
+          "松本文庫"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "Dynasty"
+        ],
+        "zh": [
+          "朝代"
+        ]
+      },
+      "value": {
+        "zh": [
+          "唐"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "Publication Info"
+        ],
+        "zh": [
+          "版本信息"
+        ]
+      },
+      "value": {
+        "zh": [
+          "姚秦釋鳩摩羅什奉詔譯　唐釋慧能解　日本刊本"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "Volumes"
+        ],
+        "zh": [
+          "卷數"
+        ]
+      },
+      "value": {
+        "zh": [
+          "一卷"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "Book Type"
+        ],
+        "zh": [
+          "版本類型"
+        ]
+      },
+      "value": {
+        "zh": [
+          "刊本"
+        ]
+      }
+    }
+  ],
+  "summary": {
+    "zh": [
+      "姚秦釋鳩摩羅什奉詔譯　唐釋慧能解　日本刊本"
+    ],
+    "en": [
+      "姚秦釋鳩摩羅什奉詔譯　唐釋慧能解　日本刊本"
+    ]
+  },
+  "viewingDirection": "right-to-left",
+  "requiredStatement": {
+    "label": {
+      "en": [
+        "Attribution"
+      ],
+      "zh": [
+        "歸屬"
+      ]
+    },
+    "value": {
+      "zh": [
+        "東方學数字圖書館"
+      ],
+      "ja": [
+        "東方學デジタル圖書館"
+      ],
+      "en": [
+        "Oriental Studies Digital Library"
+      ]
+    }
+  },
+  "rights": "http://creativecommons.org/licenses/by-nc/4.0/",
+  "provider": [
+    {
+      "id": "https://toho-digital-library.zinbun.kyoto-u.ac.jp",
+      "type": "Agent",
+      "label": {
+        "ja": [
+          "東方學デジタル圖書館"
+        ]
+      },
+      "homepage": [
+        {
+          "id": "https://toho-digital-library.zinbun.kyoto-u.ac.jp",
+          "type": "Text",
+          "label": {
+            "ja": [
+              "東方學デジタル圖書館"
+            ]
+          },
+          "format": "text/html"
+        }
+      ]
+    }
+  ],
+  "items": [
+    {
+      "id": "https://toho-digital-library.zinbun.kyoto-u.ac.jp/canvas/M010/M0100001_1",
+      "type": "Canvas",
+      "label": {
+        "zh": [
+          "　 - 第1頁"
+        ],
+        "en": [
+          "　 - 第1頁"
+        ]
+      },
+      "height": 1400,
+      "width": 1000,
+      "items": [
+        {
+          "id": "https://toho-digital-library.zinbun.kyoto-u.ac.jp/canvas/M010/M0100001_1/page/1",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://toho-digital-library.zinbun.kyoto-u.ac.jp/canvas/M010/M0100001_1/annotation/1",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://iiif.toyjack.net/iiif/M010/M0100001_001.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "height": 1400,
+                "width": 1000,
+                "service": [
+                  {
+                    "@id": "https://iiif.toyjack.net/iiif/M010%2FM0100001",
+                    "@type": "ImageService2",
+                    "profile": "http://iiif.io/api/image/2/level2.json"
+                  }
+                ]
+              },
+              "target": "https://toho-digital-library.zinbun.kyoto-u.ac.jp/canvas/M010/M0100001_1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://toho-digital-library.zinbun.kyoto-u.ac.jp/canvas/M010/M0100001_2",
+      "type": "Canvas",
+      "label": {
+        "zh": [
+          "　 - 第2頁"
+        ],
+        "en": [
+          "　 - 第2頁"
+        ]
+      },
+      "height": 1400,
+      "width": 1000,
+      "items": [
+        {
+          "id": "https://toho-digital-library.zinbun.kyoto-u.ac.jp/canvas/M010/M0100001_2/page/1",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://toho-digital-library.zinbun.kyoto-u.ac.jp/canvas/M010/M0100001_2/annotation/1",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://iiif.toyjack.net/iiif/M010/M0100001_002.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "height": 1400,
+                "width": 1000,
+                "service": [
+                  {
+                    "@id": "https://iiif.toyjack.net/iiif/M010%2FM0100002",
+                    "@type": "ImageService2",
+                    "profile": "http://iiif.io/api/image/2/level2.json"
+                  }
+                ]
+              },
+              "target": "https://toho-digital-library.zinbun.kyoto-u.ac.jp/canvas/M010/M0100001_2"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://toho-digital-library.zinbun.kyoto-u.ac.jp/canvas/M010/M0100001_3",
+      "type": "Canvas",
+      "label": {
+        "zh": [
+          "　 - 第3頁"
+        ],
+        "en": [
+          "　 - 第3頁"
+        ]
+      },
+      "height": 1400,
+      "width": 1000,
+      "items": [
+        {
+          "id": "https://toho-digital-library.zinbun.kyoto-u.ac.jp/canvas/M010/M0100001_3/page/1",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://toho-digital-library.zinbun.kyoto-u.ac.jp/canvas/M010/M0100001_3/annotation/1",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://iiif.toyjack.net/iiif/M010/M0100001_003.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "height": 1400,
+                "width": 1000,
+                "service": [
+                  {
+                    "@id": "https://iiif.toyjack.net/iiif/M010%2FM0100003",
+                    "@type": "ImageService2",
+                    "profile": "http://iiif.io/api/image/2/level2.json"
+                  }
+                ]
+              },
+              "target": "https://toho-digital-library.zinbun.kyoto-u.ac.jp/canvas/M010/M0100001_3"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://toho-digital-library.zinbun.kyoto-u.ac.jp/canvas/M010/M0100001_4",
+      "type": "Canvas",
+      "label": {
+        "zh": [
+          "　 - 第4頁"
+        ],
+        "en": [
+          "　 - 第4頁"
+        ]
+      },
+      "height": 1400,
+      "width": 1000,
+      "items": [
+        {
+          "id": "https://toho-digital-library.zinbun.kyoto-u.ac.jp/canvas/M010/M0100001_4/page/1",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://toho-digital-library.zinbun.kyoto-u.ac.jp/canvas/M010/M0100001_4/annotation/1",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://iiif.toyjack.net/iiif/M010/M0100001_004.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "height": 1400,
+                "width": 1000,
+                "service": [
+                  {
+                    "@id": "https://iiif.toyjack.net/iiif/M010%2FM0100004",
+                    "@type": "ImageService2",
+                    "profile": "http://iiif.io/api/image/2/level2.json"
+                  }
+                ]
+              },
+              "target": "https://toho-digital-library.zinbun.kyoto-u.ac.jp/canvas/M010/M0100001_4"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://toho-digital-library.zinbun.kyoto-u.ac.jp/canvas/M010/M0100001_5",
+      "type": "Canvas",
+      "label": {
+        "zh": [
+          "　 - 第5頁"
+        ],
+        "en": [
+          "　 - 第5頁"
+        ]
+      },
+      "height": 1400,
+      "width": 1000,
+      "items": [
+        {
+          "id": "https://toho-digital-library.zinbun.kyoto-u.ac.jp/canvas/M010/M0100001_5/page/1",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://toho-digital-library.zinbun.kyoto-u.ac.jp/canvas/M010/M0100001_5/annotation/1",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://iiif.toyjack.net/iiif/M010/M0100001_005.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "height": 1400,
+                "width": 1000,
+                "service": [
+                  {
+                    "@id": "https://iiif.toyjack.net/iiif/M010%2FM0100005",
+                    "@type": "ImageService2",
+                    "profile": "http://iiif.io/api/image/2/level2.json"
+                  }
+                ]
+              },
+              "target": "https://toho-digital-library.zinbun.kyoto-u.ac.jp/canvas/M010/M0100001_5"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://toho-digital-library.zinbun.kyoto-u.ac.jp/canvas/M010/M0100001_6",
+      "type": "Canvas",
+      "label": {
+        "zh": [
+          "　 - 第6頁"
+        ],
+        "en": [
+          "　 - 第6頁"
+        ]
+      },
+      "height": 1400,
+      "width": 1000,
+      "items": [
+        {
+          "id": "https://toho-digital-library.zinbun.kyoto-u.ac.jp/canvas/M010/M0100001_6/page/1",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://toho-digital-library.zinbun.kyoto-u.ac.jp/canvas/M010/M0100001_6/annotation/1",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://iiif.toyjack.net/iiif/M010/M0100001_006.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "height": 1400,
+                "width": 1000,
+                "service": [
+                  {
+                    "@id": "https://iiif.toyjack.net/iiif/M010%2FM0100006",
+                    "@type": "ImageService2",
+                    "profile": "http://iiif.io/api/image/2/level2.json"
+                  }
+                ]
+              },
+              "target": "https://toho-digital-library.zinbun.kyoto-u.ac.jp/canvas/M010/M0100001_6"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://toho-digital-library.zinbun.kyoto-u.ac.jp/canvas/M010/M0100001_7",
+      "type": "Canvas",
+      "label": {
+        "zh": [
+          "　 - 第7頁"
+        ],
+        "en": [
+          "　 - 第7頁"
+        ]
+      },
+      "height": 1400,
+      "width": 1000,
+      "items": [
+        {
+          "id": "https://toho-digital-library.zinbun.kyoto-u.ac.jp/canvas/M010/M0100001_7/page/1",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://toho-digital-library.zinbun.kyoto-u.ac.jp/canvas/M010/M0100001_7/annotation/1",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://iiif.toyjack.net/iiif/M010/M0100001_007.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "height": 1400,
+                "width": 1000,
+                "service": [
+                  {
+                    "@id": "https://iiif.toyjack.net/iiif/M010%2FM0100007",
+                    "@type": "ImageService2",
+                    "profile": "http://iiif.io/api/image/2/level2.json"
+                  }
+                ]
+              },
+              "target": "https://toho-digital-library.zinbun.kyoto-u.ac.jp/canvas/M010/M0100001_7"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://toho-digital-library.zinbun.kyoto-u.ac.jp/canvas/M010/M0100001_8",
+      "type": "Canvas",
+      "label": {
+        "zh": [
+          "　 - 第8頁"
+        ],
+        "en": [
+          "　 - 第8頁"
+        ]
+      },
+      "height": 1400,
+      "width": 1000,
+      "items": [
+        {
+          "id": "https://toho-digital-library.zinbun.kyoto-u.ac.jp/canvas/M010/M0100001_8/page/1",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://toho-digital-library.zinbun.kyoto-u.ac.jp/canvas/M010/M0100001_8/annotation/1",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://iiif.toyjack.net/iiif/M010/M0100001_008.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "height": 1400,
+                "width": 1000,
+                "service": [
+                  {
+                    "@id": "https://iiif.toyjack.net/iiif/M010%2FM0100008",
+                    "@type": "ImageService2",
+                    "profile": "http://iiif.io/api/image/2/level2.json"
+                  }
+                ]
+              },
+              "target": "https://toho-digital-library.zinbun.kyoto-u.ac.jp/canvas/M010/M0100001_8"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://toho-digital-library.zinbun.kyoto-u.ac.jp/canvas/M010/M0100001_9",
+      "type": "Canvas",
+      "label": {
+        "zh": [
+          "　 - 第9頁"
+        ],
+        "en": [
+          "　 - 第9頁"
+        ]
+      },
+      "height": 1400,
+      "width": 1000,
+      "items": [
+        {
+          "id": "https://toho-digital-library.zinbun.kyoto-u.ac.jp/canvas/M010/M0100001_9/page/1",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://toho-digital-library.zinbun.kyoto-u.ac.jp/canvas/M010/M0100001_9/annotation/1",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://iiif.toyjack.net/iiif/M010/M0100001_009.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "height": 1400,
+                "width": 1000,
+                "service": [
+                  {
+                    "@id": "https://iiif.toyjack.net/iiif/M010%2FM0100009",
+                    "@type": "ImageService2",
+                    "profile": "http://iiif.io/api/image/2/level2.json"
+                  }
+                ]
+              },
+              "target": "https://toho-digital-library.zinbun.kyoto-u.ac.jp/canvas/M010/M0100001_9"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://toho-digital-library.zinbun.kyoto-u.ac.jp/canvas/M010/M0100001_10",
+      "type": "Canvas",
+      "label": {
+        "zh": [
+          "　 - 第10頁"
+        ],
+        "en": [
+          "　 - 第10頁"
+        ]
+      },
+      "height": 1400,
+      "width": 1000,
+      "items": [
+        {
+          "id": "https://toho-digital-library.zinbun.kyoto-u.ac.jp/canvas/M010/M0100001_10/page/1",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://toho-digital-library.zinbun.kyoto-u.ac.jp/canvas/M010/M0100001_10/annotation/1",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://iiif.toyjack.net/iiif/M010/M0100001_010.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "height": 1400,
+                "width": 1000,
+                "service": [
+                  {
+                    "@id": "https://iiif.toyjack.net/iiif/M010%2FM0100010",
+                    "@type": "ImageService2",
+                    "profile": "http://iiif.io/api/image/2/level2.json"
+                  }
+                ]
+              },
+              "target": "https://toho-digital-library.zinbun.kyoto-u.ac.jp/canvas/M010/M0100001_10"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://toho-digital-library.zinbun.kyoto-u.ac.jp/canvas/M010/M0100001_11",
+      "type": "Canvas",
+      "label": {
+        "zh": [
+          "　 - 第11頁"
+        ],
+        "en": [
+          "　 - 第11頁"
+        ]
+      },
+      "height": 1400,
+      "width": 1000,
+      "items": [
+        {
+          "id": "https://toho-digital-library.zinbun.kyoto-u.ac.jp/canvas/M010/M0100001_11/page/1",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://toho-digital-library.zinbun.kyoto-u.ac.jp/canvas/M010/M0100001_11/annotation/1",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://iiif.toyjack.net/iiif/M010/M0100001_011.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "height": 1400,
+                "width": 1000,
+                "service": [
+                  {
+                    "@id": "https://iiif.toyjack.net/iiif/M010%2FM0100011",
+                    "@type": "ImageService2",
+                    "profile": "http://iiif.io/api/image/2/level2.json"
+                  }
+                ]
+              },
+              "target": "https://toho-digital-library.zinbun.kyoto-u.ac.jp/canvas/M010/M0100001_11"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://toho-digital-library.zinbun.kyoto-u.ac.jp/canvas/M010/M0100001_12",
+      "type": "Canvas",
+      "label": {
+        "zh": [
+          "　 - 第12頁"
+        ],
+        "en": [
+          "　 - 第12頁"
+        ]
+      },
+      "height": 1400,
+      "width": 1000,
+      "items": [
+        {
+          "id": "https://toho-digital-library.zinbun.kyoto-u.ac.jp/canvas/M010/M0100001_12/page/1",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://toho-digital-library.zinbun.kyoto-u.ac.jp/canvas/M010/M0100001_12/annotation/1",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://iiif.toyjack.net/iiif/M010/M0100001_012.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "height": 1400,
+                "width": 1000,
+                "service": [
+                  {
+                    "@id": "https://iiif.toyjack.net/iiif/M010%2FM0100012",
+                    "@type": "ImageService2",
+                    "profile": "http://iiif.io/api/image/2/level2.json"
+                  }
+                ]
+              },
+              "target": "https://toho-digital-library.zinbun.kyoto-u.ac.jp/canvas/M010/M0100001_12"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://toho-digital-library.zinbun.kyoto-u.ac.jp/canvas/M010/M0100001_13",
+      "type": "Canvas",
+      "label": {
+        "zh": [
+          "　 - 第13頁"
+        ],
+        "en": [
+          "　 - 第13頁"
+        ]
+      },
+      "height": 1400,
+      "width": 1000,
+      "items": [
+        {
+          "id": "https://toho-digital-library.zinbun.kyoto-u.ac.jp/canvas/M010/M0100001_13/page/1",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://toho-digital-library.zinbun.kyoto-u.ac.jp/canvas/M010/M0100001_13/annotation/1",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://iiif.toyjack.net/iiif/M010/M0100001_013.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "height": 1400,
+                "width": 1000,
+                "service": [
+                  {
+                    "@id": "https://iiif.toyjack.net/iiif/M010%2FM0100013",
+                    "@type": "ImageService2",
+                    "profile": "http://iiif.io/api/image/2/level2.json"
+                  }
+                ]
+              },
+              "target": "https://toho-digital-library.zinbun.kyoto-u.ac.jp/canvas/M010/M0100001_13"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://toho-digital-library.zinbun.kyoto-u.ac.jp/canvas/M010/M0100001_14",
+      "type": "Canvas",
+      "label": {
+        "zh": [
+          "　 - 第14頁"
+        ],
+        "en": [
+          "　 - 第14頁"
+        ]
+      },
+      "height": 1400,
+      "width": 1000,
+      "items": [
+        {
+          "id": "https://toho-digital-library.zinbun.kyoto-u.ac.jp/canvas/M010/M0100001_14/page/1",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://toho-digital-library.zinbun.kyoto-u.ac.jp/canvas/M010/M0100001_14/annotation/1",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://iiif.toyjack.net/iiif/M010/M0100001_014.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "height": 1400,
+                "width": 1000,
+                "service": [
+                  {
+                    "@id": "https://iiif.toyjack.net/iiif/M010%2FM0100014",
+                    "@type": "ImageService2",
+                    "profile": "http://iiif.io/api/image/2/level2.json"
+                  }
+                ]
+              },
+              "target": "https://toho-digital-library.zinbun.kyoto-u.ac.jp/canvas/M010/M0100001_14"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://toho-digital-library.zinbun.kyoto-u.ac.jp/canvas/M010/M0100001_15",
+      "type": "Canvas",
+      "label": {
+        "zh": [
+          "　 - 第15頁"
+        ],
+        "en": [
+          "　 - 第15頁"
+        ]
+      },
+      "height": 1400,
+      "width": 1000,
+      "items": [
+        {
+          "id": "https://toho-digital-library.zinbun.kyoto-u.ac.jp/canvas/M010/M0100001_15/page/1",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://toho-digital-library.zinbun.kyoto-u.ac.jp/canvas/M010/M0100001_15/annotation/1",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://iiif.toyjack.net/iiif/M010/M0100001_015.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "height": 1400,
+                "width": 1000,
+                "service": [
+                  {
+                    "@id": "https://iiif.toyjack.net/iiif/M010%2FM0100015",
+                    "@type": "ImageService2",
+                    "profile": "http://iiif.io/api/image/2/level2.json"
+                  }
+                ]
+              },
+              "target": "https://toho-digital-library.zinbun.kyoto-u.ac.jp/canvas/M010/M0100001_15"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://toho-digital-library.zinbun.kyoto-u.ac.jp/canvas/M010/M0100001_16",
+      "type": "Canvas",
+      "label": {
+        "zh": [
+          "　 - 第16頁"
+        ],
+        "en": [
+          "　 - 第16頁"
+        ]
+      },
+      "height": 1400,
+      "width": 1000,
+      "items": [
+        {
+          "id": "https://toho-digital-library.zinbun.kyoto-u.ac.jp/canvas/M010/M0100001_16/page/1",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://toho-digital-library.zinbun.kyoto-u.ac.jp/canvas/M010/M0100001_16/annotation/1",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://iiif.toyjack.net/iiif/M010/M0100001_016.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "height": 1400,
+                "width": 1000,
+                "service": [
+                  {
+                    "@id": "https://iiif.toyjack.net/iiif/M010%2FM0100016",
+                    "@type": "ImageService2",
+                    "profile": "http://iiif.io/api/image/2/level2.json"
+                  }
+                ]
+              },
+              "target": "https://toho-digital-library.zinbun.kyoto-u.ac.jp/canvas/M010/M0100001_16"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://toho-digital-library.zinbun.kyoto-u.ac.jp/canvas/M010/M0100001_17",
+      "type": "Canvas",
+      "label": {
+        "zh": [
+          "　 - 第17頁"
+        ],
+        "en": [
+          "　 - 第17頁"
+        ]
+      },
+      "height": 1400,
+      "width": 1000,
+      "items": [
+        {
+          "id": "https://toho-digital-library.zinbun.kyoto-u.ac.jp/canvas/M010/M0100001_17/page/1",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://toho-digital-library.zinbun.kyoto-u.ac.jp/canvas/M010/M0100001_17/annotation/1",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://iiif.toyjack.net/iiif/M010/M0100001_017.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "height": 1400,
+                "width": 1000,
+                "service": [
+                  {
+                    "@id": "https://iiif.toyjack.net/iiif/M010%2FM0100017",
+                    "@type": "ImageService2",
+                    "profile": "http://iiif.io/api/image/2/level2.json"
+                  }
+                ]
+              },
+              "target": "https://toho-digital-library.zinbun.kyoto-u.ac.jp/canvas/M010/M0100001_17"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://toho-digital-library.zinbun.kyoto-u.ac.jp/canvas/M010/M0100001_18",
+      "type": "Canvas",
+      "label": {
+        "zh": [
+          "　 - 第18頁"
+        ],
+        "en": [
+          "　 - 第18頁"
+        ]
+      },
+      "height": 1400,
+      "width": 1000,
+      "items": [
+        {
+          "id": "https://toho-digital-library.zinbun.kyoto-u.ac.jp/canvas/M010/M0100001_18/page/1",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://toho-digital-library.zinbun.kyoto-u.ac.jp/canvas/M010/M0100001_18/annotation/1",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://iiif.toyjack.net/iiif/M010/M0100001_018.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "height": 1400,
+                "width": 1000,
+                "service": [
+                  {
+                    "@id": "https://iiif.toyjack.net/iiif/M010%2FM0100018",
+                    "@type": "ImageService2",
+                    "profile": "http://iiif.io/api/image/2/level2.json"
+                  }
+                ]
+              },
+              "target": "https://toho-digital-library.zinbun.kyoto-u.ac.jp/canvas/M010/M0100001_18"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://toho-digital-library.zinbun.kyoto-u.ac.jp/canvas/M010/M0100001_19",
+      "type": "Canvas",
+      "label": {
+        "zh": [
+          "　 - 第19頁"
+        ],
+        "en": [
+          "　 - 第19頁"
+        ]
+      },
+      "height": 1400,
+      "width": 1000,
+      "items": [
+        {
+          "id": "https://toho-digital-library.zinbun.kyoto-u.ac.jp/canvas/M010/M0100001_19/page/1",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://toho-digital-library.zinbun.kyoto-u.ac.jp/canvas/M010/M0100001_19/annotation/1",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://iiif.toyjack.net/iiif/M010/M0100001_019.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "height": 1400,
+                "width": 1000,
+                "service": [
+                  {
+                    "@id": "https://iiif.toyjack.net/iiif/M010%2FM0100019",
+                    "@type": "ImageService2",
+                    "profile": "http://iiif.io/api/image/2/level2.json"
+                  }
+                ]
+              },
+              "target": "https://toho-digital-library.zinbun.kyoto-u.ac.jp/canvas/M010/M0100001_19"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://toho-digital-library.zinbun.kyoto-u.ac.jp/canvas/M010/M0100001_20",
+      "type": "Canvas",
+      "label": {
+        "zh": [
+          "　 - 第20頁"
+        ],
+        "en": [
+          "　 - 第20頁"
+        ]
+      },
+      "height": 1400,
+      "width": 1000,
+      "items": [
+        {
+          "id": "https://toho-digital-library.zinbun.kyoto-u.ac.jp/canvas/M010/M0100001_20/page/1",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://toho-digital-library.zinbun.kyoto-u.ac.jp/canvas/M010/M0100001_20/annotation/1",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://iiif.toyjack.net/iiif/M010/M0100001_020.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "height": 1400,
+                "width": 1000,
+                "service": [
+                  {
+                    "@id": "https://iiif.toyjack.net/iiif/M010%2FM0100020",
+                    "@type": "ImageService2",
+                    "profile": "http://iiif.io/api/image/2/level2.json"
+                  }
+                ]
+              },
+              "target": "https://toho-digital-library.zinbun.kyoto-u.ac.jp/canvas/M010/M0100001_20"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://toho-digital-library.zinbun.kyoto-u.ac.jp/canvas/M010/M0100001_21",
+      "type": "Canvas",
+      "label": {
+        "zh": [
+          "　 - 第21頁"
+        ],
+        "en": [
+          "　 - 第21頁"
+        ]
+      },
+      "height": 1400,
+      "width": 1000,
+      "items": [
+        {
+          "id": "https://toho-digital-library.zinbun.kyoto-u.ac.jp/canvas/M010/M0100001_21/page/1",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://toho-digital-library.zinbun.kyoto-u.ac.jp/canvas/M010/M0100001_21/annotation/1",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://iiif.toyjack.net/iiif/M010/M0100001_021.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "height": 1400,
+                "width": 1000,
+                "service": [
+                  {
+                    "@id": "https://iiif.toyjack.net/iiif/M010%2FM0100021",
+                    "@type": "ImageService2",
+                    "profile": "http://iiif.io/api/image/2/level2.json"
+                  }
+                ]
+              },
+              "target": "https://toho-digital-library.zinbun.kyoto-u.ac.jp/canvas/M010/M0100001_21"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://toho-digital-library.zinbun.kyoto-u.ac.jp/canvas/M010/M0100001_22",
+      "type": "Canvas",
+      "label": {
+        "zh": [
+          "　 - 第22頁"
+        ],
+        "en": [
+          "　 - 第22頁"
+        ]
+      },
+      "height": 1400,
+      "width": 1000,
+      "items": [
+        {
+          "id": "https://toho-digital-library.zinbun.kyoto-u.ac.jp/canvas/M010/M0100001_22/page/1",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://toho-digital-library.zinbun.kyoto-u.ac.jp/canvas/M010/M0100001_22/annotation/1",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://iiif.toyjack.net/iiif/M010/M0100001_022.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "height": 1400,
+                "width": 1000,
+                "service": [
+                  {
+                    "@id": "https://iiif.toyjack.net/iiif/M010%2FM0100022",
+                    "@type": "ImageService2",
+                    "profile": "http://iiif.io/api/image/2/level2.json"
+                  }
+                ]
+              },
+              "target": "https://toho-digital-library.zinbun.kyoto-u.ac.jp/canvas/M010/M0100001_22"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://toho-digital-library.zinbun.kyoto-u.ac.jp/canvas/M010/M0100001_23",
+      "type": "Canvas",
+      "label": {
+        "zh": [
+          "　 - 第23頁"
+        ],
+        "en": [
+          "　 - 第23頁"
+        ]
+      },
+      "height": 1400,
+      "width": 1000,
+      "items": [
+        {
+          "id": "https://toho-digital-library.zinbun.kyoto-u.ac.jp/canvas/M010/M0100001_23/page/1",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://toho-digital-library.zinbun.kyoto-u.ac.jp/canvas/M010/M0100001_23/annotation/1",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://iiif.toyjack.net/iiif/M010/M0100001_023.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "height": 1400,
+                "width": 1000,
+                "service": [
+                  {
+                    "@id": "https://iiif.toyjack.net/iiif/M010%2FM0100023",
+                    "@type": "ImageService2",
+                    "profile": "http://iiif.io/api/image/2/level2.json"
+                  }
+                ]
+              },
+              "target": "https://toho-digital-library.zinbun.kyoto-u.ac.jp/canvas/M010/M0100001_23"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://toho-digital-library.zinbun.kyoto-u.ac.jp/canvas/M010/M0100001_24",
+      "type": "Canvas",
+      "label": {
+        "zh": [
+          "　 - 第24頁"
+        ],
+        "en": [
+          "　 - 第24頁"
+        ]
+      },
+      "height": 1400,
+      "width": 1000,
+      "items": [
+        {
+          "id": "https://toho-digital-library.zinbun.kyoto-u.ac.jp/canvas/M010/M0100001_24/page/1",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://toho-digital-library.zinbun.kyoto-u.ac.jp/canvas/M010/M0100001_24/annotation/1",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://iiif.toyjack.net/iiif/M010/M0100001_024.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "height": 1400,
+                "width": 1000,
+                "service": [
+                  {
+                    "@id": "https://iiif.toyjack.net/iiif/M010%2FM0100024",
+                    "@type": "ImageService2",
+                    "profile": "http://iiif.io/api/image/2/level2.json"
+                  }
+                ]
+              },
+              "target": "https://toho-digital-library.zinbun.kyoto-u.ac.jp/canvas/M010/M0100001_24"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://toho-digital-library.zinbun.kyoto-u.ac.jp/canvas/M010/M0100001_25",
+      "type": "Canvas",
+      "label": {
+        "zh": [
+          "　 - 第25頁"
+        ],
+        "en": [
+          "　 - 第25頁"
+        ]
+      },
+      "height": 1400,
+      "width": 1000,
+      "items": [
+        {
+          "id": "https://toho-digital-library.zinbun.kyoto-u.ac.jp/canvas/M010/M0100001_25/page/1",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://toho-digital-library.zinbun.kyoto-u.ac.jp/canvas/M010/M0100001_25/annotation/1",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://iiif.toyjack.net/iiif/M010/M0100001_025.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "height": 1400,
+                "width": 1000,
+                "service": [
+                  {
+                    "@id": "https://iiif.toyjack.net/iiif/M010%2FM0100025",
+                    "@type": "ImageService2",
+                    "profile": "http://iiif.io/api/image/2/level2.json"
+                  }
+                ]
+              },
+              "target": "https://toho-digital-library.zinbun.kyoto-u.ac.jp/canvas/M010/M0100001_25"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://toho-digital-library.zinbun.kyoto-u.ac.jp/canvas/M010/M0100001_26",
+      "type": "Canvas",
+      "label": {
+        "zh": [
+          "　 - 第26頁"
+        ],
+        "en": [
+          "　 - 第26頁"
+        ]
+      },
+      "height": 1400,
+      "width": 1000,
+      "items": [
+        {
+          "id": "https://toho-digital-library.zinbun.kyoto-u.ac.jp/canvas/M010/M0100001_26/page/1",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://toho-digital-library.zinbun.kyoto-u.ac.jp/canvas/M010/M0100001_26/annotation/1",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://iiif.toyjack.net/iiif/M010/M0100001_026.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "height": 1400,
+                "width": 1000,
+                "service": [
+                  {
+                    "@id": "https://iiif.toyjack.net/iiif/M010%2FM0100026",
+                    "@type": "ImageService2",
+                    "profile": "http://iiif.io/api/image/2/level2.json"
+                  }
+                ]
+              },
+              "target": "https://toho-digital-library.zinbun.kyoto-u.ac.jp/canvas/M010/M0100001_26"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://toho-digital-library.zinbun.kyoto-u.ac.jp/canvas/M010/M0100001_27",
+      "type": "Canvas",
+      "label": {
+        "zh": [
+          "　 - 第27頁"
+        ],
+        "en": [
+          "　 - 第27頁"
+        ]
+      },
+      "height": 1400,
+      "width": 1000,
+      "items": [
+        {
+          "id": "https://toho-digital-library.zinbun.kyoto-u.ac.jp/canvas/M010/M0100001_27/page/1",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://toho-digital-library.zinbun.kyoto-u.ac.jp/canvas/M010/M0100001_27/annotation/1",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://iiif.toyjack.net/iiif/M010/M0100001_027.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "height": 1400,
+                "width": 1000,
+                "service": [
+                  {
+                    "@id": "https://iiif.toyjack.net/iiif/M010%2FM0100027",
+                    "@type": "ImageService2",
+                    "profile": "http://iiif.io/api/image/2/level2.json"
+                  }
+                ]
+              },
+              "target": "https://toho-digital-library.zinbun.kyoto-u.ac.jp/canvas/M010/M0100001_27"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://toho-digital-library.zinbun.kyoto-u.ac.jp/canvas/M010/M0100001_28",
+      "type": "Canvas",
+      "label": {
+        "zh": [
+          "　 - 第28頁"
+        ],
+        "en": [
+          "　 - 第28頁"
+        ]
+      },
+      "height": 1400,
+      "width": 1000,
+      "items": [
+        {
+          "id": "https://toho-digital-library.zinbun.kyoto-u.ac.jp/canvas/M010/M0100001_28/page/1",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://toho-digital-library.zinbun.kyoto-u.ac.jp/canvas/M010/M0100001_28/annotation/1",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://iiif.toyjack.net/iiif/M010/M0100001_028.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "height": 1400,
+                "width": 1000,
+                "service": [
+                  {
+                    "@id": "https://iiif.toyjack.net/iiif/M010%2FM0100028",
+                    "@type": "ImageService2",
+                    "profile": "http://iiif.io/api/image/2/level2.json"
+                  }
+                ]
+              },
+              "target": "https://toho-digital-library.zinbun.kyoto-u.ac.jp/canvas/M010/M0100001_28"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

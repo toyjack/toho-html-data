@@ -68,6 +68,7 @@
       ""
     ]
   },
+  "viewingDirection": "right-to-left",
   "requiredStatement": {
     "label": {
       "en": [
@@ -79,6 +80,9 @@
     },
     "value": {
       "zh": [
+        "東方學数字圖書館"
+      ],
+      "ja": [
         "東方學デジタル圖書館"
       ],
       "en": [
@@ -92,11 +96,8 @@
       "id": "https://toho-digital-library.zinbun.kyoto-u.ac.jp",
       "type": "Agent",
       "label": {
-        "zh": [
+        "ja": [
           "東方學デジタル圖書館"
-        ],
-        "en": [
-          "Oriental Studies Digital Library"
         ]
       },
       "homepage": [
@@ -104,11 +105,8 @@
           "id": "https://toho-digital-library.zinbun.kyoto-u.ac.jp",
           "type": "Text",
           "label": {
-            "zh": [
+            "ja": [
               "東方學デジタル圖書館"
-            ],
-            "en": [
-              "Oriental Studies Digital Library"
             ]
           },
           "format": "text/html"
@@ -140,14 +138,14 @@
               "type": "Annotation",
               "motivation": "painting",
               "body": {
-                "id": "http://toho.toyjack.net/iiif/3/A053/A0530001_001.jpg",
+                "id": "https://iiif.toyjack.net/iiif/A053/A0530001_001.jpg",
                 "type": "Image",
                 "format": "image/jpeg",
                 "height": 1400,
                 "width": 1000,
                 "service": [
                   {
-                    "@id": "http://toho.toyjack.net/iiif/3/A053%2FA0530001",
+                    "@id": "https://iiif.toyjack.net/iiif/A053%2FA0530001",
                     "@type": "ImageService2",
                     "profile": "http://iiif.io/api/image/2/level2.json"
                   }
@@ -182,14 +180,14 @@
               "type": "Annotation",
               "motivation": "painting",
               "body": {
-                "id": "http://toho.toyjack.net/iiif/3/A053/A0530001_002.jpg",
+                "id": "https://iiif.toyjack.net/iiif/A053/A0530001_002.jpg",
                 "type": "Image",
                 "format": "image/jpeg",
                 "height": 1400,
                 "width": 1000,
                 "service": [
                   {
-                    "@id": "http://toho.toyjack.net/iiif/3/A053%2FA0530002",
+                    "@id": "https://iiif.toyjack.net/iiif/A053%2FA0530002",
                     "@type": "ImageService2",
                     "profile": "http://iiif.io/api/image/2/level2.json"
                   }
@@ -224,14 +222,14 @@
               "type": "Annotation",
               "motivation": "painting",
               "body": {
-                "id": "http://toho.toyjack.net/iiif/3/A053/A0530001_003.jpg",
+                "id": "https://iiif.toyjack.net/iiif/A053/A0530001_003.jpg",
                 "type": "Image",
                 "format": "image/jpeg",
                 "height": 1400,
                 "width": 1000,
                 "service": [
                   {
-                    "@id": "http://toho.toyjack.net/iiif/3/A053%2FA0530003",
+                    "@id": "https://iiif.toyjack.net/iiif/A053%2FA0530003",
                     "@type": "ImageService2",
                     "profile": "http://iiif.io/api/image/2/level2.json"
                   }
@@ -266,14 +264,14 @@
               "type": "Annotation",
               "motivation": "painting",
               "body": {
-                "id": "http://toho.toyjack.net/iiif/3/A053/A0530001_004.jpg",
+                "id": "https://iiif.toyjack.net/iiif/A053/A0530001_004.jpg",
                 "type": "Image",
                 "format": "image/jpeg",
                 "height": 1400,
                 "width": 1000,
                 "service": [
                   {
-                    "@id": "http://toho.toyjack.net/iiif/3/A053%2FA0530004",
+                    "@id": "https://iiif.toyjack.net/iiif/A053%2FA0530004",
                     "@type": "ImageService2",
                     "profile": "http://iiif.io/api/image/2/level2.json"
                   }
@@ -308,14 +306,14 @@
               "type": "Annotation",
               "motivation": "painting",
               "body": {
-                "id": "http://toho.toyjack.net/iiif/3/A053/A0530001_005.jpg",
+                "id": "https://iiif.toyjack.net/iiif/A053/A0530001_005.jpg",
                 "type": "Image",
                 "format": "image/jpeg",
                 "height": 1400,
                 "width": 1000,
                 "service": [
                   {
-                    "@id": "http://toho.toyjack.net/iiif/3/A053%2FA0530005",
+                    "@id": "https://iiif.toyjack.net/iiif/A053%2FA0530005",
                     "@type": "ImageService2",
                     "profile": "http://iiif.io/api/image/2/level2.json"
                   }
@@ -350,14 +348,14 @@
               "type": "Annotation",
               "motivation": "painting",
               "body": {
-                "id": "http://toho.toyjack.net/iiif/3/A053/A0530001_006.jpg",
+                "id": "https://iiif.toyjack.net/iiif/A053/A0530001_006.jpg",
                 "type": "Image",
                 "format": "image/jpeg",
                 "height": 1400,
                 "width": 1000,
                 "service": [
                   {
-                    "@id": "http://toho.toyjack.net/iiif/3/A053%2FA0530006",
+                    "@id": "https://iiif.toyjack.net/iiif/A053%2FA0530006",
                     "@type": "ImageService2",
                     "profile": "http://iiif.io/api/image/2/level2.json"
                   }
@@ -392,14 +390,14 @@
               "type": "Annotation",
               "motivation": "painting",
               "body": {
-                "id": "http://toho.toyjack.net/iiif/3/A053/A0530001_007.jpg",
+                "id": "https://iiif.toyjack.net/iiif/A053/A0530001_007.jpg",
                 "type": "Image",
                 "format": "image/jpeg",
                 "height": 1400,
                 "width": 1000,
                 "service": [
                   {
-                    "@id": "http://toho.toyjack.net/iiif/3/A053%2FA0530007",
+                    "@id": "https://iiif.toyjack.net/iiif/A053%2FA0530007",
                     "@type": "ImageService2",
                     "profile": "http://iiif.io/api/image/2/level2.json"
                   }
@@ -434,14 +432,14 @@
               "type": "Annotation",
               "motivation": "painting",
               "body": {
-                "id": "http://toho.toyjack.net/iiif/3/A053/A0530001_008.jpg",
+                "id": "https://iiif.toyjack.net/iiif/A053/A0530001_008.jpg",
                 "type": "Image",
                 "format": "image/jpeg",
                 "height": 1400,
                 "width": 1000,
                 "service": [
                   {
-                    "@id": "http://toho.toyjack.net/iiif/3/A053%2FA0530008",
+                    "@id": "https://iiif.toyjack.net/iiif/A053%2FA0530008",
                     "@type": "ImageService2",
                     "profile": "http://iiif.io/api/image/2/level2.json"
                   }
@@ -476,14 +474,14 @@
               "type": "Annotation",
               "motivation": "painting",
               "body": {
-                "id": "http://toho.toyjack.net/iiif/3/A053/A0530001_009.jpg",
+                "id": "https://iiif.toyjack.net/iiif/A053/A0530001_009.jpg",
                 "type": "Image",
                 "format": "image/jpeg",
                 "height": 1400,
                 "width": 1000,
                 "service": [
                   {
-                    "@id": "http://toho.toyjack.net/iiif/3/A053%2FA0530009",
+                    "@id": "https://iiif.toyjack.net/iiif/A053%2FA0530009",
                     "@type": "ImageService2",
                     "profile": "http://iiif.io/api/image/2/level2.json"
                   }
@@ -518,14 +516,14 @@
               "type": "Annotation",
               "motivation": "painting",
               "body": {
-                "id": "http://toho.toyjack.net/iiif/3/A053/A0530001_010.jpg",
+                "id": "https://iiif.toyjack.net/iiif/A053/A0530001_010.jpg",
                 "type": "Image",
                 "format": "image/jpeg",
                 "height": 1400,
                 "width": 1000,
                 "service": [
                   {
-                    "@id": "http://toho.toyjack.net/iiif/3/A053%2FA0530010",
+                    "@id": "https://iiif.toyjack.net/iiif/A053%2FA0530010",
                     "@type": "ImageService2",
                     "profile": "http://iiif.io/api/image/2/level2.json"
                   }
@@ -560,14 +558,14 @@
               "type": "Annotation",
               "motivation": "painting",
               "body": {
-                "id": "http://toho.toyjack.net/iiif/3/A053/A0530001_011.jpg",
+                "id": "https://iiif.toyjack.net/iiif/A053/A0530001_011.jpg",
                 "type": "Image",
                 "format": "image/jpeg",
                 "height": 1400,
                 "width": 1000,
                 "service": [
                   {
-                    "@id": "http://toho.toyjack.net/iiif/3/A053%2FA0530011",
+                    "@id": "https://iiif.toyjack.net/iiif/A053%2FA0530011",
                     "@type": "ImageService2",
                     "profile": "http://iiif.io/api/image/2/level2.json"
                   }
@@ -602,14 +600,14 @@
               "type": "Annotation",
               "motivation": "painting",
               "body": {
-                "id": "http://toho.toyjack.net/iiif/3/A053/A0530001_012.jpg",
+                "id": "https://iiif.toyjack.net/iiif/A053/A0530001_012.jpg",
                 "type": "Image",
                 "format": "image/jpeg",
                 "height": 1400,
                 "width": 1000,
                 "service": [
                   {
-                    "@id": "http://toho.toyjack.net/iiif/3/A053%2FA0530012",
+                    "@id": "https://iiif.toyjack.net/iiif/A053%2FA0530012",
                     "@type": "ImageService2",
                     "profile": "http://iiif.io/api/image/2/level2.json"
                   }
@@ -644,14 +642,14 @@
               "type": "Annotation",
               "motivation": "painting",
               "body": {
-                "id": "http://toho.toyjack.net/iiif/3/A053/A0530001_013.jpg",
+                "id": "https://iiif.toyjack.net/iiif/A053/A0530001_013.jpg",
                 "type": "Image",
                 "format": "image/jpeg",
                 "height": 1400,
                 "width": 1000,
                 "service": [
                   {
-                    "@id": "http://toho.toyjack.net/iiif/3/A053%2FA0530013",
+                    "@id": "https://iiif.toyjack.net/iiif/A053%2FA0530013",
                     "@type": "ImageService2",
                     "profile": "http://iiif.io/api/image/2/level2.json"
                   }
@@ -686,14 +684,14 @@
               "type": "Annotation",
               "motivation": "painting",
               "body": {
-                "id": "http://toho.toyjack.net/iiif/3/A053/A0530001_014.jpg",
+                "id": "https://iiif.toyjack.net/iiif/A053/A0530001_014.jpg",
                 "type": "Image",
                 "format": "image/jpeg",
                 "height": 1400,
                 "width": 1000,
                 "service": [
                   {
-                    "@id": "http://toho.toyjack.net/iiif/3/A053%2FA0530014",
+                    "@id": "https://iiif.toyjack.net/iiif/A053%2FA0530014",
                     "@type": "ImageService2",
                     "profile": "http://iiif.io/api/image/2/level2.json"
                   }
@@ -728,14 +726,14 @@
               "type": "Annotation",
               "motivation": "painting",
               "body": {
-                "id": "http://toho.toyjack.net/iiif/3/A053/A0530001_015.jpg",
+                "id": "https://iiif.toyjack.net/iiif/A053/A0530001_015.jpg",
                 "type": "Image",
                 "format": "image/jpeg",
                 "height": 1400,
                 "width": 1000,
                 "service": [
                   {
-                    "@id": "http://toho.toyjack.net/iiif/3/A053%2FA0530015",
+                    "@id": "https://iiif.toyjack.net/iiif/A053%2FA0530015",
                     "@type": "ImageService2",
                     "profile": "http://iiif.io/api/image/2/level2.json"
                   }
@@ -770,14 +768,14 @@
               "type": "Annotation",
               "motivation": "painting",
               "body": {
-                "id": "http://toho.toyjack.net/iiif/3/A053/A0530001_016.jpg",
+                "id": "https://iiif.toyjack.net/iiif/A053/A0530001_016.jpg",
                 "type": "Image",
                 "format": "image/jpeg",
                 "height": 1400,
                 "width": 1000,
                 "service": [
                   {
-                    "@id": "http://toho.toyjack.net/iiif/3/A053%2FA0530016",
+                    "@id": "https://iiif.toyjack.net/iiif/A053%2FA0530016",
                     "@type": "ImageService2",
                     "profile": "http://iiif.io/api/image/2/level2.json"
                   }
@@ -812,14 +810,14 @@
               "type": "Annotation",
               "motivation": "painting",
               "body": {
-                "id": "http://toho.toyjack.net/iiif/3/A053/A0530001_017.jpg",
+                "id": "https://iiif.toyjack.net/iiif/A053/A0530001_017.jpg",
                 "type": "Image",
                 "format": "image/jpeg",
                 "height": 1400,
                 "width": 1000,
                 "service": [
                   {
-                    "@id": "http://toho.toyjack.net/iiif/3/A053%2FA0530017",
+                    "@id": "https://iiif.toyjack.net/iiif/A053%2FA0530017",
                     "@type": "ImageService2",
                     "profile": "http://iiif.io/api/image/2/level2.json"
                   }
@@ -854,14 +852,14 @@
               "type": "Annotation",
               "motivation": "painting",
               "body": {
-                "id": "http://toho.toyjack.net/iiif/3/A053/A0530001_018.jpg",
+                "id": "https://iiif.toyjack.net/iiif/A053/A0530001_018.jpg",
                 "type": "Image",
                 "format": "image/jpeg",
                 "height": 1400,
                 "width": 1000,
                 "service": [
                   {
-                    "@id": "http://toho.toyjack.net/iiif/3/A053%2FA0530018",
+                    "@id": "https://iiif.toyjack.net/iiif/A053%2FA0530018",
                     "@type": "ImageService2",
                     "profile": "http://iiif.io/api/image/2/level2.json"
                   }
@@ -896,14 +894,14 @@
               "type": "Annotation",
               "motivation": "painting",
               "body": {
-                "id": "http://toho.toyjack.net/iiif/3/A053/A0530001_019.jpg",
+                "id": "https://iiif.toyjack.net/iiif/A053/A0530001_019.jpg",
                 "type": "Image",
                 "format": "image/jpeg",
                 "height": 1400,
                 "width": 1000,
                 "service": [
                   {
-                    "@id": "http://toho.toyjack.net/iiif/3/A053%2FA0530019",
+                    "@id": "https://iiif.toyjack.net/iiif/A053%2FA0530019",
                     "@type": "ImageService2",
                     "profile": "http://iiif.io/api/image/2/level2.json"
                   }
@@ -938,14 +936,14 @@
               "type": "Annotation",
               "motivation": "painting",
               "body": {
-                "id": "http://toho.toyjack.net/iiif/3/A053/A0530001_020.jpg",
+                "id": "https://iiif.toyjack.net/iiif/A053/A0530001_020.jpg",
                 "type": "Image",
                 "format": "image/jpeg",
                 "height": 1400,
                 "width": 1000,
                 "service": [
                   {
-                    "@id": "http://toho.toyjack.net/iiif/3/A053%2FA0530020",
+                    "@id": "https://iiif.toyjack.net/iiif/A053%2FA0530020",
                     "@type": "ImageService2",
                     "profile": "http://iiif.io/api/image/2/level2.json"
                   }
@@ -980,14 +978,14 @@
               "type": "Annotation",
               "motivation": "painting",
               "body": {
-                "id": "http://toho.toyjack.net/iiif/3/A053/A0530001_021.jpg",
+                "id": "https://iiif.toyjack.net/iiif/A053/A0530001_021.jpg",
                 "type": "Image",
                 "format": "image/jpeg",
                 "height": 1400,
                 "width": 1000,
                 "service": [
                   {
-                    "@id": "http://toho.toyjack.net/iiif/3/A053%2FA0530021",
+                    "@id": "https://iiif.toyjack.net/iiif/A053%2FA0530021",
                     "@type": "ImageService2",
                     "profile": "http://iiif.io/api/image/2/level2.json"
                   }
@@ -1022,14 +1020,14 @@
               "type": "Annotation",
               "motivation": "painting",
               "body": {
-                "id": "http://toho.toyjack.net/iiif/3/A053/A0530001_022.jpg",
+                "id": "https://iiif.toyjack.net/iiif/A053/A0530001_022.jpg",
                 "type": "Image",
                 "format": "image/jpeg",
                 "height": 1400,
                 "width": 1000,
                 "service": [
                   {
-                    "@id": "http://toho.toyjack.net/iiif/3/A053%2FA0530022",
+                    "@id": "https://iiif.toyjack.net/iiif/A053%2FA0530022",
                     "@type": "ImageService2",
                     "profile": "http://iiif.io/api/image/2/level2.json"
                   }
@@ -1064,14 +1062,14 @@
               "type": "Annotation",
               "motivation": "painting",
               "body": {
-                "id": "http://toho.toyjack.net/iiif/3/A053/A0530001_023.jpg",
+                "id": "https://iiif.toyjack.net/iiif/A053/A0530001_023.jpg",
                 "type": "Image",
                 "format": "image/jpeg",
                 "height": 1400,
                 "width": 1000,
                 "service": [
                   {
-                    "@id": "http://toho.toyjack.net/iiif/3/A053%2FA0530023",
+                    "@id": "https://iiif.toyjack.net/iiif/A053%2FA0530023",
                     "@type": "ImageService2",
                     "profile": "http://iiif.io/api/image/2/level2.json"
                   }
@@ -1106,14 +1104,14 @@
               "type": "Annotation",
               "motivation": "painting",
               "body": {
-                "id": "http://toho.toyjack.net/iiif/3/A053/A0530001_024.jpg",
+                "id": "https://iiif.toyjack.net/iiif/A053/A0530001_024.jpg",
                 "type": "Image",
                 "format": "image/jpeg",
                 "height": 1400,
                 "width": 1000,
                 "service": [
                   {
-                    "@id": "http://toho.toyjack.net/iiif/3/A053%2FA0530024",
+                    "@id": "https://iiif.toyjack.net/iiif/A053%2FA0530024",
                     "@type": "ImageService2",
                     "profile": "http://iiif.io/api/image/2/level2.json"
                   }
@@ -1148,14 +1146,14 @@
               "type": "Annotation",
               "motivation": "painting",
               "body": {
-                "id": "http://toho.toyjack.net/iiif/3/A053/A0530001_025.jpg",
+                "id": "https://iiif.toyjack.net/iiif/A053/A0530001_025.jpg",
                 "type": "Image",
                 "format": "image/jpeg",
                 "height": 1400,
                 "width": 1000,
                 "service": [
                   {
-                    "@id": "http://toho.toyjack.net/iiif/3/A053%2FA0530025",
+                    "@id": "https://iiif.toyjack.net/iiif/A053%2FA0530025",
                     "@type": "ImageService2",
                     "profile": "http://iiif.io/api/image/2/level2.json"
                   }
@@ -1190,14 +1188,14 @@
               "type": "Annotation",
               "motivation": "painting",
               "body": {
-                "id": "http://toho.toyjack.net/iiif/3/A053/A0530001_026.jpg",
+                "id": "https://iiif.toyjack.net/iiif/A053/A0530001_026.jpg",
                 "type": "Image",
                 "format": "image/jpeg",
                 "height": 1400,
                 "width": 1000,
                 "service": [
                   {
-                    "@id": "http://toho.toyjack.net/iiif/3/A053%2FA0530026",
+                    "@id": "https://iiif.toyjack.net/iiif/A053%2FA0530026",
                     "@type": "ImageService2",
                     "profile": "http://iiif.io/api/image/2/level2.json"
                   }
@@ -1232,14 +1230,14 @@
               "type": "Annotation",
               "motivation": "painting",
               "body": {
-                "id": "http://toho.toyjack.net/iiif/3/A053/A0530001_027.jpg",
+                "id": "https://iiif.toyjack.net/iiif/A053/A0530001_027.jpg",
                 "type": "Image",
                 "format": "image/jpeg",
                 "height": 1400,
                 "width": 1000,
                 "service": [
                   {
-                    "@id": "http://toho.toyjack.net/iiif/3/A053%2FA0530027",
+                    "@id": "https://iiif.toyjack.net/iiif/A053%2FA0530027",
                     "@type": "ImageService2",
                     "profile": "http://iiif.io/api/image/2/level2.json"
                   }
@@ -1274,14 +1272,14 @@
               "type": "Annotation",
               "motivation": "painting",
               "body": {
-                "id": "http://toho.toyjack.net/iiif/3/A053/A0530001_028.jpg",
+                "id": "https://iiif.toyjack.net/iiif/A053/A0530001_028.jpg",
                 "type": "Image",
                 "format": "image/jpeg",
                 "height": 1400,
                 "width": 1000,
                 "service": [
                   {
-                    "@id": "http://toho.toyjack.net/iiif/3/A053%2FA0530028",
+                    "@id": "https://iiif.toyjack.net/iiif/A053%2FA0530028",
                     "@type": "ImageService2",
                     "profile": "http://iiif.io/api/image/2/level2.json"
                   }
@@ -1316,14 +1314,14 @@
               "type": "Annotation",
               "motivation": "painting",
               "body": {
-                "id": "http://toho.toyjack.net/iiif/3/A053/A0530001_029.jpg",
+                "id": "https://iiif.toyjack.net/iiif/A053/A0530001_029.jpg",
                 "type": "Image",
                 "format": "image/jpeg",
                 "height": 1400,
                 "width": 1000,
                 "service": [
                   {
-                    "@id": "http://toho.toyjack.net/iiif/3/A053%2FA0530029",
+                    "@id": "https://iiif.toyjack.net/iiif/A053%2FA0530029",
                     "@type": "ImageService2",
                     "profile": "http://iiif.io/api/image/2/level2.json"
                   }
@@ -1358,14 +1356,14 @@
               "type": "Annotation",
               "motivation": "painting",
               "body": {
-                "id": "http://toho.toyjack.net/iiif/3/A053/A0530001_030.jpg",
+                "id": "https://iiif.toyjack.net/iiif/A053/A0530001_030.jpg",
                 "type": "Image",
                 "format": "image/jpeg",
                 "height": 1400,
                 "width": 1000,
                 "service": [
                   {
-                    "@id": "http://toho.toyjack.net/iiif/3/A053%2FA0530030",
+                    "@id": "https://iiif.toyjack.net/iiif/A053%2FA0530030",
                     "@type": "ImageService2",
                     "profile": "http://iiif.io/api/image/2/level2.json"
                   }
@@ -1400,14 +1398,14 @@
               "type": "Annotation",
               "motivation": "painting",
               "body": {
-                "id": "http://toho.toyjack.net/iiif/3/A053/A0530001_031.jpg",
+                "id": "https://iiif.toyjack.net/iiif/A053/A0530001_031.jpg",
                 "type": "Image",
                 "format": "image/jpeg",
                 "height": 1400,
                 "width": 1000,
                 "service": [
                   {
-                    "@id": "http://toho.toyjack.net/iiif/3/A053%2FA0530031",
+                    "@id": "https://iiif.toyjack.net/iiif/A053%2FA0530031",
                     "@type": "ImageService2",
                     "profile": "http://iiif.io/api/image/2/level2.json"
                   }
@@ -1442,14 +1440,14 @@
               "type": "Annotation",
               "motivation": "painting",
               "body": {
-                "id": "http://toho.toyjack.net/iiif/3/A053/A0530001_032.jpg",
+                "id": "https://iiif.toyjack.net/iiif/A053/A0530001_032.jpg",
                 "type": "Image",
                 "format": "image/jpeg",
                 "height": 1400,
                 "width": 1000,
                 "service": [
                   {
-                    "@id": "http://toho.toyjack.net/iiif/3/A053%2FA0530032",
+                    "@id": "https://iiif.toyjack.net/iiif/A053%2FA0530032",
                     "@type": "ImageService2",
                     "profile": "http://iiif.io/api/image/2/level2.json"
                   }
@@ -1484,14 +1482,14 @@
               "type": "Annotation",
               "motivation": "painting",
               "body": {
-                "id": "http://toho.toyjack.net/iiif/3/A053/A0530001_033.jpg",
+                "id": "https://iiif.toyjack.net/iiif/A053/A0530001_033.jpg",
                 "type": "Image",
                 "format": "image/jpeg",
                 "height": 1400,
                 "width": 1000,
                 "service": [
                   {
-                    "@id": "http://toho.toyjack.net/iiif/3/A053%2FA0530033",
+                    "@id": "https://iiif.toyjack.net/iiif/A053%2FA0530033",
                     "@type": "ImageService2",
                     "profile": "http://iiif.io/api/image/2/level2.json"
                   }
@@ -1526,14 +1524,14 @@
               "type": "Annotation",
               "motivation": "painting",
               "body": {
-                "id": "http://toho.toyjack.net/iiif/3/A053/A0530001_034.jpg",
+                "id": "https://iiif.toyjack.net/iiif/A053/A0530001_034.jpg",
                 "type": "Image",
                 "format": "image/jpeg",
                 "height": 1400,
                 "width": 1000,
                 "service": [
                   {
-                    "@id": "http://toho.toyjack.net/iiif/3/A053%2FA0530034",
+                    "@id": "https://iiif.toyjack.net/iiif/A053%2FA0530034",
                     "@type": "ImageService2",
                     "profile": "http://iiif.io/api/image/2/level2.json"
                   }
@@ -1568,14 +1566,14 @@
               "type": "Annotation",
               "motivation": "painting",
               "body": {
-                "id": "http://toho.toyjack.net/iiif/3/A053/A0530001_035.jpg",
+                "id": "https://iiif.toyjack.net/iiif/A053/A0530001_035.jpg",
                 "type": "Image",
                 "format": "image/jpeg",
                 "height": 1400,
                 "width": 1000,
                 "service": [
                   {
-                    "@id": "http://toho.toyjack.net/iiif/3/A053%2FA0530035",
+                    "@id": "https://iiif.toyjack.net/iiif/A053%2FA0530035",
                     "@type": "ImageService2",
                     "profile": "http://iiif.io/api/image/2/level2.json"
                   }
@@ -1610,14 +1608,14 @@
               "type": "Annotation",
               "motivation": "painting",
               "body": {
-                "id": "http://toho.toyjack.net/iiif/3/A053/A0530001_036.jpg",
+                "id": "https://iiif.toyjack.net/iiif/A053/A0530001_036.jpg",
                 "type": "Image",
                 "format": "image/jpeg",
                 "height": 1400,
                 "width": 1000,
                 "service": [
                   {
-                    "@id": "http://toho.toyjack.net/iiif/3/A053%2FA0530036",
+                    "@id": "https://iiif.toyjack.net/iiif/A053%2FA0530036",
                     "@type": "ImageService2",
                     "profile": "http://iiif.io/api/image/2/level2.json"
                   }
@@ -1652,14 +1650,14 @@
               "type": "Annotation",
               "motivation": "painting",
               "body": {
-                "id": "http://toho.toyjack.net/iiif/3/A053/A0530001_037.jpg",
+                "id": "https://iiif.toyjack.net/iiif/A053/A0530001_037.jpg",
                 "type": "Image",
                 "format": "image/jpeg",
                 "height": 1400,
                 "width": 1000,
                 "service": [
                   {
-                    "@id": "http://toho.toyjack.net/iiif/3/A053%2FA0530037",
+                    "@id": "https://iiif.toyjack.net/iiif/A053%2FA0530037",
                     "@type": "ImageService2",
                     "profile": "http://iiif.io/api/image/2/level2.json"
                   }
@@ -1694,14 +1692,14 @@
               "type": "Annotation",
               "motivation": "painting",
               "body": {
-                "id": "http://toho.toyjack.net/iiif/3/A053/A0530001_038.jpg",
+                "id": "https://iiif.toyjack.net/iiif/A053/A0530001_038.jpg",
                 "type": "Image",
                 "format": "image/jpeg",
                 "height": 1400,
                 "width": 1000,
                 "service": [
                   {
-                    "@id": "http://toho.toyjack.net/iiif/3/A053%2FA0530038",
+                    "@id": "https://iiif.toyjack.net/iiif/A053%2FA0530038",
                     "@type": "ImageService2",
                     "profile": "http://iiif.io/api/image/2/level2.json"
                   }
@@ -1736,14 +1734,14 @@
               "type": "Annotation",
               "motivation": "painting",
               "body": {
-                "id": "http://toho.toyjack.net/iiif/3/A053/A0530001_039.jpg",
+                "id": "https://iiif.toyjack.net/iiif/A053/A0530001_039.jpg",
                 "type": "Image",
                 "format": "image/jpeg",
                 "height": 1400,
                 "width": 1000,
                 "service": [
                   {
-                    "@id": "http://toho.toyjack.net/iiif/3/A053%2FA0530039",
+                    "@id": "https://iiif.toyjack.net/iiif/A053%2FA0530039",
                     "@type": "ImageService2",
                     "profile": "http://iiif.io/api/image/2/level2.json"
                   }

@@ -11,7 +11,7 @@ import { promises as fs } from 'fs';
 import path from 'path';
 
   const BASE_URL: string = "https://toho-digital-library.zinbun.kyoto-u.ac.jp";
-  const IMAGE_SERVICE_BASE_URL: string = "http://toho.toyjack.net/iiif/3";
+  const IMAGE_SERVICE_BASE_URL: string = "https://iiif.toyjack.net/iiif";
 
 // IIIF Presentation API 3.0 Types
 interface IIIFManifest {
@@ -27,6 +27,7 @@ interface IIIFManifest {
     value: { [lang: string]: string[] };
   }>;
   summary?: { [lang: string]: string[] };
+  viewingDirection?: "left-to-right" | "right-to-left";
   requiredStatement?: {
     label: { [lang: string]: string[] };
     value: { [lang: string]: string[] };
@@ -227,10 +228,12 @@ class IIIFManifestGenerator {
         "zh": [book.publicationInfo || ""],
         "en": [book.publicationInfo || ""]
       },
+      "viewingDirection": "right-to-left",
       requiredStatement: {
         label: { "en": ["Attribution"], "zh": ["歸屬"] },
         value: { 
-          "zh": ["東方學デジタル圖書館"], 
+          "zh": ["東方學数字圖書館"], 
+          "ja": ["東方學デジタル圖書館"], 
           "en": ["Oriental Studies Digital Library"] 
         }
       },
@@ -239,15 +242,15 @@ class IIIFManifestGenerator {
         id: BASE_URL,
         type: "Agent",
         label: { 
-          "zh": ["東方學デジタル圖書館"], 
-          "en": ["Oriental Studies Digital Library"] 
+          "ja": ["東方學デジタル圖書館"], 
+          // "en": ["Oriental Studies Digital Library"] 
         },
         homepage: [{
           id: BASE_URL,
           type: "Text",
           label: { 
-            "zh": ["東方學デジタル圖書館"], 
-            "en": ["Oriental Studies Digital Library"] 
+            "ja": ["東方學デジタル圖書館"], 
+            // "en": ["Oriental Studies Digital Library"] 
           },
           format: "text/html"
         }]
@@ -352,7 +355,7 @@ async function main() {
     // Filter books with structure and get first 10
     const booksWithStructure = libraryData.books
       .filter(book => book.structure && book.structure.length > 0)
-      .slice(0, 10);
+      // .slice(0, 10);
     
     if (booksWithStructure.length === 0) {
       console.error('❌ No books with volume structure found!');
