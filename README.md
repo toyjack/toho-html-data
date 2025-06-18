@@ -1,188 +1,202 @@
-# 東方學デジタル圖書館 IIIF系统使用指南
+# 東方學デジタル図書館 IIIF システム使用ガイド
 
-本文档说明IIIF（国际图像互操作性框架）manifest生成系统的使用方法。
+本文書では、IIIF（International Image Interoperability Framework）マニフェスト生成システムの使用方法について説明します。
 
-## 核心工作流程
+## コアワークフロー
 
-### 完整数据处理流程
+### 完全データ処理フロー
 
-1. **HTML解析** (`index.ts`) - 从HTML菜单文件提取书籍元数据和结构
-2. **IIIF生成** (`generate-iiif-manifests.ts`) - 根据解析数据创建IIIF清单
-3. **索引生成** (`update-index.ts`) - 创建可浏览的HTML界面
+1. **HTML解析** (`index.ts`) - HTMLメニューファイルから書籍メタデータと構造を抽出
+2. **IIIF生成** (`generate-iiif-manifests.ts`) - 解析データに基づいてIIIFマニフェストを作成
+3. **インデックス生成** (`update-index.ts`) - 閲覧可能なHTMLインターフェースを作成
+4. **検証** (`validate-manifests.ts`) - 生成されたIIIFマニフェストを検証
+5. **データベーススキーマ** (`generate-prisma-schema.ts`) - Prismaデータベーススキーマを生成
 
+## 利用可能なスクリプト
 
-## 可用脚本
+### 1. HTMLデータ解析 (`index.ts`)
 
-### 1. HTML数据解析 (`index.ts`)
+**用途**: HTMLファイルから書籍メタデータと構造情報を抽出し、`toho-data.json`を生成します。
 
-**用途**: 从HTML文件中提取书籍元数据和结构信息，生成 `toho-data.json`。
-
-**运行方式**:
+**実行方法**:
 ```bash
-# 解析HTML文件并提取书籍结构
+# HTMLファイルを解析して書籍構造を抽出
 bun run index.ts
-# 或
+# または
 bun run start
 ```
 
-### 2. 生成IIIF Manifests (`generate-iiif-manifests.ts`)
+### 2. IIIFマニフェスト生成 (`generate-iiif-manifests.ts`)
 
-**用途**: 从 `toho-data.json` 数据文件生成IIIF Presentation API 3.0兼容的manifest文件。
+**用途**: `toho-data.json`データファイルからIIIF Presentation API 3.0準拠のマニフェストファイルを生成します。
 
-**运行方式**:
+**実行方法**:
 ```bash
 bun run generate-manifests
 ```
 
-### 3. 更新Index HTML (`update-index.ts`)
+### 3. インデックスHTML更新 (`update-index.ts`)
 
-**用途**: 动态生成和更新 `./manifests/index.html` 文件，显示所有IIIF manifests的概览。
+**用途**: `./docs/index.html`ファイルを動的に生成・更新し、すべてのIIIFマニフェストの概要を表示します。
 
-**运行方式**:
+**実行方法**:
 ```bash
 bun run update-index
 ```
 
+### 4. IIIFマニフェスト検証 (`validate-manifests.ts`)
 
-## 推荐工作流程
+**用途**: 生成されたIIIFマニフェストファイルがIIIF Presentation API 3.0仕様に準拠しているかを検証します。
+
+**実行方法**:
+```bash
+bun run validate-manifests
+```
+
+## 推奨ワークフロー
 
 ```bash
-# 1. 解析HTML文件并提取书籍结构 (生成toho-data.json)
+# 1. HTMLファイルを解析して書籍構造を抽出（toho-data.jsonを生成）
 bun run index.ts
 
-# 2. 生成IIIF manifests
+# 2. IIIFマニフェストを生成
 bun run generate-manifests
 
-# 4. 更新HTML索引界面
+# 3. 生成されたマニフェストを検証
+bun run validate-manifests
+
+# 4. HTMLインデックスインターフェースを更新
 bun run update-index
 ```
 
-**功能**:
-- 扫描 `./docs/` 目录中的所有 `.json` 文件
-- 解析每个manifest文件的元数据
-- 生成包含以下信息的HTML界面：
-  - 书籍标题（中文和英文）
-  - 朝代信息
-  - 页面数量（canvas count）
-  - 文件大小
-  - 卷数
-  - 作者信息
-  - 摘要信息
-- 提供manifest文件的直接链接
-- 显示统计信息和最后更新时间
+## データベース管理（Prisma）
 
-## 文件组织
+```bash
+# Prismaスキーマと設定ファイルを生成
+bun run generate-prisma-schema
 
-### 输入文件
-- `html/` - 包含原始HTML文件，含有书籍元数据和导航信息
-- `toho-data.json` - 解析后的书籍数据 (由index.ts生成)
+# データベースを初期化（.env設定後）
+bun run db:generate
+bun run db:push
+bun run db:seed
 
-### 生成输出
-- `manifests/` - IIIF manifest文件(.json)和可浏览的index.html
-- 每本书生成对应的 `{BookID}.json` manifest文件
+# データベース管理
+bun run db:studio
+bun run db:reset
+```
 
-### 目录结构:
+## ファイル構成
+
+### 入力ファイル
+- `html/` - 書籍メタデータとナビゲーション情報を含む元のHTMLファイル
+- `toho-data.json` - 解析された書籍データ（index.tsにより生成）
+
+### 生成される出力
+- `docs/` - IIIFマニフェストファイル（.json）と閲覧可能なindex.html
+- 各書籍に対応する`{BookID}.json`マニフェストファイルが生成される
+
+### ディレクトリ構造:
 ```
 docs/
-├── A001.json, A002.json, ... (各种manifest文件) 
-├── collection.json (IIIF Collection索引)
-├── index.html (动态生成的HTML界面)
-└── README.md (manifests文档)
+├── A001.json, A002.json, ... （各種マニフェストファイル）
+├── collection.json （IIIFコレクションインデックス）
+├── index.html （動的に生成されるHTMLインターフェース）
+└── README.md （マニフェスト文書）
 ```
 
-## 脚本特性
+## スクリプト機能
 
-### `update-index.ts` 特性:
-- ✅ 自动扫描所有manifest文件
-- ✅ 解析中文和英文标题
-- ✅ 提取朝代、作者、卷数等元数据
-- ✅ 计算文件大小并格式化显示
-- ✅ 响应式网格布局
-- ✅ 美观的现代UI设计
-- ✅ 显示最后更新时间
-- ✅ 提供IIIF Collection链接
-- ✅ 包含使用说明和外部链接
+### `update-index.ts`の機能:
+- ✅ すべてのマニフェストファイルを自動スキャン
+- ✅ 中国語と英語のタイトルを解析
+- ✅ 王朝、著者、巻数などのメタデータを抽出
+- ✅ ファイルサイズを計算して形式化表示
+- ✅ レスポンシブグリッドレイアウト
+- ✅ 美しいモダンUIデザイン
+- ✅ 最終更新時刻を表示
+- ✅ IIIFコレクションリンクを提供
+- ✅ 使用説明と外部リンクを含む
 
-### 处理的元数据字段:
-- **标题**: `label.zh[0]` 或 `label.ja[0]`
-- **英文标题**: `label.en[0]`
-- **朝代**: 从metadata中提取 "Dynasty" 或 "朝代"
-- **作者**: 从metadata中提取 "Author(s)" 或 "作者"
-- **卷数**: 从metadata中提取 "Volumes" 或 "卷數"
-- **页面数**: `items.length` (canvas数量)
-- **摘要**: `summary.zh[0]` 或 `summary.en[0]`
+### 処理されるメタデータフィールド:
+- **タイトル**: `label.zh[0]`または`label.ja[0]`
+- **英語タイトル**: `label.en[0]`
+- **王朝**: メタデータから「Dynasty」または「朝代」を抽出
+- **著者**: メタデータから「Author(s)」または「作者」を抽出
+- **巻数**: メタデータから「Volumes」または「卷數」を抽出
+- **ページ数**: `items.length`（キャンバス数）
+- **概要**: `summary.zh[0]`または`summary.en[0]`
 
-## 关键配置
+## 重要な設定
 
-### IIIF配置 (generate-iiif-manifests.ts:13-14)
+### IIIF設定（generate-iiif-manifests.ts:13-14）
 
 ```typescript
 const BASE_URL = "https://toho-digital-library.zinbun.kyoto-u.ac.jp";
 const IMAGE_SERVICE_BASE_URL = "https://iiif.toyjack.net/iiif";
 ```
 
-### 图像服务集成
-系统假设图像通过IIIF图像API服务器提供。图像URL遵循以下模式：
+### 画像サービス統合
+システムは画像がIIIF画像APIサーバーを通じて提供されることを前提としています。画像URLは以下のパターンに従います：
 `{IMAGE_SERVICE_BASE_URL}/{BookID}/{VolumeID}_{PageNumber}.jpg`
 
-## 故障排除
+## トラブルシューティング
 
-如果脚本出现问题：
+スクリプトに問題が発生した場合：
 
-1. **检查依赖**: 确保安装了bun和TypeScript
-2. **检查文件路径**: 确保在正确的目录运行脚本
-3. **检查权限**: 确保有写入 `./docs/` 目录的权限
-4. **检查JSON格式**: 使用validate脚本检查manifest文件
+1. **依存関係の確認**: bunとTypeScriptがインストールされていることを確認
+2. **ファイルパスの確認**: 正しいディレクトリでスクリプトを実行していることを確認
+3. **権限の確認**: `./docs/`ディレクトリへの書き込み権限があることを確認
+4. **JSON形式の確認**: 検証スクリプトを使用してマニフェストファイルをチェック
 
-## IIIF Manifest结构
+## IIIFマニフェスト構造
 
-生成的manifest遵循IIIF Presentation API 3.0规范：
+生成されるマニフェストはIIIF Presentation API 3.0仕様に準拠しています：
 
-- **多语言标签**: 中文(zh)、日文(ja)、英文(en)
-- **浏览方向**: 从右到左（传统中文文本）
-- **元数据字段**: 朝代、作者、出版信息、卷数
-- **Canvas创建**: 每页一个canvas，具有适当的尺寸
-- **图像服务集成**: 链接到IIIF图像服务器
+- **多言語ラベル**: 中国語（zh）、日本語（ja）、英語（en）
+- **閲覧方向**: 右から左（伝統的な中国語テキスト）
+- **メタデータフィールド**: 王朝、著者、出版情報、巻数
+- **キャンバス作成**: ページごとに適切な寸法を持つキャンバス
+- **画像サービス統合**: IIIFイメージサーバーへのリンク
 
-## 中文文本处理
+## 中国語テキスト処理
 
-### 特殊处理逻辑
-- **数字转换**: 将中文数字（一二三四五）转换为阿拉伯数字
-- **朝代提取**: 从描述中识别中文朝代名称
-- **作者解析**: 使用"某某撰"、"某某輯"等模式提取作者
-- **卷数解析**: 处理复杂的卷数编号系统
+### 特殊処理ロジック
+- **数字変換**: 中国語数字（一二三四五）をアラビア数字に変換
+- **王朝抽出**: 説明文から中国語王朝名を識別
+- **著者解析**: 「某某撰」、「某某輯」などのパターンを使用して著者を抽出
+- **巻数解析**: 複雑な巻数番号システムを処理
 
-## 开发注意事项
+## 開発時の注意事項
 
-### 添加新功能时
-1. 遵循现有数据流：HTML → 解析数据 → IIIF → 验证
-2. 更改数据结构时更新所有相关接口
-3. 生成manifest后使用验证脚本测试
-4. 结构变更后更新HTML索引
+### 新機能を追加する際
+1. 既存のデータフローに従う：HTML → 解析データ → IIIF → 検証
+2. データ構造を変更する際はすべての関連インターフェースを更新
+3. マニフェスト生成後に検証スクリプトでテスト
+4. 構造変更後にHTMLインデックスを更新
 
-### 常见任务
-- **添加元数据字段**: 更新BookEntry接口和index.ts中的解析逻辑
-- **修改IIIF输出**: 编辑generate-iiif-manifests.ts中的generateManifest()
-- **更改验证规则**: 更新validate-manifests.ts中的验证方法
-- **HTML界面更改**: 修改update-index.ts中的generateHTML()
+### 一般的なタスク
+- **メタデータフィールドの追加**: BookEntryインターフェースとindex.tsの解析ロジックを更新
+- **IIIF出力の変更**: generate-iiif-manifests.tsのgenerateManifest()を編集
+- **検証ルールの変更**: validate-manifests.tsの検証メソッドを更新
+- **HTMLインターフェースの変更**: update-index.tsのgenerateHTML()を変更
 
-## 示例输出
+## 出力例
 
-运行 `bun run update-index` 后的示例输出：
+`bun run update-index`実行後の出力例：
 ```
 🔄 Updating index.html for IIIF Manifests...
 📄 Found 318 manifest files
 ✅ Successfully parsed 318 manifests
-📝 Updated manifests\index.html
+📝 Updated docs\index.html
 ✨ Index HTML generation completed!
 
 📊 Summary:
-   Total manifests: 318
-   Total pages: 113,984
-   Total volumes: 0
+  Total manifests: 318
+  Total pages: 113,984
+  Total volumes: 0
 ```
 
-## 相关资源
+## 関連リソース
 
 - [IIIF Presentation API 3.0](https://iiif.io/api/presentation/3.0/)
 - [Mirador IIIF Viewer](https://projectmirador.org/)
