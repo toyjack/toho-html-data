@@ -83,6 +83,11 @@ const BASE_URL = "https://toho-digital-library.zinbun.kyoto-u.ac.jp";
 const IMAGE_SERVICE_BASE_URL = "https://iiif.toyjack.net/iiif";
 ```
 
+**Note**: Some scripts referenced in package.json may not exist yet:
+- `validate-manifests.ts` - IIIF manifest validation script
+- `generate-prisma-schema.ts` - Prisma schema generation
+- `import-data-to-prisma.ts` - Database import script
+
 ## HTML Structure Parsing Logic
 
 The system expects specific HTML patterns:

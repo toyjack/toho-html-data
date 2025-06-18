@@ -12,6 +12,7 @@ import path from 'path';
 
   const BASE_URL: string = "https://toho-digital-library.zinbun.kyoto-u.ac.jp";
   const IMAGE_SERVICE_BASE_URL: string = "https://iiif.toyjack.net/iiif";
+  const OUTPUT_DIR = './docs/manifests'; // Directory to save manifests
 
 // IIIF Presentation API 3.0 Types
 interface IIIFManifest {
@@ -327,7 +328,7 @@ class IIIFManifestGenerator {
    * Save manifest to file
    */
   async saveManifest(book: BookEntry, manifest: IIIFManifest): Promise<void> {
-    const manifestsDir = './manifests';
+    const manifestsDir = OUTPUT_DIR;
     await fs.mkdir(manifestsDir, { recursive: true });
     
     const filename = `${book.id}.json`;

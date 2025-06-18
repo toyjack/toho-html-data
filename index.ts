@@ -1,4 +1,4 @@
-const path = "./html/top.html";
+const path = "./html/html/top.html";
 const file = Bun.file(path);
 
 const text = await file.text();
@@ -54,12 +54,12 @@ interface LibraryData {
 async function parseBookStructure(bookUrl: string): Promise<BookVolume[]> {
     try {
         // 首先检查是否有对应的menu文件
-        let menuFilePath = `./html/${bookUrl}`;
+        let menuFilePath = `./html/html/${bookUrl}`;
         if (!bookUrl.includes('menu.html') && !bookUrl.includes('top.html')) {
             // 如果不是menu或top文件，尝试找到对应的menu文件
             const bookId = bookUrl.match(/([A-Z]\d{3})/)?.[1];
             if (bookId) {
-                menuFilePath = `./html/${bookId}menu.html`;
+                menuFilePath = `./html/html/${bookId}menu.html`;
             }
         }
 

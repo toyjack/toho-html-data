@@ -1,0 +1,299 @@
+// 東方學デジタル圖書館 Prisma Schema
+// Generated on 2025-06-15T11:18:32.791Z
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql" // 可根据需要改为 "mysql", "sqlite", "sqlserver", "mongodb"
+  url      = env("DATABASE_URL")
+}
+
+// 主要书籍表 - 基于HTML top.html文件结构优化
+model Book {
+  id               String        @id // 书籍ID，如 A001, B002
+  title            String        // 书名
+  alternativeTitle String?       // 别名/副标题
+  category         String        // 主分类 (經部、史部、子部、集部、叢書部等)
+  subcategory      String?       // 子分类
+  volumeCount          String?       // 卷数信息（如"十卷"、"二十卷"）
+  dynasty          String?       // 朝代
+  publicationInfo  String        // 版本信息 - 包含详细的刊印信息
+  collectionInfo   String        // 收藏信息 - 包含图记、识语等
+  url              String        // 原始HTML URL
+  menuUrl          String?       // 对应的menu页面URL
+  
+  // 版本特征 - 基于HTML中的实际信息
+  bookType         BookType      @default(UNKNOWN) // 版本类型
+  printingMethod   PrintingMethod @default(UNKNOWN) // 印刷方式
+  isIncomplete     Boolean       @default(false) // 是否残缺("殘"标记)
+  hasAppendix      Boolean       @default(false) // 是否有附录("坿"标记)
+  hasSeals         Boolean       @default(false) // 是否有藏书印记
+  hasNotes         Boolean       @default(false) // 是否有题跋识语
+  hasAnnotations   Boolean       @default(false) // 是否有注释
+  
+  // 详细书籍信息
+  publisher        String?       // 刊印者/出版者
+  publicationYear  String?       // 出版年份（原文格式，如"嘉靖中"）
+  publicationPlace String?       // 出版地点
+  series           String?       // 丛书系列
+  totalVolumes     Int?          // 实际卷册数量
+  totalPages       Int?          // 总页数
+  
+  // 文库归属 - 基于HTML中的文库分类
+  libraryId        String?       // 所属文库ID
+  specialCollection String?      // 特殊收藏标记
+  
+  // 全文搜索字段
+  searchText       String?       // 用于全文搜索的组合字段
+  
+  createdAt        DateTime      @default(now())
+  updatedAt        DateTime      @updatedAt
+  
+  // 关系
+  authors          BookAuthor[]  // 多对多：书籍-作者
+  volumes          Volume[]      // 一对多：书籍-卷册
+  manifests        IIIFManifest[] // 一对多：书籍-IIIF清单
+  library          Library?      @relation(fields: [libraryId], references: [id])
+  
+  @@map("books")
+}
+
+// 作者表
+model Author {
+  id        Int          @id @default(autoincrement())
+  name      String       @unique // 作者姓名
+  dynasty   String?      // 朝代
+  biography String?      // 生平简介
+  
+  createdAt DateTime     @default(now())
+  updatedAt DateTime     @updatedAt
+  
+  // 关系
+  books     BookAuthor[] // 多对多：作者-书籍
+  
+  @@map("authors")
+}
+
+// 书籍-作者关联表（多对多）
+model BookAuthor {
+  bookId   String
+  authorId Int
+  role     String? // 作者角色：撰、輯、注、疏、集等
+  
+  book     Book   @relation(fields: [bookId], references: [id], onDelete: Cascade)
+  author   Author @relation(fields: [authorId], references: [id], onDelete: Cascade)
+  
+  @@id([bookId, authorId])
+  @@map("book_authors")
+}
+
+// 卷册表
+model Volume {
+  id            String   @id // 卷册ID，如 A0010001
+  title         String   // 卷册标题
+  url           String   // HTML文件路径
+  volumeNumber  Int?     // 卷号
+  chapterNumber Int?     // 册号
+  startPage     Int?     // 起始页码
+  maxPage       Int?     // 最大页数
+  bookNumber    String?  // 书号
+  sequence      Int?     // 文件序号
+  
+  bookId        String   // 外键：所属书籍
+  
+  createdAt     DateTime @default(now())
+  updatedAt     DateTime @updatedAt
+  
+  // 关系
+  book          Book     @relation(fields: [bookId], references: [id], onDelete: Cascade)
+  pages         Page[]   // 一对多：卷册-页面
+  
+  @@map("volumes")
+}
+
+// 页面表（用于IIIF）
+model Page {
+  id          String   @id @default(cuid())
+  pageNumber  Int      // 页码
+  globalPage  Int?     // 全书页码
+  imageUrl    String?  // 图像URL
+  width       Int      @default(1000) // 页面宽度
+  height      Int      @default(1400) // 页面高度
+  
+  volumeId    String   // 外键：所属卷册
+  
+  createdAt   DateTime @default(now())
+  updatedAt   DateTime @updatedAt
+  
+  // 关系
+  volume      Volume   @relation(fields: [volumeId], references: [id], onDelete: Cascade)
+  
+  @@unique([volumeId, pageNumber])
+  @@map("pages")
+}
+
+// 分类表
+model Category {
+  id          Int      @id @default(autoincrement())
+  name        String   @unique // 分类名称
+  description String?  // 分类描述
+  
+  createdAt   DateTime @default(now())
+  updatedAt   DateTime @updatedAt
+  
+  @@map("categories")
+}
+
+// IIIF清单表
+model IIIFManifest {
+  id            String   @id // 清单ID，通常与书籍ID相同
+  label         Json     // 多语言标签 {"zh": [...], "en": [...]}
+  summary       Json?    // 多语言摘要
+  metadata      Json?    // 元数据数组
+  canvasCount   Int      @default(0) // Canvas数量
+  manifestUrl   String   // 清单文件URL
+  generatedAt   DateTime @default(now())
+  
+  bookId        String   @unique // 外键：关联的书籍
+  
+  createdAt     DateTime @default(now())
+  updatedAt     DateTime @updatedAt
+  
+  // 关系
+  book          Book     @relation(fields: [bookId], references: [id], onDelete: Cascade)
+  
+  @@map("iiif_manifests")
+}
+
+// 朝代表
+model Dynasty {
+  id        Int      @id @default(autoincrement())
+  name      String   @unique // 朝代名称：漢、魏、晉、唐、宋、元、明、清等
+  startYear Int?     // 起始年份
+  endYear   Int?     // 结束年份
+  period    String?  // 时期描述
+  
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+  
+  @@map("dynasties")
+}
+
+// 统计表（用于缓存统计数据）
+model LibraryStatistics {
+  id                String   @id @default("singleton") // 单例模式
+  totalBooks        Int      @default(0)
+  totalVolumes      Int      @default(0)
+  totalPages        Int      @default(0)
+  totalAuthors      Int      @default(0)
+  totalManifests    Int      @default(0)
+  
+  // JSON字段存储复杂统计
+  categoryStats     Json?    // 按分类统计
+  dynastyStats      Json?    // 按朝代统计
+  bookTypeStats     Json?    // 按版本类型统计
+  volumeCountStats  Json?    // 按卷册数量统计
+  
+  lastUpdated       DateTime @default(now())
+  
+  @@map("library_statistics")
+}
+
+// 用户表（如果需要用户管理）
+model User {
+  id        String   @id @default(cuid())
+  email     String   @unique
+  name      String?
+  role      UserRole @default(READER)
+  isActive  Boolean  @default(true)
+  
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+  
+  // 关系
+  sessions  Session[]
+  
+  @@map("users")
+}
+
+// 会话表（用户登录管理）
+model Session {
+  id        String   @id @default(cuid())
+  token     String   @unique
+  userId    String
+  expiresAt DateTime
+  
+  createdAt DateTime @default(now())
+  
+  // 关系
+  user      User     @relation(fields: [userId], references: [id], onDelete: Cascade)
+  
+  @@map("sessions")
+}
+
+// 搜索历史表
+model SearchHistory {
+  id        Int      @id @default(autoincrement())
+  query     String   // 搜索查询
+  results   Int      @default(0) // 结果数量
+  userId    String?  // 用户ID（可选）
+  ipAddress String?  // IP地址
+  
+  createdAt DateTime @default(now())
+  
+  @@map("search_history")
+}
+
+// 文库/特藏表 - 基于HTML中的文库分类
+model Library {
+  id          String   @id // 文库ID，如 "muramura", "nakajiang", "matsumoto"
+  name        String   @unique // 文库名称，如 "村本文庫", "中江文庫"
+  nameEn      String?  // 英文名称
+  description String?  // 文库描述
+  founder     String?  // 创立者
+  period      String?  // 收藏时期
+  location    String?  // 藏书地点
+  
+  createdAt   DateTime @default(now())
+  updatedAt   DateTime @updatedAt
+  
+  // 关系
+  books       Book[]   // 一对多：文库-书籍
+  
+  @@map("libraries")
+}
+
+// 枚举类型
+enum BookType {
+  MANUSCRIPT  // 手鈔本
+  PRINTED     // 刊本
+  RUBBING     // 拓本
+  REPRINT     // 重印本/翻刻本
+  FACSIMILE   // 影印本
+  UNKNOWN     // 未知
+  
+  @@map("book_type")
+}
+
+// 印刷方式枚举 - 基于HTML中的实际描述
+enum PrintingMethod {
+  MOVABLE_TYPE    // 活字印本
+  WOODBLOCK      // 雕版刊本
+  LITHOGRAPH     // 石印本
+  MANUSCRIPT     // 手写
+  RUBBING        // 拓印
+  PHOTO_REPRINT  // 影印
+  UNKNOWN        // 未知
+  
+  @@map("printing_method")
+}
+
+enum UserRole {
+  ADMIN       // 管理员
+  EDITOR      // 编辑者
+  READER      // 读者
+  
+  @@map("user_role")
+}
