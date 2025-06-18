@@ -406,7 +406,7 @@ async function main() {
 
     console.log("");
     console.log("✨ IIIF Manifest generation completed!");
-    console.log(`📁 Manifests saved to: ./manifests/`);
+    console.log(`📁 Manifests saved to: ./docs/`);
     console.log(`🌐 Base URL: ${BASE_URL}`);
     console.log(`📷 Image Service: ${IMAGE_SERVICE_BASE_URL}`);
   } catch (error) {
