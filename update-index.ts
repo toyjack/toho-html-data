@@ -2,13 +2,13 @@
 
 /**
  * Update Index HTML Generator for IIIF Manifests
- * 
+ *
  * This script dynamically generates an updated index.html file
  * by reading all manifest files in the manifests directory
  */
 
-import { promises as fs } from 'fs';
-import path from 'path';
+import { promises as fs } from "fs";
+import path from "path";
 
 interface ManifestInfo {
   filename: string;
@@ -28,56 +28,96 @@ interface ManifestInfo {
 }
 
 class IndexHTMLGenerator {
-  private manifestsDir = './manifests';
-  
+  private manifestsDir = "./docs";
+
+  chineseToArabic(text: string): number {
+    const chineseNums: { [key: string]: number } = {
+      零: 0,
+      一: 1,
+      二: 2,
+      三: 3,
+      四: 4,
+      五: 5,
+      六: 6,
+      七: 7,
+      八: 8,
+      九: 9,
+      十: 10,
+      百: 100,
+      千: 1000,
+      万: 10000,
+    };
+
+    if (/^\d+$/.test(text)) return parseInt(text);
+
+    let result = 0;
+    let temp = 0;
+
+    for (const char of text) {
+      if (chineseNums[char] !== undefined) {
+        const num = chineseNums[char];
+        if (num >= 10) {
+          if (num === 10 && temp === 0) temp = 1;
+          result += temp * num;
+          temp = 0;
+        } else {
+          temp = temp * 10 + num;
+        }
+      }
+    }
+    result += temp;
+    return result || parseInt(text) || 0;
+  }
+
   /**
    * Read and parse a manifest file
    */
   async parseManifest(filename: string): Promise<ManifestInfo | null> {
     try {
       const filePath = path.join(this.manifestsDir, filename);
-      const content = await fs.readFile(filePath, 'utf-8');
+      const content = await fs.readFile(filePath, "utf-8");
       const manifest = JSON.parse(content);
-      
-      if (manifest.type !== 'Manifest') {
+
+      if (manifest.type !== "Manifest") {
         return null; // Skip collection files
       }
 
       const stats = await fs.stat(filePath);
       const fileSize = this.formatFileSize(stats.size);
-      
+
       // Extract metadata
-      const title = manifest.label?.zh?.[0] || manifest.label?.ja?.[0] || filename;
+      const title =
+        manifest.label?.zh?.[0] || manifest.label?.ja?.[0] || filename;
       const titleEn = manifest.label?.en?.[0];
       const canvasCount = manifest.items?.length || 0;
-      
+
       // Extract dynasty and other metadata
-      let dynasty = '';
+      let dynasty = "";
       let authors: string[] = [];
       let volumeCount: number | undefined;
-      
+
       if (manifest.metadata && Array.isArray(manifest.metadata)) {
         for (const meta of manifest.metadata) {
           const labelKey = meta.label?.en?.[0] || meta.label?.zh?.[0];
-          if (labelKey === 'Dynasty' || labelKey === '朝代') {
-            dynasty = meta.value?.zh?.[0] || '';
-          } else if (labelKey === 'Author(s)' || labelKey === '作者') {
+          if (labelKey === "Dynasty" || labelKey === "朝代") {
+            dynasty = meta.value?.zh?.[0] || "";
+          } else if (labelKey === "Author(s)" || labelKey === "作者") {
             authors = meta.value?.zh || [];
-          } else if (labelKey === 'Volumes' || labelKey === '卷數') {
-            const volumeText = meta.value?.zh?.[0] || '';
-            const volumeMatch = volumeText.match(/(\d+)/);
-            if (volumeMatch) {
-              volumeCount = parseInt(volumeMatch[1]);
-            }
+          } else if (labelKey === "Volumes" || labelKey === "卷數") {
+            const volumeText = meta.value?.zh?.[0] || "";
+            // Convert Chinese numerals to integers
+            volumeCount = this.chineseToArabic(volumeText);
+            volumeCount = volumeCount===0?1:volumeCount; // Ensure at least 1 volume
           }
         }
       }
 
-      const summary = manifest.summary?.zh?.[0] || manifest.summary?.en?.[0] || '';
+      const summary =
+        manifest.summary?.zh?.[0] || manifest.summary?.en?.[0] || "";
 
       return {
         filename,
-        id: filename.replace('.json', ''),
+        id: filename.replace(".json", ""),
         title,
         titleEn,
         dynasty,
@@ -86,7 +126,7 @@ class IndexHTMLGenerator {
         volumeCount,
         authors,
         summary,
-        metadata: manifest.metadata
+        metadata: manifest.metadata,
       };
     } catch (error) {
       console.error(`❌ Failed to parse ${filename}:`, error);
@@ -108,7 +148,10 @@ class IndexHTMLGenerator {
    */
   generateHTML(manifests: ManifestInfo[]): string {
     const totalCanvases = manifests.reduce((sum, m) => sum + m.canvasCount, 0);
-    const totalVolumes = manifests.reduce((sum, m) => sum + (m.volumeCount || 0), 0);
+    const totalVolumes = manifests.reduce(
+      (sum, m) => sum + (m.volumeCount || 0),
+      0
+    );
     const totalSize = manifests.length;
 
     return `<!DOCTYPE html>
@@ -338,17 +381,19 @@ class IndexHTMLGenerator {
         </div>
 
         <div class="last-updated">
-            📅 Last updated: ${new Date().toLocaleString('en-US', { 
-              year: 'numeric', 
-              month: 'long', 
-              day: 'numeric', 
-              hour: '2-digit', 
-              minute: '2-digit'
+            📅 Last updated: ${new Date().toLocaleString("en-US", {
+              year: "numeric",
+              month: "long",
+              day: "numeric",
+              hour: "2-digit",
+              minute: "2-digit",
             })}
         </div>
 
         <div class="manifest-grid">
-${manifests.map(manifest => `            <div class="manifest-card">
+${manifests
+  .map(
+    (manifest) => `            <div class="manifest-card">
                 <div class="manifest-title">${manifest.title}</div>
                 
                 <div class="manifest-meta">
@@ -356,10 +401,14 @@ ${manifests.map(manifest => `            <div class="manifest-card">
                     <span class="meta-value">${manifest.id}</span>
                 </div>
                 
-                ${manifest.dynasty ? `<div class="manifest-meta">
+                ${
+                  manifest.dynasty
+                    ? `<div class="manifest-meta">
                     <span class="meta-label">🏛️ Dynasty:</span>
                     <span class="dynasty-tag">${manifest.dynasty}</span>
-                </div>` : ''}
+                </div>`
+                    : ""
+                }
                 
                 <div class="manifest-meta">
                     <span class="meta-label">📄 Pages:</span>
@@ -371,25 +420,41 @@ ${manifests.map(manifest => `            <div class="manifest-card">
                     <span class="meta-value">${manifest.fileSize}</span>
                 </div>
                 
-                ${manifest.volumeCount ? `<div class="manifest-meta">
+                ${
+                  manifest.volumeCount
+                    ? `<div class="manifest-meta">
                     <span class="meta-label">📚 Volumes:</span>
                     <span class="meta-value">${manifest.volumeCount}</span>
-                </div>` : ''}
+                </div>`
+                    : ""
+                }
                 
-                ${manifest.authors && manifest.authors.length > 0 ? `<div class="authors">
-                    👤 ${manifest.authors.join(', ')}
-                </div>` : ''}
+                ${
+                  manifest.authors && manifest.authors.length > 0
+                    ? `<div class="authors">
+                    👤 ${manifest.authors.join(", ")}
+                </div>`
+                    : ""
+                }
                 
-                ${manifest.summary ? `<div class="authors">
+                ${
+                  manifest.summary
+                    ? `<div class="authors">
                     📝 ${manifest.summary}
-                </div>` : ''}
+                </div>`
+                    : ""
+                }
                 
                 <div class="manifest-actions">
-                    <a href="./${manifest.filename}" class="manifest-link" target="_blank">
+                    <a href="./${
+                      manifest.filename
+                    }" class="manifest-link" target="_blank">
                         View Manifest
                     </a>
                 </div>
-            </div>`).join('\n')}
+            </div>`
+  )
+  .join("\n")}
         </div>
 
         <div class="info-note">
@@ -414,14 +479,16 @@ ${manifests.map(manifest => `            <div class="manifest-card">
    */
   async execute(): Promise<void> {
     try {
-      console.log('🔄 Updating index.html for IIIF Manifests...');
-      
+      console.log("🔄 Updating index.html for IIIF Manifests...");
+
       // Read all files in manifests directory
       const files = await fs.readdir(this.manifestsDir);
-      const manifestFiles = files.filter(f => f.endsWith('.json') && f !== 'collection.json');
-      
+      const manifestFiles = files.filter(
+        (f) => f.endsWith(".json") && f !== "collection.json"
+      );
+
       console.log(`📄 Found ${manifestFiles.length} manifest files`);
-      
+
       // Parse all manifests
       const manifests: ManifestInfo[] = [];
       for (const filename of manifestFiles) {
@@ -430,30 +497,38 @@ ${manifests.map(manifest => `            <div class="manifest-card">
           manifests.push(manifest);
         }
       }
-      
+
       // Sort by ID
       manifests.sort((a, b) => a.id.localeCompare(b.id));
-      
+
       console.log(`✅ Successfully parsed ${manifests.length} manifests`);
-      
+
       // Generate HTML
       const html = this.generateHTML(manifests);
-      
+
       // Write to index.html
-      const indexPath = path.join(this.manifestsDir, 'index.html');
-      await fs.writeFile(indexPath, html, 'utf-8');
-      
+      const indexPath = path.join("./docs", "index.html");
+      await fs.writeFile(indexPath, html, "utf-8");
+
       console.log(`📝 Updated ${indexPath}`);
-      console.log('✨ Index HTML generation completed!');
-      
+      console.log("✨ Index HTML generation completed!");
+
       // Display summary
-      console.log('\n📊 Summary:');
+      console.log("\n📊 Summary:");
       console.log(`   Total manifests: ${manifests.length}`);
-      console.log(`   Total pages: ${manifests.reduce((sum, m) => sum + m.canvasCount, 0).toLocaleString()}`);
-      console.log(`   Total volumes: ${manifests.reduce((sum, m) => sum + (m.volumeCount || 0), 0)}`);
-      
+      console.log(
+        `   Total pages: ${manifests
+          .reduce((sum, m) => sum + m.canvasCount, 0)
+          .toLocaleString()}`
+      );
+      console.log(
+        `   Total volumes: ${manifests.reduce(
+          (sum, m) => sum + (m.volumeCount || 0),
+          0
+        )}`
+      );
     } catch (error) {
-      console.error('❌ Error updating index.html:', error);
+      console.error("❌ Error updating index.html:", error);
       process.exit(1);
     }
   }

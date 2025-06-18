@@ -52,6 +52,7 @@ interface LibraryData {
 
 // 读取书籍详细结构
 async function parseBookStructure(bookUrl: string): Promise<BookVolume[]> {
+    console.log(`正在解析书籍结构: ${bookUrl}`);
     try {
         // 首先检查是否有对应的menu文件
         let menuFilePath = `./html/html/${bookUrl}`;
@@ -152,7 +153,7 @@ async function scanVolumeFiles(bookUrl: string): Promise<BookVolume[]> {
 // 解析单个卷册文件
 async function parseVolumeFile(volumeUrl: string): Promise<BookVolume | null> {
     try {
-        const filePath = `./html/${volumeUrl}`;
+        const filePath = `./html/html/${volumeUrl}`;
         const volumeFile = Bun.file(filePath);
         
         if (!(await volumeFile.exists())) {

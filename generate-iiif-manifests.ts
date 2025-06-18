@@ -12,7 +12,7 @@ import path from 'path';
 
   const BASE_URL: string = "https://toho-digital-library.zinbun.kyoto-u.ac.jp";
   const IMAGE_SERVICE_BASE_URL: string = "https://iiif.toyjack.net/iiif";
-  const OUTPUT_DIR = './docs/manifests'; // Directory to save manifests
+  const OUTPUT_DIR = './docs'; // Directory to save manifests
 
 // IIIF Presentation API 3.0 Types
 interface IIIFManifest {

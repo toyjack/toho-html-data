@@ -5,23 +5,12 @@
   "scripts": {
     "start": "bun run index.ts",
     "generate-manifests": "bun run generate-iiif-manifests.ts",
-    "update-index": "bun run update-index.ts",
-    "validate-manifests": "bun run validate-manifests.ts",
-    "generate-prisma-schema": "bun run generate-prisma-schema.ts",
-    "db:generate": "prisma generate",
-    "db:push": "prisma db push",
-    "db:migrate": "prisma migrate dev",
-    "db:studio": "prisma studio",
-    "db:seed": "bun run import-data-to-prisma.ts",
-    "db:reset": "prisma migrate reset && bun run db:seed"
+    "update-index": "bun run update-index.ts"
   },
   "devDependencies": {
-    "@types/bun": "latest",
-    "prisma": "^5.7.0"
+    "@types/bun": "latest"
   },
-  "dependencies": {
-    "@prisma/client": "^5.7.0"
-  },
+  "dependencies": {},
   "peerDependencies": {
     "typescript": "^5.0.0"
   }
