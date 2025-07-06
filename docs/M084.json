@@ -3,7 +3,7 @@
     "http://www.w3.org/ns/anno.jsonld",
     "http://iiif.io/api/presentation/3/context.json"
   ],
-  "id": "https://toyjack.github.io/toho-html-data/manifests/M084.json",
+  "id": "https://image.kanji.zinbun.kyoto-u.ac.jp/toho/web/manifests/M084.json",
   "type": "Manifest",
   "label": {
     "zh": [
@@ -123,7 +123,7 @@
   "rights": "http://creativecommons.org/licenses/by-nc/4.0/",
   "provider": [
     {
-      "id": "https://toyjack.github.io/toho-html-data",
+      "id": "https://image.kanji.zinbun.kyoto-u.ac.jp/toho/web",
       "type": "Agent",
       "label": {
         "ja": [
@@ -132,7 +132,7 @@
       },
       "homepage": [
         {
-          "id": "https://toyjack.github.io/toho-html-data",
+          "id": "https://image.kanji.zinbun.kyoto-u.ac.jp/toho/web",
           "type": "Text",
           "label": {
             "ja": [
@@ -146,7 +146,7 @@
   ],
   "items": [
     {
-      "id": "https://toyjack.github.io/toho-html-data/canvas/M084/M0840001_1",
+      "id": "https://image.kanji.zinbun.kyoto-u.ac.jp/toho/web/canvas/M084/M0840001_1",
       "type": "Canvas",
       "label": {
         "zh": [
@@ -160,11 +160,11 @@
       "width": 1000,
       "items": [
         {
-          "id": "https://toyjack.github.io/toho-html-data/canvas/M084/M0840001_1/page/1",
+          "id": "https://image.kanji.zinbun.kyoto-u.ac.jp/toho/web/canvas/M084/M0840001_1/page/1",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "https://toyjack.github.io/toho-html-data/canvas/M084/M0840001_1/annotation/1",
+              "id": "https://image.kanji.zinbun.kyoto-u.ac.jp/toho/web/canvas/M084/M0840001_1/annotation/1",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -181,14 +181,14 @@
                   }
                 ]
               },
-              "target": "https://toyjack.github.io/toho-html-data/canvas/M084/M0840001_1"
+              "target": "https://image.kanji.zinbun.kyoto-u.ac.jp/toho/web/canvas/M084/M0840001_1"
             }
           ]
         }
       ]
     },
     {
-      "id": "https://toyjack.github.io/toho-html-data/canvas/M084/M0840002_1",
+      "id": "https://image.kanji.zinbun.kyoto-u.ac.jp/toho/web/canvas/M084/M0840002_1",
       "type": "Canvas",
       "label": {
         "zh": [
@@ -202,11 +202,11 @@
       "width": 1000,
       "items": [
         {
-          "id": "https://toyjack.github.io/toho-html-data/canvas/M084/M0840002_1/page/1",
+          "id": "https://image.kanji.zinbun.kyoto-u.ac.jp/toho/web/canvas/M084/M0840002_1/page/1",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "https://toyjack.github.io/toho-html-data/canvas/M084/M0840002_1/annotation/1",
+              "id": "https://image.kanji.zinbun.kyoto-u.ac.jp/toho/web/canvas/M084/M0840002_1/annotation/1",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -223,14 +223,14 @@
                   }
                 ]
               },
-              "target": "https://toyjack.github.io/toho-html-data/canvas/M084/M0840002_1"
+              "target": "https://image.kanji.zinbun.kyoto-u.ac.jp/toho/web/canvas/M084/M0840002_1"
             }
           ]
         }
       ]
     },
     {
-      "id": "https://toyjack.github.io/toho-html-data/canvas/M084/M0840002_2",
+      "id": "https://image.kanji.zinbun.kyoto-u.ac.jp/toho/web/canvas/M084/M0840002_2",
       "type": "Canvas",
       "label": {
         "zh": [
@@ -244,11 +244,11 @@
       "width": 1000,
       "items": [
         {
-          "id": "https://toyjack.github.io/toho-html-data/canvas/M084/M0840002_2/page/1",
+          "id": "https://image.kanji.zinbun.kyoto-u.ac.jp/toho/web/canvas/M084/M0840002_2/page/1",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "https://toyjack.github.io/toho-html-data/canvas/M084/M0840002_2/annotation/1",
+              "id": "https://image.kanji.zinbun.kyoto-u.ac.jp/toho/web/canvas/M084/M0840002_2/annotation/1",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -265,14 +265,14 @@
                   }
                 ]
               },
-              "target": "https://toyjack.github.io/toho-html-data/canvas/M084/M0840002_2"
+              "target": "https://image.kanji.zinbun.kyoto-u.ac.jp/toho/web/canvas/M084/M0840002_2"
             }
           ]
         }
       ]
     },
     {
-      "id": "https://toyjack.github.io/toho-html-data/canvas/M084/M0840002_3",
+      "id": "https://image.kanji.zinbun.kyoto-u.ac.jp/toho/web/canvas/M084/M0840002_3",
       "type": "Canvas",
       "label": {
         "zh": [
@@ -286,11 +286,11 @@
       "width": 1000,
       "items": [
         {
-          "id": "https://toyjack.github.io/toho-html-data/canvas/M084/M0840002_3/page/1",
+          "id": "https://image.kanji.zinbun.kyoto-u.ac.jp/toho/web/canvas/M084/M0840002_3/page/1",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "https://toyjack.github.io/toho-html-data/canvas/M084/M0840002_3/annotation/1",
+              "id": "https://image.kanji.zinbun.kyoto-u.ac.jp/toho/web/canvas/M084/M0840002_3/annotation/1",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -307,14 +307,14 @@
                   }
                 ]
               },
-              "target": "https://toyjack.github.io/toho-html-data/canvas/M084/M0840002_3"
+              "target": "https://image.kanji.zinbun.kyoto-u.ac.jp/toho/web/canvas/M084/M0840002_3"
             }
           ]
         }
       ]
     },
     {
-      "id": "https://toyjack.github.io/toho-html-data/canvas/M084/M0840002_4",
+      "id": "https://image.kanji.zinbun.kyoto-u.ac.jp/toho/web/canvas/M084/M0840002_4",
       "type": "Canvas",
       "label": {
         "zh": [
@@ -328,11 +328,11 @@
       "width": 1000,
       "items": [
         {
-          "id": "https://toyjack.github.io/toho-html-data/canvas/M084/M0840002_4/page/1",
+          "id": "https://image.kanji.zinbun.kyoto-u.ac.jp/toho/web/canvas/M084/M0840002_4/page/1",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "https://toyjack.github.io/toho-html-data/canvas/M084/M0840002_4/annotation/1",
+              "id": "https://image.kanji.zinbun.kyoto-u.ac.jp/toho/web/canvas/M084/M0840002_4/annotation/1",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -349,14 +349,14 @@
                   }
                 ]
               },
-              "target": "https://toyjack.github.io/toho-html-data/canvas/M084/M0840002_4"
+              "target": "https://image.kanji.zinbun.kyoto-u.ac.jp/toho/web/canvas/M084/M0840002_4"
             }
           ]
         }
       ]
     },
     {
-      "id": "https://toyjack.github.io/toho-html-data/canvas/M084/M0840002_5",
+      "id": "https://image.kanji.zinbun.kyoto-u.ac.jp/toho/web/canvas/M084/M0840002_5",
       "type": "Canvas",
       "label": {
         "zh": [
@@ -370,11 +370,11 @@
       "width": 1000,
       "items": [
         {
-          "id": "https://toyjack.github.io/toho-html-data/canvas/M084/M0840002_5/page/1",
+          "id": "https://image.kanji.zinbun.kyoto-u.ac.jp/toho/web/canvas/M084/M0840002_5/page/1",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "https://toyjack.github.io/toho-html-data/canvas/M084/M0840002_5/annotation/1",
+              "id": "https://image.kanji.zinbun.kyoto-u.ac.jp/toho/web/canvas/M084/M0840002_5/annotation/1",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -391,14 +391,14 @@
                   }
                 ]
               },
-              "target": "https://toyjack.github.io/toho-html-data/canvas/M084/M0840002_5"
+              "target": "https://image.kanji.zinbun.kyoto-u.ac.jp/toho/web/canvas/M084/M0840002_5"
             }
           ]
         }
       ]
     },
     {
-      "id": "https://toyjack.github.io/toho-html-data/canvas/M084/M0840002_6",
+      "id": "https://image.kanji.zinbun.kyoto-u.ac.jp/toho/web/canvas/M084/M0840002_6",
       "type": "Canvas",
       "label": {
         "zh": [
@@ -412,11 +412,11 @@
       "width": 1000,
       "items": [
         {
-          "id": "https://toyjack.github.io/toho-html-data/canvas/M084/M0840002_6/page/1",
+          "id": "https://image.kanji.zinbun.kyoto-u.ac.jp/toho/web/canvas/M084/M0840002_6/page/1",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "https://toyjack.github.io/toho-html-data/canvas/M084/M0840002_6/annotation/1",
+              "id": "https://image.kanji.zinbun.kyoto-u.ac.jp/toho/web/canvas/M084/M0840002_6/annotation/1",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -433,14 +433,14 @@
                   }
                 ]
               },
-              "target": "https://toyjack.github.io/toho-html-data/canvas/M084/M0840002_6"
+              "target": "https://image.kanji.zinbun.kyoto-u.ac.jp/toho/web/canvas/M084/M0840002_6"
             }
           ]
         }
       ]
     },
     {
-      "id": "https://toyjack.github.io/toho-html-data/canvas/M084/M0840002_7",
+      "id": "https://image.kanji.zinbun.kyoto-u.ac.jp/toho/web/canvas/M084/M0840002_7",
       "type": "Canvas",
       "label": {
         "zh": [
@@ -454,11 +454,11 @@
       "width": 1000,
       "items": [
         {
-          "id": "https://toyjack.github.io/toho-html-data/canvas/M084/M0840002_7/page/1",
+          "id": "https://image.kanji.zinbun.kyoto-u.ac.jp/toho/web/canvas/M084/M0840002_7/page/1",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "https://toyjack.github.io/toho-html-data/canvas/M084/M0840002_7/annotation/1",
+              "id": "https://image.kanji.zinbun.kyoto-u.ac.jp/toho/web/canvas/M084/M0840002_7/annotation/1",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -475,14 +475,14 @@
                   }
                 ]
               },
-              "target": "https://toyjack.github.io/toho-html-data/canvas/M084/M0840002_7"
+              "target": "https://image.kanji.zinbun.kyoto-u.ac.jp/toho/web/canvas/M084/M0840002_7"
             }
           ]
         }
       ]
     },
     {
-      "id": "https://toyjack.github.io/toho-html-data/canvas/M084/M0840002_8",
+      "id": "https://image.kanji.zinbun.kyoto-u.ac.jp/toho/web/canvas/M084/M0840002_8",
       "type": "Canvas",
       "label": {
         "zh": [
@@ -496,11 +496,11 @@
       "width": 1000,
       "items": [
         {
-          "id": "https://toyjack.github.io/toho-html-data/canvas/M084/M0840002_8/page/1",
+          "id": "https://image.kanji.zinbun.kyoto-u.ac.jp/toho/web/canvas/M084/M0840002_8/page/1",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "https://toyjack.github.io/toho-html-data/canvas/M084/M0840002_8/annotation/1",
+              "id": "https://image.kanji.zinbun.kyoto-u.ac.jp/toho/web/canvas/M084/M0840002_8/annotation/1",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -517,14 +517,14 @@
                   }
                 ]
               },
-              "target": "https://toyjack.github.io/toho-html-data/canvas/M084/M0840002_8"
+              "target": "https://image.kanji.zinbun.kyoto-u.ac.jp/toho/web/canvas/M084/M0840002_8"
             }
           ]
         }
       ]
     },
     {
-      "id": "https://toyjack.github.io/toho-html-data/canvas/M084/M0840003_1",
+      "id": "https://image.kanji.zinbun.kyoto-u.ac.jp/toho/web/canvas/M084/M0840003_1",
       "type": "Canvas",
       "label": {
         "zh": [
@@ -538,11 +538,11 @@
       "width": 1000,
       "items": [
         {
-          "id": "https://toyjack.github.io/toho-html-data/canvas/M084/M0840003_1/page/1",
+          "id": "https://image.kanji.zinbun.kyoto-u.ac.jp/toho/web/canvas/M084/M0840003_1/page/1",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "https://toyjack.github.io/toho-html-data/canvas/M084/M0840003_1/annotation/1",
+              "id": "https://image.kanji.zinbun.kyoto-u.ac.jp/toho/web/canvas/M084/M0840003_1/annotation/1",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -559,14 +559,14 @@
                   }
                 ]
               },
-              "target": "https://toyjack.github.io/toho-html-data/canvas/M084/M0840003_1"
+              "target": "https://image.kanji.zinbun.kyoto-u.ac.jp/toho/web/canvas/M084/M0840003_1"
             }
           ]
         }
       ]
     },
     {
-      "id": "https://toyjack.github.io/toho-html-data/canvas/M084/M0840003_2",
+      "id": "https://image.kanji.zinbun.kyoto-u.ac.jp/toho/web/canvas/M084/M0840003_2",
       "type": "Canvas",
       "label": {
         "zh": [
@@ -580,11 +580,11 @@
       "width": 1000,
       "items": [
         {
-          "id": "https://toyjack.github.io/toho-html-data/canvas/M084/M0840003_2/page/1",
+          "id": "https://image.kanji.zinbun.kyoto-u.ac.jp/toho/web/canvas/M084/M0840003_2/page/1",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "https://toyjack.github.io/toho-html-data/canvas/M084/M0840003_2/annotation/1",
+              "id": "https://image.kanji.zinbun.kyoto-u.ac.jp/toho/web/canvas/M084/M0840003_2/annotation/1",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -601,14 +601,14 @@
                   }
                 ]
               },
-              "target": "https://toyjack.github.io/toho-html-data/canvas/M084/M0840003_2"
+              "target": "https://image.kanji.zinbun.kyoto-u.ac.jp/toho/web/canvas/M084/M0840003_2"
             }
           ]
         }
       ]
     },
     {
-      "id": "https://toyjack.github.io/toho-html-data/canvas/M084/M0840003_3",
+      "id": "https://image.kanji.zinbun.kyoto-u.ac.jp/toho/web/canvas/M084/M0840003_3",
       "type": "Canvas",
       "label": {
         "zh": [
@@ -622,11 +622,11 @@
       "width": 1000,
       "items": [
         {
-          "id": "https://toyjack.github.io/toho-html-data/canvas/M084/M0840003_3/page/1",
+          "id": "https://image.kanji.zinbun.kyoto-u.ac.jp/toho/web/canvas/M084/M0840003_3/page/1",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "https://toyjack.github.io/toho-html-data/canvas/M084/M0840003_3/annotation/1",
+              "id": "https://image.kanji.zinbun.kyoto-u.ac.jp/toho/web/canvas/M084/M0840003_3/annotation/1",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -643,14 +643,14 @@
                   }
                 ]
               },
-              "target": "https://toyjack.github.io/toho-html-data/canvas/M084/M0840003_3"
+              "target": "https://image.kanji.zinbun.kyoto-u.ac.jp/toho/web/canvas/M084/M0840003_3"
             }
           ]
         }
       ]
     },
     {
-      "id": "https://toyjack.github.io/toho-html-data/canvas/M084/M0840003_4",
+      "id": "https://image.kanji.zinbun.kyoto-u.ac.jp/toho/web/canvas/M084/M0840003_4",
       "type": "Canvas",
       "label": {
         "zh": [
@@ -664,11 +664,11 @@
       "width": 1000,
       "items": [
         {
-          "id": "https://toyjack.github.io/toho-html-data/canvas/M084/M0840003_4/page/1",
+          "id": "https://image.kanji.zinbun.kyoto-u.ac.jp/toho/web/canvas/M084/M0840003_4/page/1",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "https://toyjack.github.io/toho-html-data/canvas/M084/M0840003_4/annotation/1",
+              "id": "https://image.kanji.zinbun.kyoto-u.ac.jp/toho/web/canvas/M084/M0840003_4/annotation/1",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -685,14 +685,14 @@
                   }
                 ]
               },
-              "target": "https://toyjack.github.io/toho-html-data/canvas/M084/M0840003_4"
+              "target": "https://image.kanji.zinbun.kyoto-u.ac.jp/toho/web/canvas/M084/M0840003_4"
             }
           ]
         }
       ]
     },
     {
-      "id": "https://toyjack.github.io/toho-html-data/canvas/M084/M0840003_5",
+      "id": "https://image.kanji.zinbun.kyoto-u.ac.jp/toho/web/canvas/M084/M0840003_5",
       "type": "Canvas",
       "label": {
         "zh": [
@@ -706,11 +706,11 @@
       "width": 1000,
       "items": [
         {
-          "id": "https://toyjack.github.io/toho-html-data/canvas/M084/M0840003_5/page/1",
+          "id": "https://image.kanji.zinbun.kyoto-u.ac.jp/toho/web/canvas/M084/M0840003_5/page/1",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "https://toyjack.github.io/toho-html-data/canvas/M084/M0840003_5/annotation/1",
+              "id": "https://image.kanji.zinbun.kyoto-u.ac.jp/toho/web/canvas/M084/M0840003_5/annotation/1",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -727,14 +727,14 @@
                   }
                 ]
               },
-              "target": "https://toyjack.github.io/toho-html-data/canvas/M084/M0840003_5"
+              "target": "https://image.kanji.zinbun.kyoto-u.ac.jp/toho/web/canvas/M084/M0840003_5"
             }
           ]
         }
       ]
     },
     {
-      "id": "https://toyjack.github.io/toho-html-data/canvas/M084/M0840003_6",
+      "id": "https://image.kanji.zinbun.kyoto-u.ac.jp/toho/web/canvas/M084/M0840003_6",
       "type": "Canvas",
       "label": {
         "zh": [
@@ -748,11 +748,11 @@
       "width": 1000,
       "items": [
         {
-          "id": "https://toyjack.github.io/toho-html-data/canvas/M084/M0840003_6/page/1",
+          "id": "https://image.kanji.zinbun.kyoto-u.ac.jp/toho/web/canvas/M084/M0840003_6/page/1",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "https://toyjack.github.io/toho-html-data/canvas/M084/M0840003_6/annotation/1",
+              "id": "https://image.kanji.zinbun.kyoto-u.ac.jp/toho/web/canvas/M084/M0840003_6/annotation/1",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -769,14 +769,14 @@
                   }
                 ]
               },
-              "target": "https://toyjack.github.io/toho-html-data/canvas/M084/M0840003_6"
+              "target": "https://image.kanji.zinbun.kyoto-u.ac.jp/toho/web/canvas/M084/M0840003_6"
             }
           ]
         }
       ]
     },
     {
-      "id": "https://toyjack.github.io/toho-html-data/canvas/M084/M0840003_7",
+      "id": "https://image.kanji.zinbun.kyoto-u.ac.jp/toho/web/canvas/M084/M0840003_7",
       "type": "Canvas",
       "label": {
         "zh": [
@@ -790,11 +790,11 @@
       "width": 1000,
       "items": [
         {
-          "id": "https://toyjack.github.io/toho-html-data/canvas/M084/M0840003_7/page/1",
+          "id": "https://image.kanji.zinbun.kyoto-u.ac.jp/toho/web/canvas/M084/M0840003_7/page/1",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "https://toyjack.github.io/toho-html-data/canvas/M084/M0840003_7/annotation/1",
+              "id": "https://image.kanji.zinbun.kyoto-u.ac.jp/toho/web/canvas/M084/M0840003_7/annotation/1",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -811,14 +811,14 @@
                   }
                 ]
               },
-              "target": "https://toyjack.github.io/toho-html-data/canvas/M084/M0840003_7"
+              "target": "https://image.kanji.zinbun.kyoto-u.ac.jp/toho/web/canvas/M084/M0840003_7"
             }
           ]
         }
       ]
     },
     {
-      "id": "https://toyjack.github.io/toho-html-data/canvas/M084/M0840003_8",
+      "id": "https://image.kanji.zinbun.kyoto-u.ac.jp/toho/web/canvas/M084/M0840003_8",
       "type": "Canvas",
       "label": {
         "zh": [
@@ -832,11 +832,11 @@
       "width": 1000,
       "items": [
         {
-          "id": "https://toyjack.github.io/toho-html-data/canvas/M084/M0840003_8/page/1",
+          "id": "https://image.kanji.zinbun.kyoto-u.ac.jp/toho/web/canvas/M084/M0840003_8/page/1",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "https://toyjack.github.io/toho-html-data/canvas/M084/M0840003_8/annotation/1",
+              "id": "https://image.kanji.zinbun.kyoto-u.ac.jp/toho/web/canvas/M084/M0840003_8/annotation/1",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -853,14 +853,14 @@
                   }
                 ]
               },
-              "target": "https://toyjack.github.io/toho-html-data/canvas/M084/M0840003_8"
+              "target": "https://image.kanji.zinbun.kyoto-u.ac.jp/toho/web/canvas/M084/M0840003_8"
             }
           ]
         }
       ]
     },
     {
-      "id": "https://toyjack.github.io/toho-html-data/canvas/M084/M0840003_9",
+      "id": "https://image.kanji.zinbun.kyoto-u.ac.jp/toho/web/canvas/M084/M0840003_9",
       "type": "Canvas",
       "label": {
         "zh": [
@@ -874,11 +874,11 @@
       "width": 1000,
       "items": [
         {
-          "id": "https://toyjack.github.io/toho-html-data/canvas/M084/M0840003_9/page/1",
+          "id": "https://image.kanji.zinbun.kyoto-u.ac.jp/toho/web/canvas/M084/M0840003_9/page/1",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "https://toyjack.github.io/toho-html-data/canvas/M084/M0840003_9/annotation/1",
+              "id": "https://image.kanji.zinbun.kyoto-u.ac.jp/toho/web/canvas/M084/M0840003_9/annotation/1",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -895,14 +895,14 @@
                   }
                 ]
               },
-              "target": "https://toyjack.github.io/toho-html-data/canvas/M084/M0840003_9"
+              "target": "https://image.kanji.zinbun.kyoto-u.ac.jp/toho/web/canvas/M084/M0840003_9"
             }
           ]
         }
       ]
     },
     {
-      "id": "https://toyjack.github.io/toho-html-data/canvas/M084/M0840004_1",
+      "id": "https://image.kanji.zinbun.kyoto-u.ac.jp/toho/web/canvas/M084/M0840004_1",
       "type": "Canvas",
       "label": {
         "zh": [
@@ -916,11 +916,11 @@
       "width": 1000,
       "items": [
         {
-          "id": "https://toyjack.github.io/toho-html-data/canvas/M084/M0840004_1/page/1",
+          "id": "https://image.kanji.zinbun.kyoto-u.ac.jp/toho/web/canvas/M084/M0840004_1/page/1",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "https://toyjack.github.io/toho-html-data/canvas/M084/M0840004_1/annotation/1",
+              "id": "https://image.kanji.zinbun.kyoto-u.ac.jp/toho/web/canvas/M084/M0840004_1/annotation/1",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -937,14 +937,14 @@
                   }
                 ]
               },
-              "target": "https://toyjack.github.io/toho-html-data/canvas/M084/M0840004_1"
+              "target": "https://image.kanji.zinbun.kyoto-u.ac.jp/toho/web/canvas/M084/M0840004_1"
             }
           ]
         }
       ]
     },
     {
-      "id": "https://toyjack.github.io/toho-html-data/canvas/M084/M0840004_2",
+      "id": "https://image.kanji.zinbun.kyoto-u.ac.jp/toho/web/canvas/M084/M0840004_2",
       "type": "Canvas",
       "label": {
         "zh": [
@@ -958,11 +958,11 @@
       "width": 1000,
       "items": [
         {
-          "id": "https://toyjack.github.io/toho-html-data/canvas/M084/M0840004_2/page/1",
+          "id": "https://image.kanji.zinbun.kyoto-u.ac.jp/toho/web/canvas/M084/M0840004_2/page/1",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "https://toyjack.github.io/toho-html-data/canvas/M084/M0840004_2/annotation/1",
+              "id": "https://image.kanji.zinbun.kyoto-u.ac.jp/toho/web/canvas/M084/M0840004_2/annotation/1",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -979,14 +979,14 @@
                   }
                 ]
               },
-              "target": "https://toyjack.github.io/toho-html-data/canvas/M084/M0840004_2"
+              "target": "https://image.kanji.zinbun.kyoto-u.ac.jp/toho/web/canvas/M084/M0840004_2"
             }
           ]
         }
       ]
     },
     {
-      "id": "https://toyjack.github.io/toho-html-data/canvas/M084/M0840004_3",
+      "id": "https://image.kanji.zinbun.kyoto-u.ac.jp/toho/web/canvas/M084/M0840004_3",
       "type": "Canvas",
       "label": {
         "zh": [
@@ -1000,11 +1000,11 @@
       "width": 1000,
       "items": [
         {
-          "id": "https://toyjack.github.io/toho-html-data/canvas/M084/M0840004_3/page/1",
+          "id": "https://image.kanji.zinbun.kyoto-u.ac.jp/toho/web/canvas/M084/M0840004_3/page/1",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "https://toyjack.github.io/toho-html-data/canvas/M084/M0840004_3/annotation/1",
+              "id": "https://image.kanji.zinbun.kyoto-u.ac.jp/toho/web/canvas/M084/M0840004_3/annotation/1",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -1021,14 +1021,14 @@
                   }
                 ]
               },
-              "target": "https://toyjack.github.io/toho-html-data/canvas/M084/M0840004_3"
+              "target": "https://image.kanji.zinbun.kyoto-u.ac.jp/toho/web/canvas/M084/M0840004_3"
             }
           ]
         }
       ]
     },
     {
-      "id": "https://toyjack.github.io/toho-html-data/canvas/M084/M0840004_4",
+      "id": "https://image.kanji.zinbun.kyoto-u.ac.jp/toho/web/canvas/M084/M0840004_4",
       "type": "Canvas",
       "label": {
         "zh": [
@@ -1042,11 +1042,11 @@
       "width": 1000,
       "items": [
         {
-          "id": "https://toyjack.github.io/toho-html-data/canvas/M084/M0840004_4/page/1",
+          "id": "https://image.kanji.zinbun.kyoto-u.ac.jp/toho/web/canvas/M084/M0840004_4/page/1",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "https://toyjack.github.io/toho-html-data/canvas/M084/M0840004_4/annotation/1",
+              "id": "https://image.kanji.zinbun.kyoto-u.ac.jp/toho/web/canvas/M084/M0840004_4/annotation/1",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -1063,14 +1063,14 @@
                   }
                 ]
               },
-              "target": "https://toyjack.github.io/toho-html-data/canvas/M084/M0840004_4"
+              "target": "https://image.kanji.zinbun.kyoto-u.ac.jp/toho/web/canvas/M084/M0840004_4"
             }
           ]
         }
       ]
     },
     {
-      "id": "https://toyjack.github.io/toho-html-data/canvas/M084/M0840004_5",
+      "id": "https://image.kanji.zinbun.kyoto-u.ac.jp/toho/web/canvas/M084/M0840004_5",
       "type": "Canvas",
       "label": {
         "zh": [
@@ -1084,11 +1084,11 @@
       "width": 1000,
       "items": [
         {
-          "id": "https://toyjack.github.io/toho-html-data/canvas/M084/M0840004_5/page/1",
+          "id": "https://image.kanji.zinbun.kyoto-u.ac.jp/toho/web/canvas/M084/M0840004_5/page/1",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "https://toyjack.github.io/toho-html-data/canvas/M084/M0840004_5/annotation/1",
+              "id": "https://image.kanji.zinbun.kyoto-u.ac.jp/toho/web/canvas/M084/M0840004_5/annotation/1",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -1105,14 +1105,14 @@
                   }
                 ]
               },
-              "target": "https://toyjack.github.io/toho-html-data/canvas/M084/M0840004_5"
+              "target": "https://image.kanji.zinbun.kyoto-u.ac.jp/toho/web/canvas/M084/M0840004_5"
             }
           ]
         }
       ]
     },
     {
-      "id": "https://toyjack.github.io/toho-html-data/canvas/M084/M0840004_6",
+      "id": "https://image.kanji.zinbun.kyoto-u.ac.jp/toho/web/canvas/M084/M0840004_6",
       "type": "Canvas",
       "label": {
         "zh": [
@@ -1126,11 +1126,11 @@
       "width": 1000,
       "items": [
         {
-          "id": "https://toyjack.github.io/toho-html-data/canvas/M084/M0840004_6/page/1",
+          "id": "https://image.kanji.zinbun.kyoto-u.ac.jp/toho/web/canvas/M084/M0840004_6/page/1",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "https://toyjack.github.io/toho-html-data/canvas/M084/M0840004_6/annotation/1",
+              "id": "https://image.kanji.zinbun.kyoto-u.ac.jp/toho/web/canvas/M084/M0840004_6/annotation/1",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -1147,14 +1147,14 @@
                   }
                 ]
               },
-              "target": "https://toyjack.github.io/toho-html-data/canvas/M084/M0840004_6"
+              "target": "https://image.kanji.zinbun.kyoto-u.ac.jp/toho/web/canvas/M084/M0840004_6"
             }
           ]
         }
       ]
     },
     {
-      "id": "https://toyjack.github.io/toho-html-data/canvas/M084/M0840004_7",
+      "id": "https://image.kanji.zinbun.kyoto-u.ac.jp/toho/web/canvas/M084/M0840004_7",
       "type": "Canvas",
       "label": {
         "zh": [
@@ -1168,11 +1168,11 @@
       "width": 1000,
       "items": [
         {
-          "id": "https://toyjack.github.io/toho-html-data/canvas/M084/M0840004_7/page/1",
+          "id": "https://image.kanji.zinbun.kyoto-u.ac.jp/toho/web/canvas/M084/M0840004_7/page/1",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "https://toyjack.github.io/toho-html-data/canvas/M084/M0840004_7/annotation/1",
+              "id": "https://image.kanji.zinbun.kyoto-u.ac.jp/toho/web/canvas/M084/M0840004_7/annotation/1",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -1189,14 +1189,14 @@
                   }
                 ]
               },
-              "target": "https://toyjack.github.io/toho-html-data/canvas/M084/M0840004_7"
+              "target": "https://image.kanji.zinbun.kyoto-u.ac.jp/toho/web/canvas/M084/M0840004_7"
             }
           ]
         }
       ]
     },
     {
-      "id": "https://toyjack.github.io/toho-html-data/canvas/M084/M0840004_8",
+      "id": "https://image.kanji.zinbun.kyoto-u.ac.jp/toho/web/canvas/M084/M0840004_8",
       "type": "Canvas",
       "label": {
         "zh": [
@@ -1210,11 +1210,11 @@
       "width": 1000,
       "items": [
         {
-          "id": "https://toyjack.github.io/toho-html-data/canvas/M084/M0840004_8/page/1",
+          "id": "https://image.kanji.zinbun.kyoto-u.ac.jp/toho/web/canvas/M084/M0840004_8/page/1",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "https://toyjack.github.io/toho-html-data/canvas/M084/M0840004_8/annotation/1",
+              "id": "https://image.kanji.zinbun.kyoto-u.ac.jp/toho/web/canvas/M084/M0840004_8/annotation/1",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -1231,14 +1231,14 @@
                   }
                 ]
               },
-              "target": "https://toyjack.github.io/toho-html-data/canvas/M084/M0840004_8"
+              "target": "https://image.kanji.zinbun.kyoto-u.ac.jp/toho/web/canvas/M084/M0840004_8"
             }
           ]
         }
       ]
     },
     {
-      "id": "https://toyjack.github.io/toho-html-data/canvas/M084/M0840005_1",
+      "id": "https://image.kanji.zinbun.kyoto-u.ac.jp/toho/web/canvas/M084/M0840005_1",
       "type": "Canvas",
       "label": {
         "zh": [
@@ -1252,11 +1252,11 @@
       "width": 1000,
       "items": [
         {
-          "id": "https://toyjack.github.io/toho-html-data/canvas/M084/M0840005_1/page/1",
+          "id": "https://image.kanji.zinbun.kyoto-u.ac.jp/toho/web/canvas/M084/M0840005_1/page/1",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "https://toyjack.github.io/toho-html-data/canvas/M084/M0840005_1/annotation/1",
+              "id": "https://image.kanji.zinbun.kyoto-u.ac.jp/toho/web/canvas/M084/M0840005_1/annotation/1",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -1273,14 +1273,14 @@
                   }
                 ]
               },
-              "target": "https://toyjack.github.io/toho-html-data/canvas/M084/M0840005_1"
+              "target": "https://image.kanji.zinbun.kyoto-u.ac.jp/toho/web/canvas/M084/M0840005_1"
             }
           ]
         }
       ]
     },
     {
-      "id": "https://toyjack.github.io/toho-html-data/canvas/M084/M0840005_2",
+      "id": "https://image.kanji.zinbun.kyoto-u.ac.jp/toho/web/canvas/M084/M0840005_2",
       "type": "Canvas",
       "label": {
         "zh": [
@@ -1294,11 +1294,11 @@
       "width": 1000,
       "items": [
         {
-          "id": "https://toyjack.github.io/toho-html-data/canvas/M084/M0840005_2/page/1",
+          "id": "https://image.kanji.zinbun.kyoto-u.ac.jp/toho/web/canvas/M084/M0840005_2/page/1",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "https://toyjack.github.io/toho-html-data/canvas/M084/M0840005_2/annotation/1",
+              "id": "https://image.kanji.zinbun.kyoto-u.ac.jp/toho/web/canvas/M084/M0840005_2/annotation/1",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -1315,14 +1315,14 @@
                   }
                 ]
               },
-              "target": "https://toyjack.github.io/toho-html-data/canvas/M084/M0840005_2"
+              "target": "https://image.kanji.zinbun.kyoto-u.ac.jp/toho/web/canvas/M084/M0840005_2"
             }
           ]
         }
       ]
     },
     {
-      "id": "https://toyjack.github.io/toho-html-data/canvas/M084/M0840005_3",
+      "id": "https://image.kanji.zinbun.kyoto-u.ac.jp/toho/web/canvas/M084/M0840005_3",
       "type": "Canvas",
       "label": {
         "zh": [
@@ -1336,11 +1336,11 @@
       "width": 1000,
       "items": [
         {
-          "id": "https://toyjack.github.io/toho-html-data/canvas/M084/M0840005_3/page/1",
+          "id": "https://image.kanji.zinbun.kyoto-u.ac.jp/toho/web/canvas/M084/M0840005_3/page/1",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "https://toyjack.github.io/toho-html-data/canvas/M084/M0840005_3/annotation/1",
+              "id": "https://image.kanji.zinbun.kyoto-u.ac.jp/toho/web/canvas/M084/M0840005_3/annotation/1",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -1357,14 +1357,14 @@
                   }
                 ]
               },
-              "target": "https://toyjack.github.io/toho-html-data/canvas/M084/M0840005_3"
+              "target": "https://image.kanji.zinbun.kyoto-u.ac.jp/toho/web/canvas/M084/M0840005_3"
             }
           ]
         }
       ]
     },
     {
-      "id": "https://toyjack.github.io/toho-html-data/canvas/M084/M0840005_4",
+      "id": "https://image.kanji.zinbun.kyoto-u.ac.jp/toho/web/canvas/M084/M0840005_4",
       "type": "Canvas",
       "label": {
         "zh": [
@@ -1378,11 +1378,11 @@
       "width": 1000,
       "items": [
         {
-          "id": "https://toyjack.github.io/toho-html-data/canvas/M084/M0840005_4/page/1",
+          "id": "https://image.kanji.zinbun.kyoto-u.ac.jp/toho/web/canvas/M084/M0840005_4/page/1",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "https://toyjack.github.io/toho-html-data/canvas/M084/M0840005_4/annotation/1",
+              "id": "https://image.kanji.zinbun.kyoto-u.ac.jp/toho/web/canvas/M084/M0840005_4/annotation/1",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -1399,14 +1399,14 @@
                   }
                 ]
               },
-              "target": "https://toyjack.github.io/toho-html-data/canvas/M084/M0840005_4"
+              "target": "https://image.kanji.zinbun.kyoto-u.ac.jp/toho/web/canvas/M084/M0840005_4"
             }
           ]
         }
       ]
     },
     {
-      "id": "https://toyjack.github.io/toho-html-data/canvas/M084/M0840005_5",
+      "id": "https://image.kanji.zinbun.kyoto-u.ac.jp/toho/web/canvas/M084/M0840005_5",
       "type": "Canvas",
       "label": {
         "zh": [
@@ -1420,11 +1420,11 @@
       "width": 1000,
       "items": [
         {
-          "id": "https://toyjack.github.io/toho-html-data/canvas/M084/M0840005_5/page/1",
+          "id": "https://image.kanji.zinbun.kyoto-u.ac.jp/toho/web/canvas/M084/M0840005_5/page/1",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "https://toyjack.github.io/toho-html-data/canvas/M084/M0840005_5/annotation/1",
+              "id": "https://image.kanji.zinbun.kyoto-u.ac.jp/toho/web/canvas/M084/M0840005_5/annotation/1",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -1441,14 +1441,14 @@
                   }
                 ]
               },
-              "target": "https://toyjack.github.io/toho-html-data/canvas/M084/M0840005_5"
+              "target": "https://image.kanji.zinbun.kyoto-u.ac.jp/toho/web/canvas/M084/M0840005_5"
             }
           ]
         }
       ]
     },
     {
-      "id": "https://toyjack.github.io/toho-html-data/canvas/M084/M0840005_6",
+      "id": "https://image.kanji.zinbun.kyoto-u.ac.jp/toho/web/canvas/M084/M0840005_6",
       "type": "Canvas",
       "label": {
         "zh": [
@@ -1462,11 +1462,11 @@
       "width": 1000,
       "items": [
         {
-          "id": "https://toyjack.github.io/toho-html-data/canvas/M084/M0840005_6/page/1",
+          "id": "https://image.kanji.zinbun.kyoto-u.ac.jp/toho/web/canvas/M084/M0840005_6/page/1",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "https://toyjack.github.io/toho-html-data/canvas/M084/M0840005_6/annotation/1",
+              "id": "https://image.kanji.zinbun.kyoto-u.ac.jp/toho/web/canvas/M084/M0840005_6/annotation/1",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -1483,14 +1483,14 @@
                   }
                 ]
               },
-              "target": "https://toyjack.github.io/toho-html-data/canvas/M084/M0840005_6"
+              "target": "https://image.kanji.zinbun.kyoto-u.ac.jp/toho/web/canvas/M084/M0840005_6"
             }
           ]
         }
       ]
     },
     {
-      "id": "https://toyjack.github.io/toho-html-data/canvas/M084/M0840005_7",
+      "id": "https://image.kanji.zinbun.kyoto-u.ac.jp/toho/web/canvas/M084/M0840005_7",
       "type": "Canvas",
       "label": {
         "zh": [
@@ -1504,11 +1504,11 @@
       "width": 1000,
       "items": [
         {
-          "id": "https://toyjack.github.io/toho-html-data/canvas/M084/M0840005_7/page/1",
+          "id": "https://image.kanji.zinbun.kyoto-u.ac.jp/toho/web/canvas/M084/M0840005_7/page/1",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "https://toyjack.github.io/toho-html-data/canvas/M084/M0840005_7/annotation/1",
+              "id": "https://image.kanji.zinbun.kyoto-u.ac.jp/toho/web/canvas/M084/M0840005_7/annotation/1",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -1525,14 +1525,14 @@
                   }
                 ]
               },
-              "target": "https://toyjack.github.io/toho-html-data/canvas/M084/M0840005_7"
+              "target": "https://image.kanji.zinbun.kyoto-u.ac.jp/toho/web/canvas/M084/M0840005_7"
             }
           ]
         }
       ]
     },
     {
-      "id": "https://toyjack.github.io/toho-html-data/canvas/M084/M0840005_8",
+      "id": "https://image.kanji.zinbun.kyoto-u.ac.jp/toho/web/canvas/M084/M0840005_8",
       "type": "Canvas",
       "label": {
         "zh": [
@@ -1546,11 +1546,11 @@
       "width": 1000,
       "items": [
         {
-          "id": "https://toyjack.github.io/toho-html-data/canvas/M084/M0840005_8/page/1",
+          "id": "https://image.kanji.zinbun.kyoto-u.ac.jp/toho/web/canvas/M084/M0840005_8/page/1",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "https://toyjack.github.io/toho-html-data/canvas/M084/M0840005_8/annotation/1",
+              "id": "https://image.kanji.zinbun.kyoto-u.ac.jp/toho/web/canvas/M084/M0840005_8/annotation/1",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -1567,14 +1567,14 @@
                   }
                 ]
               },
-              "target": "https://toyjack.github.io/toho-html-data/canvas/M084/M0840005_8"
+              "target": "https://image.kanji.zinbun.kyoto-u.ac.jp/toho/web/canvas/M084/M0840005_8"
             }
           ]
         }
       ]
     },
     {
-      "id": "https://toyjack.github.io/toho-html-data/canvas/M084/M0840005_9",
+      "id": "https://image.kanji.zinbun.kyoto-u.ac.jp/toho/web/canvas/M084/M0840005_9",
       "type": "Canvas",
       "label": {
         "zh": [
@@ -1588,11 +1588,11 @@
       "width": 1000,
       "items": [
         {
-          "id": "https://toyjack.github.io/toho-html-data/canvas/M084/M0840005_9/page/1",
+          "id": "https://image.kanji.zinbun.kyoto-u.ac.jp/toho/web/canvas/M084/M0840005_9/page/1",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "https://toyjack.github.io/toho-html-data/canvas/M084/M0840005_9/annotation/1",
+              "id": "https://image.kanji.zinbun.kyoto-u.ac.jp/toho/web/canvas/M084/M0840005_9/annotation/1",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -1609,14 +1609,14 @@
                   }
                 ]
               },
-              "target": "https://toyjack.github.io/toho-html-data/canvas/M084/M0840005_9"
+              "target": "https://image.kanji.zinbun.kyoto-u.ac.jp/toho/web/canvas/M084/M0840005_9"
             }
           ]
         }
       ]
     },
     {
-      "id": "https://toyjack.github.io/toho-html-data/canvas/M084/M0840006_1",
+      "id": "https://image.kanji.zinbun.kyoto-u.ac.jp/toho/web/canvas/M084/M0840006_1",
       "type": "Canvas",
       "label": {
         "zh": [
@@ -1630,11 +1630,11 @@
       "width": 1000,
       "items": [
         {
-          "id": "https://toyjack.github.io/toho-html-data/canvas/M084/M0840006_1/page/1",
+          "id": "https://image.kanji.zinbun.kyoto-u.ac.jp/toho/web/canvas/M084/M0840006_1/page/1",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "https://toyjack.github.io/toho-html-data/canvas/M084/M0840006_1/annotation/1",
+              "id": "https://image.kanji.zinbun.kyoto-u.ac.jp/toho/web/canvas/M084/M0840006_1/annotation/1",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -1651,14 +1651,14 @@
                   }
                 ]
               },
-              "target": "https://toyjack.github.io/toho-html-data/canvas/M084/M0840006_1"
+              "target": "https://image.kanji.zinbun.kyoto-u.ac.jp/toho/web/canvas/M084/M0840006_1"
             }
           ]
         }
       ]
     },
     {
-      "id": "https://toyjack.github.io/toho-html-data/canvas/M084/M0840006_2",
+      "id": "https://image.kanji.zinbun.kyoto-u.ac.jp/toho/web/canvas/M084/M0840006_2",
       "type": "Canvas",
       "label": {
         "zh": [
@@ -1672,11 +1672,11 @@
       "width": 1000,
       "items": [
         {
-          "id": "https://toyjack.github.io/toho-html-data/canvas/M084/M0840006_2/page/1",
+          "id": "https://image.kanji.zinbun.kyoto-u.ac.jp/toho/web/canvas/M084/M0840006_2/page/1",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "https://toyjack.github.io/toho-html-data/canvas/M084/M0840006_2/annotation/1",
+              "id": "https://image.kanji.zinbun.kyoto-u.ac.jp/toho/web/canvas/M084/M0840006_2/annotation/1",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -1693,14 +1693,14 @@
                   }
                 ]
               },
-              "target": "https://toyjack.github.io/toho-html-data/canvas/M084/M0840006_2"
+              "target": "https://image.kanji.zinbun.kyoto-u.ac.jp/toho/web/canvas/M084/M0840006_2"
             }
           ]
         }
       ]
     },
     {
-      "id": "https://toyjack.github.io/toho-html-data/canvas/M084/M0840006_3",
+      "id": "https://image.kanji.zinbun.kyoto-u.ac.jp/toho/web/canvas/M084/M0840006_3",
       "type": "Canvas",
       "label": {
         "zh": [
@@ -1714,11 +1714,11 @@
       "width": 1000,
       "items": [
         {
-          "id": "https://toyjack.github.io/toho-html-data/canvas/M084/M0840006_3/page/1",
+          "id": "https://image.kanji.zinbun.kyoto-u.ac.jp/toho/web/canvas/M084/M0840006_3/page/1",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "https://toyjack.github.io/toho-html-data/canvas/M084/M0840006_3/annotation/1",
+              "id": "https://image.kanji.zinbun.kyoto-u.ac.jp/toho/web/canvas/M084/M0840006_3/annotation/1",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -1735,14 +1735,14 @@
                   }
                 ]
               },
-              "target": "https://toyjack.github.io/toho-html-data/canvas/M084/M0840006_3"
+              "target": "https://image.kanji.zinbun.kyoto-u.ac.jp/toho/web/canvas/M084/M0840006_3"
             }
           ]
         }
       ]
     },
     {
-      "id": "https://toyjack.github.io/toho-html-data/canvas/M084/M0840006_4",
+      "id": "https://image.kanji.zinbun.kyoto-u.ac.jp/toho/web/canvas/M084/M0840006_4",
       "type": "Canvas",
       "label": {
         "zh": [
@@ -1756,11 +1756,11 @@
       "width": 1000,
       "items": [
         {
-          "id": "https://toyjack.github.io/toho-html-data/canvas/M084/M0840006_4/page/1",
+          "id": "https://image.kanji.zinbun.kyoto-u.ac.jp/toho/web/canvas/M084/M0840006_4/page/1",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "https://toyjack.github.io/toho-html-data/canvas/M084/M0840006_4/annotation/1",
+              "id": "https://image.kanji.zinbun.kyoto-u.ac.jp/toho/web/canvas/M084/M0840006_4/annotation/1",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -1777,14 +1777,14 @@
                   }
                 ]
               },
-              "target": "https://toyjack.github.io/toho-html-data/canvas/M084/M0840006_4"
+              "target": "https://image.kanji.zinbun.kyoto-u.ac.jp/toho/web/canvas/M084/M0840006_4"
             }
           ]
         }
       ]
     },
     {
-      "id": "https://toyjack.github.io/toho-html-data/canvas/M084/M0840006_5",
+      "id": "https://image.kanji.zinbun.kyoto-u.ac.jp/toho/web/canvas/M084/M0840006_5",
       "type": "Canvas",
       "label": {
         "zh": [
@@ -1798,11 +1798,11 @@
       "width": 1000,
       "items": [
         {
-          "id": "https://toyjack.github.io/toho-html-data/canvas/M084/M0840006_5/page/1",
+          "id": "https://image.kanji.zinbun.kyoto-u.ac.jp/toho/web/canvas/M084/M0840006_5/page/1",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "https://toyjack.github.io/toho-html-data/canvas/M084/M0840006_5/annotation/1",
+              "id": "https://image.kanji.zinbun.kyoto-u.ac.jp/toho/web/canvas/M084/M0840006_5/annotation/1",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -1819,14 +1819,14 @@
                   }
                 ]
               },
-              "target": "https://toyjack.github.io/toho-html-data/canvas/M084/M0840006_5"
+              "target": "https://image.kanji.zinbun.kyoto-u.ac.jp/toho/web/canvas/M084/M0840006_5"
             }
           ]
         }
       ]
     },
     {
-      "id": "https://toyjack.github.io/toho-html-data/canvas/M084/M0840006_6",
+      "id": "https://image.kanji.zinbun.kyoto-u.ac.jp/toho/web/canvas/M084/M0840006_6",
       "type": "Canvas",
       "label": {
         "zh": [
@@ -1840,11 +1840,11 @@
       "width": 1000,
       "items": [
         {
-          "id": "https://toyjack.github.io/toho-html-data/canvas/M084/M0840006_6/page/1",
+          "id": "https://image.kanji.zinbun.kyoto-u.ac.jp/toho/web/canvas/M084/M0840006_6/page/1",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "https://toyjack.github.io/toho-html-data/canvas/M084/M0840006_6/annotation/1",
+              "id": "https://image.kanji.zinbun.kyoto-u.ac.jp/toho/web/canvas/M084/M0840006_6/annotation/1",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -1861,14 +1861,14 @@
                   }
                 ]
               },
-              "target": "https://toyjack.github.io/toho-html-data/canvas/M084/M0840006_6"
+              "target": "https://image.kanji.zinbun.kyoto-u.ac.jp/toho/web/canvas/M084/M0840006_6"
             }
           ]
         }
       ]
     },
     {
-      "id": "https://toyjack.github.io/toho-html-data/canvas/M084/M0840006_7",
+      "id": "https://image.kanji.zinbun.kyoto-u.ac.jp/toho/web/canvas/M084/M0840006_7",
       "type": "Canvas",
       "label": {
         "zh": [
@@ -1882,11 +1882,11 @@
       "width": 1000,
       "items": [
         {
-          "id": "https://toyjack.github.io/toho-html-data/canvas/M084/M0840006_7/page/1",
+          "id": "https://image.kanji.zinbun.kyoto-u.ac.jp/toho/web/canvas/M084/M0840006_7/page/1",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "https://toyjack.github.io/toho-html-data/canvas/M084/M0840006_7/annotation/1",
+              "id": "https://image.kanji.zinbun.kyoto-u.ac.jp/toho/web/canvas/M084/M0840006_7/annotation/1",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -1903,14 +1903,14 @@
                   }
                 ]
               },
-              "target": "https://toyjack.github.io/toho-html-data/canvas/M084/M0840006_7"
+              "target": "https://image.kanji.zinbun.kyoto-u.ac.jp/toho/web/canvas/M084/M0840006_7"
             }
           ]
         }
       ]
     },
     {
-      "id": "https://toyjack.github.io/toho-html-data/canvas/M084/M0840006_8",
+      "id": "https://image.kanji.zinbun.kyoto-u.ac.jp/toho/web/canvas/M084/M0840006_8",
       "type": "Canvas",
       "label": {
         "zh": [
@@ -1924,11 +1924,11 @@
       "width": 1000,
       "items": [
         {
-          "id": "https://toyjack.github.io/toho-html-data/canvas/M084/M0840006_8/page/1",
+          "id": "https://image.kanji.zinbun.kyoto-u.ac.jp/toho/web/canvas/M084/M0840006_8/page/1",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "https://toyjack.github.io/toho-html-data/canvas/M084/M0840006_8/annotation/1",
+              "id": "https://image.kanji.zinbun.kyoto-u.ac.jp/toho/web/canvas/M084/M0840006_8/annotation/1",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -1945,14 +1945,14 @@
                   }
                 ]
               },
-              "target": "https://toyjack.github.io/toho-html-data/canvas/M084/M0840006_8"
+              "target": "https://image.kanji.zinbun.kyoto-u.ac.jp/toho/web/canvas/M084/M0840006_8"
             }
           ]
         }
       ]
     },
     {
-      "id": "https://toyjack.github.io/toho-html-data/canvas/M084/M0840007_1",
+      "id": "https://image.kanji.zinbun.kyoto-u.ac.jp/toho/web/canvas/M084/M0840007_1",
       "type": "Canvas",
       "label": {
         "zh": [
@@ -1966,11 +1966,11 @@
       "width": 1000,
       "items": [
         {
-          "id": "https://toyjack.github.io/toho-html-data/canvas/M084/M0840007_1/page/1",
+          "id": "https://image.kanji.zinbun.kyoto-u.ac.jp/toho/web/canvas/M084/M0840007_1/page/1",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "https://toyjack.github.io/toho-html-data/canvas/M084/M0840007_1/annotation/1",
+              "id": "https://image.kanji.zinbun.kyoto-u.ac.jp/toho/web/canvas/M084/M0840007_1/annotation/1",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -1987,14 +1987,14 @@
                   }
                 ]
               },
-              "target": "https://toyjack.github.io/toho-html-data/canvas/M084/M0840007_1"
+              "target": "https://image.kanji.zinbun.kyoto-u.ac.jp/toho/web/canvas/M084/M0840007_1"
             }
           ]
         }
       ]
     },
     {
-      "id": "https://toyjack.github.io/toho-html-data/canvas/M084/M0840007_2",
+      "id": "https://image.kanji.zinbun.kyoto-u.ac.jp/toho/web/canvas/M084/M0840007_2",
       "type": "Canvas",
       "label": {
         "zh": [
@@ -2008,11 +2008,11 @@
       "width": 1000,
       "items": [
         {
-          "id": "https://toyjack.github.io/toho-html-data/canvas/M084/M0840007_2/page/1",
+          "id": "https://image.kanji.zinbun.kyoto-u.ac.jp/toho/web/canvas/M084/M0840007_2/page/1",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "https://toyjack.github.io/toho-html-data/canvas/M084/M0840007_2/annotation/1",
+              "id": "https://image.kanji.zinbun.kyoto-u.ac.jp/toho/web/canvas/M084/M0840007_2/annotation/1",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -2029,14 +2029,14 @@
                   }
                 ]
               },
-              "target": "https://toyjack.github.io/toho-html-data/canvas/M084/M0840007_2"
+              "target": "https://image.kanji.zinbun.kyoto-u.ac.jp/toho/web/canvas/M084/M0840007_2"
             }
           ]
         }
       ]
     },
     {
-      "id": "https://toyjack.github.io/toho-html-data/canvas/M084/M0840007_3",
+      "id": "https://image.kanji.zinbun.kyoto-u.ac.jp/toho/web/canvas/M084/M0840007_3",
       "type": "Canvas",
       "label": {
         "zh": [
@@ -2050,11 +2050,11 @@
       "width": 1000,
       "items": [
         {
-          "id": "https://toyjack.github.io/toho-html-data/canvas/M084/M0840007_3/page/1",
+          "id": "https://image.kanji.zinbun.kyoto-u.ac.jp/toho/web/canvas/M084/M0840007_3/page/1",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "https://toyjack.github.io/toho-html-data/canvas/M084/M0840007_3/annotation/1",
+              "id": "https://image.kanji.zinbun.kyoto-u.ac.jp/toho/web/canvas/M084/M0840007_3/annotation/1",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -2071,14 +2071,14 @@
                   }
                 ]
               },
-              "target": "https://toyjack.github.io/toho-html-data/canvas/M084/M0840007_3"
+              "target": "https://image.kanji.zinbun.kyoto-u.ac.jp/toho/web/canvas/M084/M0840007_3"
             }
           ]
         }
       ]
     },
     {
-      "id": "https://toyjack.github.io/toho-html-data/canvas/M084/M0840007_4",
+      "id": "https://image.kanji.zinbun.kyoto-u.ac.jp/toho/web/canvas/M084/M0840007_4",
       "type": "Canvas",
       "label": {
         "zh": [
@@ -2092,11 +2092,11 @@
       "width": 1000,
       "items": [
         {
-          "id": "https://toyjack.github.io/toho-html-data/canvas/M084/M0840007_4/page/1",
+          "id": "https://image.kanji.zinbun.kyoto-u.ac.jp/toho/web/canvas/M084/M0840007_4/page/1",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "https://toyjack.github.io/toho-html-data/canvas/M084/M0840007_4/annotation/1",
+              "id": "https://image.kanji.zinbun.kyoto-u.ac.jp/toho/web/canvas/M084/M0840007_4/annotation/1",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -2113,14 +2113,14 @@
                   }
                 ]
               },
-              "target": "https://toyjack.github.io/toho-html-data/canvas/M084/M0840007_4"
+              "target": "https://image.kanji.zinbun.kyoto-u.ac.jp/toho/web/canvas/M084/M0840007_4"
             }
           ]
         }
       ]
     },
     {
-      "id": "https://toyjack.github.io/toho-html-data/canvas/M084/M0840007_5",
+      "id": "https://image.kanji.zinbun.kyoto-u.ac.jp/toho/web/canvas/M084/M0840007_5",
       "type": "Canvas",
       "label": {
         "zh": [
@@ -2134,11 +2134,11 @@
       "width": 1000,
       "items": [
         {
-          "id": "https://toyjack.github.io/toho-html-data/canvas/M084/M0840007_5/page/1",
+          "id": "https://image.kanji.zinbun.kyoto-u.ac.jp/toho/web/canvas/M084/M0840007_5/page/1",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "https://toyjack.github.io/toho-html-data/canvas/M084/M0840007_5/annotation/1",
+              "id": "https://image.kanji.zinbun.kyoto-u.ac.jp/toho/web/canvas/M084/M0840007_5/annotation/1",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -2155,14 +2155,14 @@
                   }
                 ]
               },
-              "target": "https://toyjack.github.io/toho-html-data/canvas/M084/M0840007_5"
+              "target": "https://image.kanji.zinbun.kyoto-u.ac.jp/toho/web/canvas/M084/M0840007_5"
             }
           ]
         }
       ]
     },
     {
-      "id": "https://toyjack.github.io/toho-html-data/canvas/M084/M0840007_6",
+      "id": "https://image.kanji.zinbun.kyoto-u.ac.jp/toho/web/canvas/M084/M0840007_6",
       "type": "Canvas",
       "label": {
         "zh": [
@@ -2176,11 +2176,11 @@
       "width": 1000,
       "items": [
         {
-          "id": "https://toyjack.github.io/toho-html-data/canvas/M084/M0840007_6/page/1",
+          "id": "https://image.kanji.zinbun.kyoto-u.ac.jp/toho/web/canvas/M084/M0840007_6/page/1",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "https://toyjack.github.io/toho-html-data/canvas/M084/M0840007_6/annotation/1",
+              "id": "https://image.kanji.zinbun.kyoto-u.ac.jp/toho/web/canvas/M084/M0840007_6/annotation/1",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -2197,14 +2197,14 @@
                   }
                 ]
               },
-              "target": "https://toyjack.github.io/toho-html-data/canvas/M084/M0840007_6"
+              "target": "https://image.kanji.zinbun.kyoto-u.ac.jp/toho/web/canvas/M084/M0840007_6"
             }
           ]
         }
       ]
     },
     {
-      "id": "https://toyjack.github.io/toho-html-data/canvas/M084/M0840007_7",
+      "id": "https://image.kanji.zinbun.kyoto-u.ac.jp/toho/web/canvas/M084/M0840007_7",
       "type": "Canvas",
       "label": {
         "zh": [
@@ -2218,11 +2218,11 @@
       "width": 1000,
       "items": [
         {
-          "id": "https://toyjack.github.io/toho-html-data/canvas/M084/M0840007_7/page/1",
+          "id": "https://image.kanji.zinbun.kyoto-u.ac.jp/toho/web/canvas/M084/M0840007_7/page/1",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "https://toyjack.github.io/toho-html-data/canvas/M084/M0840007_7/annotation/1",
+              "id": "https://image.kanji.zinbun.kyoto-u.ac.jp/toho/web/canvas/M084/M0840007_7/annotation/1",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -2239,14 +2239,14 @@
                   }
                 ]
               },
-              "target": "https://toyjack.github.io/toho-html-data/canvas/M084/M0840007_7"
+              "target": "https://image.kanji.zinbun.kyoto-u.ac.jp/toho/web/canvas/M084/M0840007_7"
             }
           ]
         }
       ]
     },
     {
-      "id": "https://toyjack.github.io/toho-html-data/canvas/M084/M0840007_8",
+      "id": "https://image.kanji.zinbun.kyoto-u.ac.jp/toho/web/canvas/M084/M0840007_8",
       "type": "Canvas",
       "label": {
         "zh": [
@@ -2260,11 +2260,11 @@
       "width": 1000,
       "items": [
         {
-          "id": "https://toyjack.github.io/toho-html-data/canvas/M084/M0840007_8/page/1",
+          "id": "https://image.kanji.zinbun.kyoto-u.ac.jp/toho/web/canvas/M084/M0840007_8/page/1",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "https://toyjack.github.io/toho-html-data/canvas/M084/M0840007_8/annotation/1",
+              "id": "https://image.kanji.zinbun.kyoto-u.ac.jp/toho/web/canvas/M084/M0840007_8/annotation/1",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -2281,14 +2281,14 @@
                   }
                 ]
               },
-              "target": "https://toyjack.github.io/toho-html-data/canvas/M084/M0840007_8"
+              "target": "https://image.kanji.zinbun.kyoto-u.ac.jp/toho/web/canvas/M084/M0840007_8"
             }
           ]
         }
       ]
     },
     {
-      "id": "https://toyjack.github.io/toho-html-data/canvas/M084/M0840008_1",
+      "id": "https://image.kanji.zinbun.kyoto-u.ac.jp/toho/web/canvas/M084/M0840008_1",
       "type": "Canvas",
       "label": {
         "zh": [
@@ -2302,11 +2302,11 @@
       "width": 1000,
       "items": [
         {
-          "id": "https://toyjack.github.io/toho-html-data/canvas/M084/M0840008_1/page/1",
+          "id": "https://image.kanji.zinbun.kyoto-u.ac.jp/toho/web/canvas/M084/M0840008_1/page/1",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "https://toyjack.github.io/toho-html-data/canvas/M084/M0840008_1/annotation/1",
+              "id": "https://image.kanji.zinbun.kyoto-u.ac.jp/toho/web/canvas/M084/M0840008_1/annotation/1",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -2323,14 +2323,14 @@
                   }
                 ]
               },
-              "target": "https://toyjack.github.io/toho-html-data/canvas/M084/M0840008_1"
+              "target": "https://image.kanji.zinbun.kyoto-u.ac.jp/toho/web/canvas/M084/M0840008_1"
             }
           ]
         }
       ]
     },
     {
-      "id": "https://toyjack.github.io/toho-html-data/canvas/M084/M0840008_2",
+      "id": "https://image.kanji.zinbun.kyoto-u.ac.jp/toho/web/canvas/M084/M0840008_2",
       "type": "Canvas",
       "label": {
         "zh": [
@@ -2344,11 +2344,11 @@
       "width": 1000,
       "items": [
         {
-          "id": "https://toyjack.github.io/toho-html-data/canvas/M084/M0840008_2/page/1",
+          "id": "https://image.kanji.zinbun.kyoto-u.ac.jp/toho/web/canvas/M084/M0840008_2/page/1",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "https://toyjack.github.io/toho-html-data/canvas/M084/M0840008_2/annotation/1",
+              "id": "https://image.kanji.zinbun.kyoto-u.ac.jp/toho/web/canvas/M084/M0840008_2/annotation/1",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -2365,14 +2365,14 @@
                   }
                 ]
               },
-              "target": "https://toyjack.github.io/toho-html-data/canvas/M084/M0840008_2"
+              "target": "https://image.kanji.zinbun.kyoto-u.ac.jp/toho/web/canvas/M084/M0840008_2"
             }
           ]
         }
       ]
     },
     {
-      "id": "https://toyjack.github.io/toho-html-data/canvas/M084/M0840008_3",
+      "id": "https://image.kanji.zinbun.kyoto-u.ac.jp/toho/web/canvas/M084/M0840008_3",
       "type": "Canvas",
       "label": {
         "zh": [
@@ -2386,11 +2386,11 @@
       "width": 1000,
       "items": [
         {
-          "id": "https://toyjack.github.io/toho-html-data/canvas/M084/M0840008_3/page/1",
+          "id": "https://image.kanji.zinbun.kyoto-u.ac.jp/toho/web/canvas/M084/M0840008_3/page/1",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "https://toyjack.github.io/toho-html-data/canvas/M084/M0840008_3/annotation/1",
+              "id": "https://image.kanji.zinbun.kyoto-u.ac.jp/toho/web/canvas/M084/M0840008_3/annotation/1",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -2407,14 +2407,14 @@
                   }
                 ]
               },
-              "target": "https://toyjack.github.io/toho-html-data/canvas/M084/M0840008_3"
+              "target": "https://image.kanji.zinbun.kyoto-u.ac.jp/toho/web/canvas/M084/M0840008_3"
             }
           ]
         }
       ]
     },
     {
-      "id": "https://toyjack.github.io/toho-html-data/canvas/M084/M0840008_4",
+      "id": "https://image.kanji.zinbun.kyoto-u.ac.jp/toho/web/canvas/M084/M0840008_4",
       "type": "Canvas",
       "label": {
         "zh": [
@@ -2428,11 +2428,11 @@
       "width": 1000,
       "items": [
         {
-          "id": "https://toyjack.github.io/toho-html-data/canvas/M084/M0840008_4/page/1",
+          "id": "https://image.kanji.zinbun.kyoto-u.ac.jp/toho/web/canvas/M084/M0840008_4/page/1",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "https://toyjack.github.io/toho-html-data/canvas/M084/M0840008_4/annotation/1",
+              "id": "https://image.kanji.zinbun.kyoto-u.ac.jp/toho/web/canvas/M084/M0840008_4/annotation/1",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -2449,14 +2449,14 @@
                   }
                 ]
               },
-              "target": "https://toyjack.github.io/toho-html-data/canvas/M084/M0840008_4"
+              "target": "https://image.kanji.zinbun.kyoto-u.ac.jp/toho/web/canvas/M084/M0840008_4"
             }
           ]
         }
       ]
     },
     {
-      "id": "https://toyjack.github.io/toho-html-data/canvas/M084/M0840008_5",
+      "id": "https://image.kanji.zinbun.kyoto-u.ac.jp/toho/web/canvas/M084/M0840008_5",
       "type": "Canvas",
       "label": {
         "zh": [
@@ -2470,11 +2470,11 @@
       "width": 1000,
       "items": [
         {
-          "id": "https://toyjack.github.io/toho-html-data/canvas/M084/M0840008_5/page/1",
+          "id": "https://image.kanji.zinbun.kyoto-u.ac.jp/toho/web/canvas/M084/M0840008_5/page/1",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "https://toyjack.github.io/toho-html-data/canvas/M084/M0840008_5/annotation/1",
+              "id": "https://image.kanji.zinbun.kyoto-u.ac.jp/toho/web/canvas/M084/M0840008_5/annotation/1",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -2491,14 +2491,14 @@
                   }
                 ]
               },
-              "target": "https://toyjack.github.io/toho-html-data/canvas/M084/M0840008_5"
+              "target": "https://image.kanji.zinbun.kyoto-u.ac.jp/toho/web/canvas/M084/M0840008_5"
             }
           ]
         }
       ]
     },
     {
-      "id": "https://toyjack.github.io/toho-html-data/canvas/M084/M0840008_6",
+      "id": "https://image.kanji.zinbun.kyoto-u.ac.jp/toho/web/canvas/M084/M0840008_6",
       "type": "Canvas",
       "label": {
         "zh": [
@@ -2512,11 +2512,11 @@
       "width": 1000,
       "items": [
         {
-          "id": "https://toyjack.github.io/toho-html-data/canvas/M084/M0840008_6/page/1",
+          "id": "https://image.kanji.zinbun.kyoto-u.ac.jp/toho/web/canvas/M084/M0840008_6/page/1",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "https://toyjack.github.io/toho-html-data/canvas/M084/M0840008_6/annotation/1",
+              "id": "https://image.kanji.zinbun.kyoto-u.ac.jp/toho/web/canvas/M084/M0840008_6/annotation/1",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -2533,14 +2533,14 @@
                   }
                 ]
               },
-              "target": "https://toyjack.github.io/toho-html-data/canvas/M084/M0840008_6"
+              "target": "https://image.kanji.zinbun.kyoto-u.ac.jp/toho/web/canvas/M084/M0840008_6"
             }
           ]
         }
       ]
     },
     {
-      "id": "https://toyjack.github.io/toho-html-data/canvas/M084/M0840008_7",
+      "id": "https://image.kanji.zinbun.kyoto-u.ac.jp/toho/web/canvas/M084/M0840008_7",
       "type": "Canvas",
       "label": {
         "zh": [
@@ -2554,11 +2554,11 @@
       "width": 1000,
       "items": [
         {
-          "id": "https://toyjack.github.io/toho-html-data/canvas/M084/M0840008_7/page/1",
+          "id": "https://image.kanji.zinbun.kyoto-u.ac.jp/toho/web/canvas/M084/M0840008_7/page/1",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "https://toyjack.github.io/toho-html-data/canvas/M084/M0840008_7/annotation/1",
+              "id": "https://image.kanji.zinbun.kyoto-u.ac.jp/toho/web/canvas/M084/M0840008_7/annotation/1",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -2575,14 +2575,14 @@
                   }
                 ]
               },
-              "target": "https://toyjack.github.io/toho-html-data/canvas/M084/M0840008_7"
+              "target": "https://image.kanji.zinbun.kyoto-u.ac.jp/toho/web/canvas/M084/M0840008_7"
             }
           ]
         }
       ]
     },
     {
-      "id": "https://toyjack.github.io/toho-html-data/canvas/M084/M0840009_1",
+      "id": "https://image.kanji.zinbun.kyoto-u.ac.jp/toho/web/canvas/M084/M0840009_1",
       "type": "Canvas",
       "label": {
         "zh": [
@@ -2596,11 +2596,11 @@
       "width": 1000,
       "items": [
         {
-          "id": "https://toyjack.github.io/toho-html-data/canvas/M084/M0840009_1/page/1",
+          "id": "https://image.kanji.zinbun.kyoto-u.ac.jp/toho/web/canvas/M084/M0840009_1/page/1",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "https://toyjack.github.io/toho-html-data/canvas/M084/M0840009_1/annotation/1",
+              "id": "https://image.kanji.zinbun.kyoto-u.ac.jp/toho/web/canvas/M084/M0840009_1/annotation/1",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -2617,7 +2617,7 @@
                   }
                 ]
               },
-              "target": "https://toyjack.github.io/toho-html-data/canvas/M084/M0840009_1"
+              "target": "https://image.kanji.zinbun.kyoto-u.ac.jp/toho/web/canvas/M084/M0840009_1"
             }
           ]
         }

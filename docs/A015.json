@@ -3,7 +3,7 @@
     "http://www.w3.org/ns/anno.jsonld",
     "http://iiif.io/api/presentation/3/context.json"
   ],
-  "id": "https://toyjack.github.io/toho-html-data/manifests/A015.json",
+  "id": "https://image.kanji.zinbun.kyoto-u.ac.jp/toho/web/manifests/A015.json",
   "type": "Manifest",
   "label": {
     "zh": [
@@ -138,7 +138,7 @@
   "rights": "http://creativecommons.org/licenses/by-nc/4.0/",
   "provider": [
     {
-      "id": "https://toyjack.github.io/toho-html-data",
+      "id": "https://image.kanji.zinbun.kyoto-u.ac.jp/toho/web",
       "type": "Agent",
       "label": {
         "ja": [
@@ -147,7 +147,7 @@
       },
       "homepage": [
         {
-          "id": "https://toyjack.github.io/toho-html-data",
+          "id": "https://image.kanji.zinbun.kyoto-u.ac.jp/toho/web",
           "type": "Text",
           "label": {
             "ja": [
@@ -161,7 +161,7 @@
   ],
   "items": [
     {
-      "id": "https://toyjack.github.io/toho-html-data/canvas/A015/A0150001_1",
+      "id": "https://image.kanji.zinbun.kyoto-u.ac.jp/toho/web/canvas/A015/A0150001_1",
       "type": "Canvas",
       "label": {
         "zh": [
@@ -175,11 +175,11 @@
       "width": 1000,
       "items": [
         {
-          "id": "https://toyjack.github.io/toho-html-data/canvas/A015/A0150001_1/page/1",
+          "id": "https://image.kanji.zinbun.kyoto-u.ac.jp/toho/web/canvas/A015/A0150001_1/page/1",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "https://toyjack.github.io/toho-html-data/canvas/A015/A0150001_1/annotation/1",
+              "id": "https://image.kanji.zinbun.kyoto-u.ac.jp/toho/web/canvas/A015/A0150001_1/annotation/1",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -196,7 +196,7 @@
                   }
                 ]
               },
-              "target": "https://toyjack.github.io/toho-html-data/canvas/A015/A0150001_1"
+              "target": "https://image.kanji.zinbun.kyoto-u.ac.jp/toho/web/canvas/A015/A0150001_1"
             }
           ]
         }

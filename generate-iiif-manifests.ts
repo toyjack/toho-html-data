@@ -10,7 +10,7 @@
 import { promises as fs } from "fs";
 import path from "path";
 
-const BASE_URL: string = "https://toyjack.github.io/toho-html-data";
+const BASE_URL: string = "https://image.kanji.zinbun.kyoto-u.ac.jp/toho/web";
 const IMAGE_SERVICE_BASE_URL: string = "https://image.kanji.zinbun.kyoto-u.ac.jp/toho/iiif";
 const OUTPUT_DIR = "./docs"; // Directory to save manifests
 

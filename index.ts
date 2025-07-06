@@ -1,7 +1,4 @@
-const path = "./html/html/top.html";
-const file = Bun.file(path);
-
-const text = await file.text();
+import { dirname, resolve } from 'path';
 
 interface BookVolume {
     id: string;
@@ -55,7 +52,7 @@ async function parseBookStructure(bookUrl: string): Promise<BookVolume[]> {
     console.log(`正在解析书籍结构: ${bookUrl}`);
     try {
         // 首先检查是否有对应的menu文件
-        let menuFilePath = `./html/html/${bookUrl}`;
+        let menuFilePath = resolve("./html/html/", bookUrl);
         if (!bookUrl.includes('menu.html') && !bookUrl.includes('top.html')) {
             // 如果不是menu或top文件，尝试找到对应的menu文件
             const bookId = bookUrl.match(/([A-Z]\d{3})/)?.[1];
@@ -74,6 +71,7 @@ async function parseBookStructure(bookUrl: string): Promise<BookVolume[]> {
 
         const menuText = await menuFile.text();
         const volumes: BookVolume[] = [];
+        const menuDir = dirname(menuFilePath);
 
         // 从menu文件中提取链接到具体卷册的文件
         const lines = menuText.split('\n');
@@ -91,7 +89,7 @@ async function parseBookStructure(bookUrl: string): Promise<BookVolume[]> {
                         const url = urlMatch[1];
                         // 只处理数字编号的文件（如A0450001.html）
                         if (/[A-Z]\d{7}\.html/.test(url)) {
-                            volumeUrls.push(url);
+                            volumeUrls.push(resolve(menuDir, url));
                         }
                     }
                 }
@@ -104,8 +102,8 @@ async function parseBookStructure(bookUrl: string): Promise<BookVolume[]> {
         }
 
         // 读取每个卷册文件的详细信息
-        for (const volumeUrl of volumeUrls) {
-            const volumeInfo = await parseVolumeFile(volumeUrl);
+        for (const volumePath of volumeUrls) {
+            const volumeInfo = await parseVolumeFile(volumePath);
             if (volumeInfo) {
                 volumes.push(volumeInfo);
             }
@@ -151,16 +149,16 @@ async function scanVolumeFiles(bookUrl: string): Promise<BookVolume[]> {
 }
 
 // 解析单个卷册文件
-async function parseVolumeFile(volumeUrl: string): Promise<BookVolume | null> {
+async function parseVolumeFile(volumePath: string): Promise<BookVolume | null> {
     try {
-        const filePath = `./html/html/${volumeUrl}`;
-        const volumeFile = Bun.file(filePath);
+        const volumeFile = Bun.file(volumePath);
         
         if (!(await volumeFile.exists())) {
             return null;
         }
 
         const volumeText = await volumeFile.text();
+        const volumeUrl = volumePath.split('/').pop() || '';
         
         // 提取JavaScript变量
         const volNumMatch = volumeText.match(/var\s+volNum\s*=\s*(\d+)/);
@@ -212,7 +210,7 @@ async function parseVolumeFile(volumeUrl: string): Promise<BookVolume | null> {
         };
 
     } catch (error) {
-        console.error(`解析卷册文件失败 ${volumeUrl}:`, error);
+        console.error(`解析卷册文件失败 ${volumePath}:`, error);
         return null;
     }
 }
@@ -340,67 +338,69 @@ function generateBookId(url: string, index: number): string {
     return `UNKNOWN${String(index).padStart(3, '0')}`;
 }
 
-let currentCategory = "";
 const books: BookEntry[] = [];
 let bookIndex = 0;
 
-// 行ごとに処理
-const lines = text.split('\n');
-
-console.log('正在解析主目录...');
-
-for (const line of lines) {
-    const trimmedLine = line.trim();
-    
-    // h1タグからタイトルを取得（メタデータ用）
-    const h1Match = trimmedLine.match(/<h1[^>]*>([^<]+)<\/h1>/);
-    if (h1Match) {
-        continue;
+async function processTopFile(filePath: string, currentCategory = "") {
+    console.log(`正在解析目录文件: ${filePath}`);
+    const file = Bun.file(filePath);
+    if (!(await file.exists())) {
+        console.error(`目录文件不存在: ${filePath}`);
+        return;
     }
-    
-    // h2タグから分類を取得
-    const h2Match = trimmedLine.match(/<h2[^>]*>([^<]+)<\/h2>/);
-    if (h2Match) {
-        currentCategory = h2Match[1];
-        console.log(`处理分类: ${currentCategory}`);
-        continue;
-    }
-    
-    // aタグから書名、URL、説明を取得
-    const linkMatch = trimmedLine.match(/<a\s+href="([^"]+)"[^>]*>([^<]+)<\/a>(?:\s*　([^<]*?))?(?:<br\s*\/?>|$)/);
-    if (linkMatch && currentCategory) {
-        const url = linkMatch[1];
-        const title = linkMatch[2].trim();
-        const description = linkMatch[3] ? linkMatch[3].trim() : "";
-        
-        console.log(`处理书籍: ${title}`);
-        
-        const bookInfo = parseBookInfo(title, description);
-        
-        // 读取书籍内部结构
-        const structure = await parseBookStructure(url);
-        
-        const book: BookEntry = {
-            id: generateBookId(url, bookIndex++),
-            category: currentCategory,
-            title: title,
-            url: url,
-            volumes: bookInfo.volumes,
-            authors: bookInfo.authors || [],
-            dynasty: bookInfo.dynasty,
-            publicationInfo: description,
-            collectionInfo: bookInfo.collectionInfo || '',
-            bookType: bookInfo.bookType || 'unknown',
-            isIncomplete: bookInfo.isIncomplete || false,
-            hasSeals: bookInfo.hasSeals || false,
-            hasNotes: bookInfo.hasNotes || false,
-            structure: structure,
-            totalVolumes: structure.length
-        };
-        
-        books.push(book);
+    const text = await file.text();
+    const lines = text.split('\n');
+    let category = currentCategory;
+
+    for (const line of lines) {
+        const trimmedLine = line.trim();
+
+        const h2Match = trimmedLine.match(/<h2[^>]*>([^<]+)<\/h2>/);
+        if (h2Match) {
+            category = h2Match[1];
+            console.log(`处理分类: ${category}`);
+            continue;
+        }
+
+        const linkMatch = trimmedLine.match(/<a\s+href="([^"]+)"[^>]*>([^<]+)<\/a>(?:\s*　([^<]*?))?(?:<br\s*\/?>|$)/);
+        if (linkMatch && category) {
+            const url = linkMatch[1];
+            const title = linkMatch[2].trim();
+            const description = linkMatch[3] ? linkMatch[3].trim() : "";
+
+            if (url.endsWith('top.html')) {
+                const newPath = resolve(dirname(filePath), url);
+                await processTopFile(newPath, category);
+            } else {
+                console.log(`处理书籍: ${title}`);
+                const bookInfo = parseBookInfo(title, description);
+                const structure = await parseBookStructure(url);
+                
+                const book: BookEntry = {
+                    id: generateBookId(url, bookIndex++),
+                    category: category,
+                    title: title,
+                    url: url,
+                    volumes: bookInfo.volumes,
+                    authors: bookInfo.authors || [],
+                    dynasty: bookInfo.dynasty,
+                    publicationInfo: description,
+                    collectionInfo: bookInfo.collectionInfo || '',
+                    bookType: bookInfo.bookType || 'unknown',
+                    isIncomplete: bookInfo.isIncomplete || false,
+                    hasSeals: bookInfo.hasSeals || false,
+                    hasNotes: bookInfo.hasNotes || false,
+                    structure: structure,
+                    totalVolumes: structure.length
+                };
+                
+                books.push(book);
+            }
+        }
     }
 }
+
+await processTopFile("./html/html/top.html");
 
 // 统计信息生成
 const categories = [...new Set(books.map(book => book.category))];
