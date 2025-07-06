@@ -199,16 +199,16 @@
               "type": "Annotation",
               "motivation": "painting",
               "body": {
-                "id": "https://iiif.toyjack.net/iiif/M025/M0250001_001.jpg",
+                "id": "https://image.kanji.zinbun.kyoto-u.ac.jp/toho/iiif/M025/M0250001_001.jpg",
                 "type": "Image",
                 "format": "image/jpeg",
                 "height": 1400,
                 "width": 1000,
                 "service": [
                   {
-                    "@id": "https://iiif.toyjack.net/iiif/M025%2FM0250001",
-                    "@type": "ImageService2",
-                    "profile": "http://iiif.io/api/image/2/level2.json"
+                    "id": "https://image.kanji.zinbun.kyoto-u.ac.jp/toho/iiif/M025%2FM0250001",
+                    "type": "ImageService3",
+                    "profile": "level2"
                   }
                 ]
               },
@@ -241,16 +241,16 @@
               "type": "Annotation",
               "motivation": "painting",
               "body": {
-                "id": "https://iiif.toyjack.net/iiif/M025/M0250001_002.jpg",
+                "id": "https://image.kanji.zinbun.kyoto-u.ac.jp/toho/iiif/M025/M0250001_002.jpg",
                 "type": "Image",
                 "format": "image/jpeg",
                 "height": 1400,
                 "width": 1000,
                 "service": [
                   {
-                    "@id": "https://iiif.toyjack.net/iiif/M025%2FM0250002",
-                    "@type": "ImageService2",
-                    "profile": "http://iiif.io/api/image/2/level2.json"
+                    "id": "https://image.kanji.zinbun.kyoto-u.ac.jp/toho/iiif/M025%2FM0250002",
+                    "type": "ImageService3",
+                    "profile": "level2"
                   }
                 ]
               },
@@ -283,16 +283,16 @@
               "type": "Annotation",
               "motivation": "painting",
               "body": {
-                "id": "https://iiif.toyjack.net/iiif/M025/M0250001_003.jpg",
+                "id": "https://image.kanji.zinbun.kyoto-u.ac.jp/toho/iiif/M025/M0250001_003.jpg",
                 "type": "Image",
                 "format": "image/jpeg",
                 "height": 1400,
                 "width": 1000,
                 "service": [
                   {
-                    "@id": "https://iiif.toyjack.net/iiif/M025%2FM0250003",
-                    "@type": "ImageService2",
-                    "profile": "http://iiif.io/api/image/2/level2.json"
+                    "id": "https://image.kanji.zinbun.kyoto-u.ac.jp/toho/iiif/M025%2FM0250003",
+                    "type": "ImageService3",
+                    "profile": "level2"
                   }
                 ]
               },
@@ -325,16 +325,16 @@
               "type": "Annotation",
               "motivation": "painting",
               "body": {
-                "id": "https://iiif.toyjack.net/iiif/M025/M0250001_004.jpg",
+                "id": "https://image.kanji.zinbun.kyoto-u.ac.jp/toho/iiif/M025/M0250001_004.jpg",
                 "type": "Image",
                 "format": "image/jpeg",
                 "height": 1400,
                 "width": 1000,
                 "service": [
                   {
-                    "@id": "https://iiif.toyjack.net/iiif/M025%2FM0250004",
-                    "@type": "ImageService2",
-                    "profile": "http://iiif.io/api/image/2/level2.json"
+                    "id": "https://image.kanji.zinbun.kyoto-u.ac.jp/toho/iiif/M025%2FM0250004",
+                    "type": "ImageService3",
+                    "profile": "level2"
                   }
                 ]
               },
@@ -367,16 +367,16 @@
               "type": "Annotation",
               "motivation": "painting",
               "body": {
-                "id": "https://iiif.toyjack.net/iiif/M025/M0250001_005.jpg",
+                "id": "https://image.kanji.zinbun.kyoto-u.ac.jp/toho/iiif/M025/M0250001_005.jpg",
                 "type": "Image",
                 "format": "image/jpeg",
                 "height": 1400,
                 "width": 1000,
                 "service": [
                   {
-                    "@id": "https://iiif.toyjack.net/iiif/M025%2FM0250005",
-                    "@type": "ImageService2",
-                    "profile": "http://iiif.io/api/image/2/level2.json"
+                    "id": "https://image.kanji.zinbun.kyoto-u.ac.jp/toho/iiif/M025%2FM0250005",
+                    "type": "ImageService3",
+                    "profile": "level2"
                   }
                 ]
               },
@@ -409,16 +409,16 @@
               "type": "Annotation",
               "motivation": "painting",
               "body": {
-                "id": "https://iiif.toyjack.net/iiif/M025/M0250001_006.jpg",
+                "id": "https://image.kanji.zinbun.kyoto-u.ac.jp/toho/iiif/M025/M0250001_006.jpg",
                 "type": "Image",
                 "format": "image/jpeg",
                 "height": 1400,
                 "width": 1000,
                 "service": [
                   {
-                    "@id": "https://iiif.toyjack.net/iiif/M025%2FM0250006",
-                    "@type": "ImageService2",
-                    "profile": "http://iiif.io/api/image/2/level2.json"
+                    "id": "https://image.kanji.zinbun.kyoto-u.ac.jp/toho/iiif/M025%2FM0250006",
+                    "type": "ImageService3",
+                    "profile": "level2"
                   }
                 ]
               },
@@ -451,16 +451,16 @@
               "type": "Annotation",
               "motivation": "painting",
               "body": {
-                "id": "https://iiif.toyjack.net/iiif/M025/M0250001_007.jpg",
+                "id": "https://image.kanji.zinbun.kyoto-u.ac.jp/toho/iiif/M025/M0250001_007.jpg",
                 "type": "Image",
                 "format": "image/jpeg",
                 "height": 1400,
                 "width": 1000,
                 "service": [
                   {
-                    "@id": "https://iiif.toyjack.net/iiif/M025%2FM0250007",
-                    "@type": "ImageService2",
-                    "profile": "http://iiif.io/api/image/2/level2.json"
+                    "id": "https://image.kanji.zinbun.kyoto-u.ac.jp/toho/iiif/M025%2FM0250007",
+                    "type": "ImageService3",
+                    "profile": "level2"
                   }
                 ]
               },
@@ -493,16 +493,16 @@
               "type": "Annotation",
               "motivation": "painting",
               "body": {
-                "id": "https://iiif.toyjack.net/iiif/M025/M0250001_008.jpg",
+                "id": "https://image.kanji.zinbun.kyoto-u.ac.jp/toho/iiif/M025/M0250001_008.jpg",
                 "type": "Image",
                 "format": "image/jpeg",
                 "height": 1400,
                 "width": 1000,
                 "service": [
                   {
-                    "@id": "https://iiif.toyjack.net/iiif/M025%2FM0250008",
-                    "@type": "ImageService2",
-                    "profile": "http://iiif.io/api/image/2/level2.json"
+                    "id": "https://image.kanji.zinbun.kyoto-u.ac.jp/toho/iiif/M025%2FM0250008",
+                    "type": "ImageService3",
+                    "profile": "level2"
                   }
                 ]
               },
@@ -535,16 +535,16 @@
               "type": "Annotation",
               "motivation": "painting",
               "body": {
-                "id": "https://iiif.toyjack.net/iiif/M025/M0250001_009.jpg",
+                "id": "https://image.kanji.zinbun.kyoto-u.ac.jp/toho/iiif/M025/M0250001_009.jpg",
                 "type": "Image",
                 "format": "image/jpeg",
                 "height": 1400,
                 "width": 1000,
                 "service": [
                   {
-                    "@id": "https://iiif.toyjack.net/iiif/M025%2FM0250009",
-                    "@type": "ImageService2",
-                    "profile": "http://iiif.io/api/image/2/level2.json"
+                    "id": "https://image.kanji.zinbun.kyoto-u.ac.jp/toho/iiif/M025%2FM0250009",
+                    "type": "ImageService3",
+                    "profile": "level2"
                   }
                 ]
               },
@@ -577,16 +577,16 @@
               "type": "Annotation",
               "motivation": "painting",
               "body": {
-                "id": "https://iiif.toyjack.net/iiif/M025/M0250001_010.jpg",
+                "id": "https://image.kanji.zinbun.kyoto-u.ac.jp/toho/iiif/M025/M0250001_010.jpg",
                 "type": "Image",
                 "format": "image/jpeg",
                 "height": 1400,
                 "width": 1000,
                 "service": [
                   {
-                    "@id": "https://iiif.toyjack.net/iiif/M025%2FM0250010",
-                    "@type": "ImageService2",
-                    "profile": "http://iiif.io/api/image/2/level2.json"
+                    "id": "https://image.kanji.zinbun.kyoto-u.ac.jp/toho/iiif/M025%2FM0250010",
+                    "type": "ImageService3",
+                    "profile": "level2"
                   }
                 ]
               },
@@ -619,16 +619,16 @@
               "type": "Annotation",
               "motivation": "painting",
               "body": {
-                "id": "https://iiif.toyjack.net/iiif/M025/M0250001_011.jpg",
+                "id": "https://image.kanji.zinbun.kyoto-u.ac.jp/toho/iiif/M025/M0250001_011.jpg",
                 "type": "Image",
                 "format": "image/jpeg",
                 "height": 1400,
                 "width": 1000,
                 "service": [
                   {
-                    "@id": "https://iiif.toyjack.net/iiif/M025%2FM0250011",
-                    "@type": "ImageService2",
-                    "profile": "http://iiif.io/api/image/2/level2.json"
+                    "id": "https://image.kanji.zinbun.kyoto-u.ac.jp/toho/iiif/M025%2FM0250011",
+                    "type": "ImageService3",
+                    "profile": "level2"
                   }
                 ]
               },
@@ -661,16 +661,16 @@
               "type": "Annotation",
               "motivation": "painting",
               "body": {
-                "id": "https://iiif.toyjack.net/iiif/M025/M0250001_012.jpg",
+                "id": "https://image.kanji.zinbun.kyoto-u.ac.jp/toho/iiif/M025/M0250001_012.jpg",
                 "type": "Image",
                 "format": "image/jpeg",
                 "height": 1400,
                 "width": 1000,
                 "service": [
                   {
-                    "@id": "https://iiif.toyjack.net/iiif/M025%2FM0250012",
-                    "@type": "ImageService2",
-                    "profile": "http://iiif.io/api/image/2/level2.json"
+                    "id": "https://image.kanji.zinbun.kyoto-u.ac.jp/toho/iiif/M025%2FM0250012",
+                    "type": "ImageService3",
+                    "profile": "level2"
                   }
                 ]
               },
@@ -703,16 +703,16 @@
               "type": "Annotation",
               "motivation": "painting",
               "body": {
-                "id": "https://iiif.toyjack.net/iiif/M025/M0250001_013.jpg",
+                "id": "https://image.kanji.zinbun.kyoto-u.ac.jp/toho/iiif/M025/M0250001_013.jpg",
                 "type": "Image",
                 "format": "image/jpeg",
                 "height": 1400,
                 "width": 1000,
                 "service": [
                   {
-                    "@id": "https://iiif.toyjack.net/iiif/M025%2FM0250013",
-                    "@type": "ImageService2",
-                    "profile": "http://iiif.io/api/image/2/level2.json"
+                    "id": "https://image.kanji.zinbun.kyoto-u.ac.jp/toho/iiif/M025%2FM0250013",
+                    "type": "ImageService3",
+                    "profile": "level2"
                   }
                 ]
               },
@@ -745,16 +745,16 @@
               "type": "Annotation",
               "motivation": "painting",
               "body": {
-                "id": "https://iiif.toyjack.net/iiif/M025/M0250001_014.jpg",
+                "id": "https://image.kanji.zinbun.kyoto-u.ac.jp/toho/iiif/M025/M0250001_014.jpg",
                 "type": "Image",
                 "format": "image/jpeg",
                 "height": 1400,
                 "width": 1000,
                 "service": [
                   {
-                    "@id": "https://iiif.toyjack.net/iiif/M025%2FM0250014",
-                    "@type": "ImageService2",
-                    "profile": "http://iiif.io/api/image/2/level2.json"
+                    "id": "https://image.kanji.zinbun.kyoto-u.ac.jp/toho/iiif/M025%2FM0250014",
+                    "type": "ImageService3",
+                    "profile": "level2"
                   }
                 ]
               },
@@ -787,16 +787,16 @@
               "type": "Annotation",
               "motivation": "painting",
               "body": {
-                "id": "https://iiif.toyjack.net/iiif/M025/M0250001_015.jpg",
+                "id": "https://image.kanji.zinbun.kyoto-u.ac.jp/toho/iiif/M025/M0250001_015.jpg",
                 "type": "Image",
                 "format": "image/jpeg",
                 "height": 1400,
                 "width": 1000,
                 "service": [
                   {
-                    "@id": "https://iiif.toyjack.net/iiif/M025%2FM0250015",
-                    "@type": "ImageService2",
-                    "profile": "http://iiif.io/api/image/2/level2.json"
+                    "id": "https://image.kanji.zinbun.kyoto-u.ac.jp/toho/iiif/M025%2FM0250015",
+                    "type": "ImageService3",
+                    "profile": "level2"
                   }
                 ]
               },
@@ -829,16 +829,16 @@
               "type": "Annotation",
               "motivation": "painting",
               "body": {
-                "id": "https://iiif.toyjack.net/iiif/M025/M0250001_016.jpg",
+                "id": "https://image.kanji.zinbun.kyoto-u.ac.jp/toho/iiif/M025/M0250001_016.jpg",
                 "type": "Image",
                 "format": "image/jpeg",
                 "height": 1400,
                 "width": 1000,
                 "service": [
                   {
-                    "@id": "https://iiif.toyjack.net/iiif/M025%2FM0250016",
-                    "@type": "ImageService2",
-                    "profile": "http://iiif.io/api/image/2/level2.json"
+                    "id": "https://image.kanji.zinbun.kyoto-u.ac.jp/toho/iiif/M025%2FM0250016",
+                    "type": "ImageService3",
+                    "profile": "level2"
                   }
                 ]
               },
@@ -871,16 +871,16 @@
               "type": "Annotation",
               "motivation": "painting",
               "body": {
-                "id": "https://iiif.toyjack.net/iiif/M025/M0250001_017.jpg",
+                "id": "https://image.kanji.zinbun.kyoto-u.ac.jp/toho/iiif/M025/M0250001_017.jpg",
                 "type": "Image",
                 "format": "image/jpeg",
                 "height": 1400,
                 "width": 1000,
                 "service": [
                   {
-                    "@id": "https://iiif.toyjack.net/iiif/M025%2FM0250017",
-                    "@type": "ImageService2",
-                    "profile": "http://iiif.io/api/image/2/level2.json"
+                    "id": "https://image.kanji.zinbun.kyoto-u.ac.jp/toho/iiif/M025%2FM0250017",
+                    "type": "ImageService3",
+                    "profile": "level2"
                   }
                 ]
               },
@@ -913,16 +913,16 @@
               "type": "Annotation",
               "motivation": "painting",
               "body": {
-                "id": "https://iiif.toyjack.net/iiif/M025/M0250001_018.jpg",
+                "id": "https://image.kanji.zinbun.kyoto-u.ac.jp/toho/iiif/M025/M0250001_018.jpg",
                 "type": "Image",
                 "format": "image/jpeg",
                 "height": 1400,
                 "width": 1000,
                 "service": [
                   {
-                    "@id": "https://iiif.toyjack.net/iiif/M025%2FM0250018",
-                    "@type": "ImageService2",
-                    "profile": "http://iiif.io/api/image/2/level2.json"
+                    "id": "https://image.kanji.zinbun.kyoto-u.ac.jp/toho/iiif/M025%2FM0250018",
+                    "type": "ImageService3",
+                    "profile": "level2"
                   }
                 ]
               },
@@ -955,16 +955,16 @@
               "type": "Annotation",
               "motivation": "painting",
               "body": {
-                "id": "https://iiif.toyjack.net/iiif/M025/M0250001_019.jpg",
+                "id": "https://image.kanji.zinbun.kyoto-u.ac.jp/toho/iiif/M025/M0250001_019.jpg",
                 "type": "Image",
                 "format": "image/jpeg",
                 "height": 1400,
                 "width": 1000,
                 "service": [
                   {
-                    "@id": "https://iiif.toyjack.net/iiif/M025%2FM0250019",
-                    "@type": "ImageService2",
-                    "profile": "http://iiif.io/api/image/2/level2.json"
+                    "id": "https://image.kanji.zinbun.kyoto-u.ac.jp/toho/iiif/M025%2FM0250019",
+                    "type": "ImageService3",
+                    "profile": "level2"
                   }
                 ]
               },
@@ -997,16 +997,16 @@
               "type": "Annotation",
               "motivation": "painting",
               "body": {
-                "id": "https://iiif.toyjack.net/iiif/M025/M0250001_020.jpg",
+                "id": "https://image.kanji.zinbun.kyoto-u.ac.jp/toho/iiif/M025/M0250001_020.jpg",
                 "type": "Image",
                 "format": "image/jpeg",
                 "height": 1400,
                 "width": 1000,
                 "service": [
                   {
-                    "@id": "https://iiif.toyjack.net/iiif/M025%2FM0250020",
-                    "@type": "ImageService2",
-                    "profile": "http://iiif.io/api/image/2/level2.json"
+                    "id": "https://image.kanji.zinbun.kyoto-u.ac.jp/toho/iiif/M025%2FM0250020",
+                    "type": "ImageService3",
+                    "profile": "level2"
                   }
                 ]
               },
@@ -1039,16 +1039,16 @@
               "type": "Annotation",
               "motivation": "painting",
               "body": {
-                "id": "https://iiif.toyjack.net/iiif/M025/M0250001_021.jpg",
+                "id": "https://image.kanji.zinbun.kyoto-u.ac.jp/toho/iiif/M025/M0250001_021.jpg",
                 "type": "Image",
                 "format": "image/jpeg",
                 "height": 1400,
                 "width": 1000,
                 "service": [
                   {
-                    "@id": "https://iiif.toyjack.net/iiif/M025%2FM0250021",
-                    "@type": "ImageService2",
-                    "profile": "http://iiif.io/api/image/2/level2.json"
+                    "id": "https://image.kanji.zinbun.kyoto-u.ac.jp/toho/iiif/M025%2FM0250021",
+                    "type": "ImageService3",
+                    "profile": "level2"
                   }
                 ]
               },
@@ -1081,16 +1081,16 @@
               "type": "Annotation",
               "motivation": "painting",
               "body": {
-                "id": "https://iiif.toyjack.net/iiif/M025/M0250001_022.jpg",
+                "id": "https://image.kanji.zinbun.kyoto-u.ac.jp/toho/iiif/M025/M0250001_022.jpg",
                 "type": "Image",
                 "format": "image/jpeg",
                 "height": 1400,
                 "width": 1000,
                 "service": [
                   {
-                    "@id": "https://iiif.toyjack.net/iiif/M025%2FM0250022",
-                    "@type": "ImageService2",
-                    "profile": "http://iiif.io/api/image/2/level2.json"
+                    "id": "https://image.kanji.zinbun.kyoto-u.ac.jp/toho/iiif/M025%2FM0250022",
+                    "type": "ImageService3",
+                    "profile": "level2"
                   }
                 ]
               },
@@ -1123,16 +1123,16 @@
               "type": "Annotation",
               "motivation": "painting",
               "body": {
-                "id": "https://iiif.toyjack.net/iiif/M025/M0250001_023.jpg",
+                "id": "https://image.kanji.zinbun.kyoto-u.ac.jp/toho/iiif/M025/M0250001_023.jpg",
                 "type": "Image",
                 "format": "image/jpeg",
                 "height": 1400,
                 "width": 1000,
                 "service": [
                   {
-                    "@id": "https://iiif.toyjack.net/iiif/M025%2FM0250023",
-                    "@type": "ImageService2",
-                    "profile": "http://iiif.io/api/image/2/level2.json"
+                    "id": "https://image.kanji.zinbun.kyoto-u.ac.jp/toho/iiif/M025%2FM0250023",
+                    "type": "ImageService3",
+                    "profile": "level2"
                   }
                 ]
               },
@@ -1165,16 +1165,16 @@
               "type": "Annotation",
               "motivation": "painting",
               "body": {
-                "id": "https://iiif.toyjack.net/iiif/M025/M0250001_024.jpg",
+                "id": "https://image.kanji.zinbun.kyoto-u.ac.jp/toho/iiif/M025/M0250001_024.jpg",
                 "type": "Image",
                 "format": "image/jpeg",
                 "height": 1400,
                 "width": 1000,
                 "service": [
                   {
-                    "@id": "https://iiif.toyjack.net/iiif/M025%2FM0250024",
-                    "@type": "ImageService2",
-                    "profile": "http://iiif.io/api/image/2/level2.json"
+                    "id": "https://image.kanji.zinbun.kyoto-u.ac.jp/toho/iiif/M025%2FM0250024",
+                    "type": "ImageService3",
+                    "profile": "level2"
                   }
                 ]
               },
@@ -1207,16 +1207,16 @@
               "type": "Annotation",
               "motivation": "painting",
               "body": {
-                "id": "https://iiif.toyjack.net/iiif/M025/M0250001_025.jpg",
+                "id": "https://image.kanji.zinbun.kyoto-u.ac.jp/toho/iiif/M025/M0250001_025.jpg",
                 "type": "Image",
                 "format": "image/jpeg",
                 "height": 1400,
                 "width": 1000,
                 "service": [
                   {
-                    "@id": "https://iiif.toyjack.net/iiif/M025%2FM0250025",
-                    "@type": "ImageService2",
-                    "profile": "http://iiif.io/api/image/2/level2.json"
+                    "id": "https://image.kanji.zinbun.kyoto-u.ac.jp/toho/iiif/M025%2FM0250025",
+                    "type": "ImageService3",
+                    "profile": "level2"
                   }
                 ]
               },
@@ -1249,16 +1249,16 @@
               "type": "Annotation",
               "motivation": "painting",
               "body": {
-                "id": "https://iiif.toyjack.net/iiif/M025/M0250001_026.jpg",
+                "id": "https://image.kanji.zinbun.kyoto-u.ac.jp/toho/iiif/M025/M0250001_026.jpg",
                 "type": "Image",
                 "format": "image/jpeg",
                 "height": 1400,
                 "width": 1000,
                 "service": [
                   {
-                    "@id": "https://iiif.toyjack.net/iiif/M025%2FM0250026",
-                    "@type": "ImageService2",
-                    "profile": "http://iiif.io/api/image/2/level2.json"
+                    "id": "https://image.kanji.zinbun.kyoto-u.ac.jp/toho/iiif/M025%2FM0250026",
+                    "type": "ImageService3",
+                    "profile": "level2"
                   }
                 ]
               },
@@ -1291,16 +1291,16 @@
               "type": "Annotation",
               "motivation": "painting",
               "body": {
-                "id": "https://iiif.toyjack.net/iiif/M025/M0250001_027.jpg",
+                "id": "https://image.kanji.zinbun.kyoto-u.ac.jp/toho/iiif/M025/M0250001_027.jpg",
                 "type": "Image",
                 "format": "image/jpeg",
                 "height": 1400,
                 "width": 1000,
                 "service": [
                   {
-                    "@id": "https://iiif.toyjack.net/iiif/M025%2FM0250027",
-                    "@type": "ImageService2",
-                    "profile": "http://iiif.io/api/image/2/level2.json"
+                    "id": "https://image.kanji.zinbun.kyoto-u.ac.jp/toho/iiif/M025%2FM0250027",
+                    "type": "ImageService3",
+                    "profile": "level2"
                   }
                 ]
               },
@@ -1333,16 +1333,16 @@
               "type": "Annotation",
               "motivation": "painting",
               "body": {
-                "id": "https://iiif.toyjack.net/iiif/M025/M0250001_028.jpg",
+                "id": "https://image.kanji.zinbun.kyoto-u.ac.jp/toho/iiif/M025/M0250001_028.jpg",
                 "type": "Image",
                 "format": "image/jpeg",
                 "height": 1400,
                 "width": 1000,
                 "service": [
                   {
-                    "@id": "https://iiif.toyjack.net/iiif/M025%2FM0250028",
-                    "@type": "ImageService2",
-                    "profile": "http://iiif.io/api/image/2/level2.json"
+                    "id": "https://image.kanji.zinbun.kyoto-u.ac.jp/toho/iiif/M025%2FM0250028",
+                    "type": "ImageService3",
+                    "profile": "level2"
                   }
                 ]
               },
@@ -1375,16 +1375,16 @@
               "type": "Annotation",
               "motivation": "painting",
               "body": {
-                "id": "https://iiif.toyjack.net/iiif/M025/M0250001_029.jpg",
+                "id": "https://image.kanji.zinbun.kyoto-u.ac.jp/toho/iiif/M025/M0250001_029.jpg",
                 "type": "Image",
                 "format": "image/jpeg",
                 "height": 1400,
                 "width": 1000,
                 "service": [
                   {
-                    "@id": "https://iiif.toyjack.net/iiif/M025%2FM0250029",
-                    "@type": "ImageService2",
-                    "profile": "http://iiif.io/api/image/2/level2.json"
+                    "id": "https://image.kanji.zinbun.kyoto-u.ac.jp/toho/iiif/M025%2FM0250029",
+                    "type": "ImageService3",
+                    "profile": "level2"
                   }
                 ]
               },
@@ -1417,16 +1417,16 @@
               "type": "Annotation",
               "motivation": "painting",
               "body": {
-                "id": "https://iiif.toyjack.net/iiif/M025/M0250001_030.jpg",
+                "id": "https://image.kanji.zinbun.kyoto-u.ac.jp/toho/iiif/M025/M0250001_030.jpg",
                 "type": "Image",
                 "format": "image/jpeg",
                 "height": 1400,
                 "width": 1000,
                 "service": [
                   {
-                    "@id": "https://iiif.toyjack.net/iiif/M025%2FM0250030",
-                    "@type": "ImageService2",
-                    "profile": "http://iiif.io/api/image/2/level2.json"
+                    "id": "https://image.kanji.zinbun.kyoto-u.ac.jp/toho/iiif/M025%2FM0250030",
+                    "type": "ImageService3",
+                    "profile": "level2"
                   }
                 ]
               },
@@ -1459,16 +1459,16 @@
               "type": "Annotation",
               "motivation": "painting",
               "body": {
-                "id": "https://iiif.toyjack.net/iiif/M025/M0250001_031.jpg",
+                "id": "https://image.kanji.zinbun.kyoto-u.ac.jp/toho/iiif/M025/M0250001_031.jpg",
                 "type": "Image",
                 "format": "image/jpeg",
                 "height": 1400,
                 "width": 1000,
                 "service": [
                   {
-                    "@id": "https://iiif.toyjack.net/iiif/M025%2FM0250031",
-                    "@type": "ImageService2",
-                    "profile": "http://iiif.io/api/image/2/level2.json"
+                    "id": "https://image.kanji.zinbun.kyoto-u.ac.jp/toho/iiif/M025%2FM0250031",
+                    "type": "ImageService3",
+                    "profile": "level2"
                   }
                 ]
               },
@@ -1501,16 +1501,16 @@
               "type": "Annotation",
               "motivation": "painting",
               "body": {
-                "id": "https://iiif.toyjack.net/iiif/M025/M0250001_032.jpg",
+                "id": "https://image.kanji.zinbun.kyoto-u.ac.jp/toho/iiif/M025/M0250001_032.jpg",
                 "type": "Image",
                 "format": "image/jpeg",
                 "height": 1400,
                 "width": 1000,
                 "service": [
                   {
-                    "@id": "https://iiif.toyjack.net/iiif/M025%2FM0250032",
-                    "@type": "ImageService2",
-                    "profile": "http://iiif.io/api/image/2/level2.json"
+                    "id": "https://image.kanji.zinbun.kyoto-u.ac.jp/toho/iiif/M025%2FM0250032",
+                    "type": "ImageService3",
+                    "profile": "level2"
                   }
                 ]
               },
@@ -1543,16 +1543,16 @@
               "type": "Annotation",
               "motivation": "painting",
               "body": {
-                "id": "https://iiif.toyjack.net/iiif/M025/M0250001_033.jpg",
+                "id": "https://image.kanji.zinbun.kyoto-u.ac.jp/toho/iiif/M025/M0250001_033.jpg",
                 "type": "Image",
                 "format": "image/jpeg",
                 "height": 1400,
                 "width": 1000,
                 "service": [
                   {
-                    "@id": "https://iiif.toyjack.net/iiif/M025%2FM0250033",
-                    "@type": "ImageService2",
-                    "profile": "http://iiif.io/api/image/2/level2.json"
+                    "id": "https://image.kanji.zinbun.kyoto-u.ac.jp/toho/iiif/M025%2FM0250033",
+                    "type": "ImageService3",
+                    "profile": "level2"
                   }
                 ]
               },

@@ -11,7 +11,7 @@ import { promises as fs } from "fs";
 import path from "path";
 
 const BASE_URL: string = "https://toyjack.github.io/toho-html-data";
-const IMAGE_SERVICE_BASE_URL: string = "https://iiif.toyjack.net/iiif";
+const IMAGE_SERVICE_BASE_URL: string = "https://image.kanji.zinbun.kyoto-u.ac.jp/toho/iiif";
 const OUTPUT_DIR = "./docs"; // Directory to save manifests
 
 // IIIF Presentation API 3.0 Types
@@ -74,9 +74,9 @@ interface IIIFAnnotation {
     height: number;
     width: number;
     service?: Array<{
-      "@id": string;
-      "@type": "ImageService2";
-      profile: "http://iiif.io/api/image/2/level2.json";
+      id: string;
+      type: "ImageService3";
+      profile: "level2";
     }>;
   };
   target: string;
@@ -307,11 +307,11 @@ class IIIFManifestGenerator {
         width,
         service: [
           {
-            "@id": `${IMAGE_SERVICE_BASE_URL}/${book.id}%2F${book.id}${String(
+            id: `${IMAGE_SERVICE_BASE_URL}/${book.id}%2F${book.id}${String(
               pageNum
             ).padStart(4, "0")}`,
-            "@type": "ImageService2",
-            profile: "http://iiif.io/api/image/2/level2.json",
+            type: "ImageService3",
+            profile: "level2",
           },
         ],
       },
